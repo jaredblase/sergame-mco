@@ -1468,6 +1468,35 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "AutoTyping::Text_AutoTyping::IsCharacterJustAdded"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "Text_AutoTyping",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "typewriter.wav",
+                    "",
+                    "15",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "KeyPressed"
                   },
                   "parameters": [
@@ -1603,6 +1632,16 @@
               "parameters": [
                 "",
                 "\"Dialogues\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "DialogCtr",
+                "=",
+                "0"
               ]
             }
           ]
