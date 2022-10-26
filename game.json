@@ -239,6 +239,19 @@
         "name": "assets\\images\\grass.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Play.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Play.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Interface/Casual Buttons Pack/Play.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
