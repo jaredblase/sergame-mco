@@ -297,6 +297,196 @@
         "name": "boundary2.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Male Character 5_Walking Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 5_Walking Down_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Tiny Characters/males/Male Character 5_Walking Down_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Male Character 5_Walking Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 5_Walking Down_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Tiny Characters/males/Male Character 5_Walking Down_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Male Character 5_Walking Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 5_Walking Down_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Tiny Characters/males/Male Character 5_Walking Down_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Male Character 5_Walking Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 5_Walking Left_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Tiny Characters/males/Male Character 5_Walking Left_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Male Character 5_Walking Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 5_Walking Left_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Tiny Characters/males/Male Character 5_Walking Left_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Male Character 5_Walking Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 5_Walking Left_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Tiny Characters/males/Male Character 5_Walking Left_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Male Character 5_Walking Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 5_Walking Right_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Tiny Characters/males/Male Character 5_Walking Right_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Male Character 5_Walking Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 5_Walking Right_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Tiny Characters/males/Male Character 5_Walking Right_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Male Character 5_Walking Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 5_Walking Right_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Tiny Characters/males/Male Character 5_Walking Right_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Male Character 5_Walking Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 5_Walking Up_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Tiny Characters/males/Male Character 5_Walking Up_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Male Character 5_Walking Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 5_Walking Up_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Tiny Characters/males/Male Character 5_Walking Up_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Male Character 5_Walking Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Male Character 5_Walking Up_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Tiny Characters/males/Male Character 5_Walking Up_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Male Character 5_Walking Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Male Character 5_Walking Down_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "text-box-pixel-art-cupcake-11562988576lrzmzxwb0g.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "text-box-pixel-art-cupcake-11562988576lrzmzxwb0g.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "808527fb299dba0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "808527fb299dba0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "VCR_OSD_MONO_1.001.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "VCR_OSD_MONO_1.001.ttf",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -312,6 +502,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
