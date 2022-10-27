@@ -570,6 +570,197 @@
         "name": "assets\\Male Character 5_Walking Right_1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Silenced_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Silenced_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/32x32 Fantasy Icons Pack v2/Icons/Status Effects/Silenced_No Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Silenced_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Silenced_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/32x32 Fantasy Icons Pack v2/Icons/Status Effects/Silenced_Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Female Character 6_Walking Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 6_Walking Down_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Tiny Characters/females/Female Character 6_Walking Down_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Female Character 6_Walking Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 6_Walking Down_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Tiny Characters/females/Female Character 6_Walking Down_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Female Character 6_Walking Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 6_Walking Down_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Tiny Characters/females/Female Character 6_Walking Down_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Female Character 6_Walking Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 6_Walking Left_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Tiny Characters/females/Female Character 6_Walking Left_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Female Character 6_Walking Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 6_Walking Left_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Tiny Characters/females/Female Character 6_Walking Left_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Female Character 6_Walking Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 6_Walking Left_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Tiny Characters/females/Female Character 6_Walking Left_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Female Character 6_Walking Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 6_Walking Right_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Tiny Characters/females/Female Character 6_Walking Right_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Female Character 6_Walking Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 6_Walking Right_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Tiny Characters/females/Female Character 6_Walking Right_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Female Character 6_Walking Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 6_Walking Right_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Tiny Characters/females/Female Character 6_Walking Right_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Female Character 6_Walking Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 6_Walking Up_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Tiny Characters/females/Female Character 6_Walking Up_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Female Character 6_Walking Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 6_Walking Up_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Tiny Characters/females/Female Character 6_Walking Up_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Female Character 6_Walking Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 6_Walking Up_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Tiny Characters/females/Female Character 6_Walking Up_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Female Character 6_Walking Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Female Character 6_Walking Down_1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -593,6 +784,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/faceforward"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/rectanglemovement"

@@ -31,7 +31,7 @@
       ]
     },
     {
-      "name": "Buildings",
+      "name": "WrongBuildings",
       "objects": [
         {
           "name": "Placeholder1"
@@ -63,6 +63,9 @@
       "objects": [
         {
           "name": "LAmb"
+        },
+        {
+          "name": "LAmb2"
         }
       ]
     }
@@ -71,6 +74,24 @@
     {
       "folded": true,
       "name": "DialogCtr",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "PlayerMovement",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "WrongBuilding",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "Dialog2Ctr",
       "type": "number",
       "value": 0
     }
@@ -237,6 +258,21 @@
       "x": 164.8000030517578,
       "y": 448,
       "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "LAmb2",
+      "persistentUuid": "5378c9bb-c57d-4a8f-965d-1b1b294bbfe7",
+      "width": 60.235294342041016,
+      "x": 736,
+      "y": 64,
+      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1319,7 +1355,7 @@
         {
           "name": "Text_AutoTyping",
           "type": "AutoTyping::Text_AutoTyping",
-          "Interval": 0.01,
+          "Interval": 0,
           "CharacterJustAdded": false,
           "CurrentCharacter": ""
         }
@@ -1332,6 +1368,616 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "assetStoreId": "18f39de0cb291749d1a2471216b018cf17d7dcf76c6bd73634f165e2af8d1660",
+      "name": "Thought",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "No Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Silenced_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Silenced_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "483c8d305055b43dd98964858b231c019680b47f3bc7aaf000e362bc5d72066d",
+      "name": "LAmb2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Female Character 6_Walking Down_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1.4363207817077637,
+                        "y": 1.2966784238815308
+                      },
+                      {
+                        "x": 14.386006355285645,
+                        "y": 1.479068398475647
+                      },
+                      {
+                        "x": 13.65644645690918,
+                        "y": 16.435043334960938
+                      },
+                      {
+                        "x": 2.713050365447998,
+                        "y": 15.887873649597168
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walking Down",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 6_Walking Down_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1.4363207817077637,
+                        "y": 1.2966784238815308
+                      },
+                      {
+                        "x": 14.386006355285645,
+                        "y": 1.479068398475647
+                      },
+                      {
+                        "x": 13.65644645690918,
+                        "y": 16.435043334960938
+                      },
+                      {
+                        "x": 2.713050365447998,
+                        "y": 15.887873649597168
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 6_Walking Down_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1.4363207817077637,
+                        "y": 1.2966784238815308
+                      },
+                      {
+                        "x": 14.386006355285645,
+                        "y": 1.479068398475647
+                      },
+                      {
+                        "x": 13.65644645690918,
+                        "y": 16.435043334960938
+                      },
+                      {
+                        "x": 2.713050365447998,
+                        "y": 15.887873649597168
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 6_Walking Down_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1.4363207817077637,
+                        "y": 1.2966784238815308
+                      },
+                      {
+                        "x": 14.386006355285645,
+                        "y": 1.479068398475647
+                      },
+                      {
+                        "x": 13.65644645690918,
+                        "y": 16.435043334960938
+                      },
+                      {
+                        "x": 2.713050365447998,
+                        "y": 15.887873649597168
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walking Left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 6_Walking Left_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1.4363207817077637,
+                        "y": 1.2966784238815308
+                      },
+                      {
+                        "x": 14.386006355285645,
+                        "y": 1.479068398475647
+                      },
+                      {
+                        "x": 13.65644645690918,
+                        "y": 16.435043334960938
+                      },
+                      {
+                        "x": 2.713050365447998,
+                        "y": 15.887873649597168
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 6_Walking Left_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1.4363207817077637,
+                        "y": 1.2966784238815308
+                      },
+                      {
+                        "x": 14.386006355285645,
+                        "y": 1.479068398475647
+                      },
+                      {
+                        "x": 13.65644645690918,
+                        "y": 16.435043334960938
+                      },
+                      {
+                        "x": 2.713050365447998,
+                        "y": 15.887873649597168
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 6_Walking Left_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1.4363207817077637,
+                        "y": 1.2966784238815308
+                      },
+                      {
+                        "x": 14.386006355285645,
+                        "y": 1.479068398475647
+                      },
+                      {
+                        "x": 13.65644645690918,
+                        "y": 16.435043334960938
+                      },
+                      {
+                        "x": 2.713050365447998,
+                        "y": 15.887873649597168
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walking Right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 6_Walking Right_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1.4363207817077637,
+                        "y": 1.2966784238815308
+                      },
+                      {
+                        "x": 14.386006355285645,
+                        "y": 1.479068398475647
+                      },
+                      {
+                        "x": 13.65644645690918,
+                        "y": 16.435043334960938
+                      },
+                      {
+                        "x": 2.713050365447998,
+                        "y": 15.887873649597168
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 6_Walking Right_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1.4363207817077637,
+                        "y": 1.2966784238815308
+                      },
+                      {
+                        "x": 14.386006355285645,
+                        "y": 1.479068398475647
+                      },
+                      {
+                        "x": 13.65644645690918,
+                        "y": 16.435043334960938
+                      },
+                      {
+                        "x": 2.713050365447998,
+                        "y": 15.887873649597168
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 6_Walking Right_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1.4363207817077637,
+                        "y": 1.2966784238815308
+                      },
+                      {
+                        "x": 14.386006355285645,
+                        "y": 1.479068398475647
+                      },
+                      {
+                        "x": 13.65644645690918,
+                        "y": 16.435043334960938
+                      },
+                      {
+                        "x": 2.713050365447998,
+                        "y": 15.887873649597168
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walking Up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 6_Walking Up_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1.4363207817077637,
+                        "y": 1.2966784238815308
+                      },
+                      {
+                        "x": 14.386006355285645,
+                        "y": 1.479068398475647
+                      },
+                      {
+                        "x": 13.65644645690918,
+                        "y": 16.435043334960938
+                      },
+                      {
+                        "x": 2.713050365447998,
+                        "y": 15.887873649597168
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 6_Walking Up_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1.4363207817077637,
+                        "y": 1.2966784238815308
+                      },
+                      {
+                        "x": 14.386006355285645,
+                        "y": 1.479068398475647
+                      },
+                      {
+                        "x": 13.65644645690918,
+                        "y": 16.435043334960938
+                      },
+                      {
+                        "x": 2.713050365447998,
+                        "y": 15.887873649597168
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Female Character 6_Walking Up_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1.4363207817077637,
+                        "y": 1.2966784238815308
+                      },
+                      {
+                        "x": 14.386006355285645,
+                        "y": 1.479068398475647
+                      },
+                      {
+                        "x": 13.65644645690918,
+                        "y": 16.435043334960938
+                      },
+                      {
+                        "x": 2.713050365447998,
+                        "y": 15.887873649597168
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -1413,7 +2059,7 @@
               "parameters": [
                 "DialogCtr",
                 "!=",
-                "6"
+                "8"
               ]
             }
           ],
@@ -1673,9 +2319,53 @@
                   "parameters": [
                     "Dialogue",
                     "=",
+                    "\"Another LAmb is situated there. She will guide you to the store.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "DialogCtr",
+                    "=",
+                    "6"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
                     "\"Enjoy your day! Animo La Salle!\""
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "DialogCtr",
+                    "=",
+                    "7"
+                  ]
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "value": "HideLayer"
@@ -1692,7 +2382,7 @@
                   "parameters": [
                     "DialogCtr",
                     "=",
-                    "6"
+                    "8"
                   ]
                 },
                 {
@@ -1795,7 +2485,7 @@
               },
               "parameters": [
                 "Student",
-                "Buildings",
+                "WrongBuildings",
                 ""
               ]
             },
@@ -1887,10 +2577,305 @@
       "colorG": 211,
       "colorR": 126,
       "creationTime": 0,
-      "name": "LAmb ",
+      "name": "LAmb2",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "LAmb2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Dialog2Ctr",
+                "!=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Dialogues\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Player",
+                "\"Idle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "LAmb2",
+                "\"Idle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "stay",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AutoTyping::Text_AutoTyping::IsCharacterJustAdded"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "Text_AutoTyping",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "typewriter.wav",
+                    "",
+                    "5",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Dialog2Ctr",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Dialog2Ctr",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"Hello! Welcome to the Yuchengco building!\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Dialog2Ctr",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"A quick fun fact! Did you know that this 9-storey building was known before as the St. Athanasius Gym.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Dialog2Ctr",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"My partner radioed me that you were looking for the National Bookstore.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Dialog2Ctr",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"Proceed this way!\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Dialog2Ctr",
+                    "=",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialogues\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Dialog2Ctr",
+                    "=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "LAmb",
+                    "\"Idle\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "stay",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "parameters": []
     },
     {
@@ -1922,10 +2907,20 @@
               },
               "parameters": [
                 "Player",
-                "Placeholder1",
+                "WrongBuildings",
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "WrongBuilding",
+                "!=",
+                "3"
               ]
             }
           ],
@@ -1941,28 +2936,218 @@
             },
             {
               "type": {
-                "value": "ModVarScene"
+                "value": "ModVarObjet"
               },
               "parameters": [
-                "DialogCtr",
-                "+",
-                "7"
+                "Player",
+                "stay",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AutoTyping::Text_AutoTyping::IsCharacterJustAdded"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "Text_AutoTyping",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "typewriter.wav",
+                    "",
+                    "5",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "WrongBuilding",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "WrongBuilding",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"(This is not the building I am looking for...)\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "WrongBuilding",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "\"(Kuya Jay told me it has a flight of stairs outside...)\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "WrongBuilding",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialogues\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "stay",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "WrongBuilding",
+                    "=",
+                    "3"
+                  ]
+                }
               ]
             }
           ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "WrongBuildings",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "WrongBuilding",
+                "=",
+                "0"
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
