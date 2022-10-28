@@ -797,6 +797,24 @@
         "name": "assets\\Male Character 7_Walking Up_1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/images/Yuch400.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\Yuch400.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/images/yuch.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\yuch.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
