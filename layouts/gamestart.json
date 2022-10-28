@@ -100,9 +100,9 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "GAME TITLE",
+      "string": "AnimoGo",
       "font": "VCR_OSD_MONO_1.001.ttf",
-      "characterSize": 100,
+      "characterSize": 140,
       "color": {
         "b": 255,
         "g": 255,
