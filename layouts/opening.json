@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.6249999999999996,
+    "zoomFactor": 0.5249999999999999,
     "windowMask": false
   },
   "objectsGroups": [
@@ -79,15 +79,30 @@
     },
     {
       "folded": true,
-      "name": "WrongBuilding",
+      "name": "Dialog2Ctr",
       "type": "number",
       "value": 0
     },
     {
       "folded": true,
-      "name": "Dialog2Ctr",
+      "name": "WrongBuildingCtr",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "WrongBuilding",
+      "type": "array",
+      "children": [
+        {
+          "folded": true,
+          "type": "string",
+          "value": "(This is not the building I am looking for...)"
+        },
+        {
+          "type": "string",
+          "value": "(Kuya Jay told me it has a flight of stairs outside...)"
+        }
+      ]
     }
   ],
   "instances": [
@@ -1598,7 +1613,31 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Dialog",
+          "type": "array",
+          "children": [
+            {
+              "type": "string",
+              "value": "\"Hello! Welcome to the Yuchengco building!\""
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "\"A quick fun fact! Did you know that this 9-storey building was known before as the St. Athanasius Gym.\""
+            },
+            {
+              "type": "string",
+              "value": "\"My partner radioed me that you were looking for the National Bookstore.\""
+            },
+            {
+              "type": "string",
+              "value": "\"Proceed this way!\""
+            }
+          ]
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -2802,15 +2841,61 @@
                   "parameters": []
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "Dialog2Ctr",
-                    "+",
-                    "1"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                      },
+                      "parameters": [
+                        "Dialogue",
+                        "Text_AutoTyping",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Dialog2Ctr",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                      },
+                      "parameters": [
+                        "Dialogue",
+                        "Text_AutoTyping",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AutoTyping::Text_AutoTyping::SkipToEnd"
+                      },
+                      "parameters": [
+                        "Dialogue",
+                        "Text_AutoTyping",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -2824,35 +2909,18 @@
                   },
                   "parameters": [
                     "Dialog2Ctr",
-                    "=",
+                    ">=",
                     "0"
                   ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "=",
-                    "\"Hello! Welcome to the Yuchengco building!\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+                },
                 {
                   "type": {
                     "value": "VarScene"
                   },
                   "parameters": [
                     "Dialog2Ctr",
-                    "=",
-                    "1"
+                    "<",
+                    "4"
                   ]
                 }
               ],
@@ -2864,61 +2932,7 @@
                   "parameters": [
                     "Dialogue",
                     "=",
-                    "\"A quick fun fact! Did you know that this 9-storey building was known before as the St. Athanasius Gym.\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "Dialog2Ctr",
-                    "=",
-                    "2"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "=",
-                    "\"My partner radioed me that you were looking for the National Bookstore.\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "Dialog2Ctr",
-                    "=",
-                    "3"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "=",
-                    "\"Proceed this way!\""
+                    "LAmb2.VariableString(Dialog[Variable(Dialog2Ctr)])"
                   ]
                 }
               ]
@@ -2968,13 +2982,12 @@
                 },
                 {
                   "type": {
-                    "value": "ModVarObjet"
+                    "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
                     "Player",
-                    "stay",
-                    "=",
-                    "1"
+                    "isStationary",
+                    "False"
                   ]
                 }
               ]
@@ -2989,7 +3002,6 @@
       "colorG": 19,
       "colorR": 144,
       "creationTime": 0,
-      "folded": true,
       "name": "Finding Building",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3053,9 +3065,9 @@
                     "value": "VarScene"
                   },
                   "parameters": [
-                    "WrongBuilding",
+                    "WrongBuildingCtr",
                     "!=",
-                    "4"
+                    "3"
                   ]
                 }
               ],
@@ -3071,13 +3083,12 @@
                 },
                 {
                   "type": {
-                    "value": "ModVarObjet"
+                    "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
                     "Player",
-                    "stay",
-                    "=",
-                    "0"
+                    "isStationary",
+                    "True"
                   ]
                 }
               ],
@@ -3101,118 +3112,146 @@
                       "parameters": []
                     }
                   ],
-                  "actions": [
+                  "actions": [],
+                  "events": [
                     {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "WrongBuilding",
-                        "+",
-                        "1"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "WrongBuilding",
-                        "=",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "Dialogue",
-                        "=",
-                        "\"(This is not the building I am looking for...)\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "WrongBuilding",
-                        "=",
-                        "2"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "Dialogue",
-                        "=",
-                        "\"(Kuya Jay told me it has a flight of stairs outside...)\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "WrongBuilding",
-                        "=",
-                        "3"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "HideLayer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Dialogues\""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                          },
+                          "parameters": [
+                            "Dialogue",
+                            "Text_AutoTyping",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "WrongBuildingCtr",
+                            "+",
+                            "1"
+                          ]
+                        }
                       ]
                     },
                     {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Player",
-                        "stay",
-                        "=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "WrongBuilding",
-                        "=",
-                        "4"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                          },
+                          "parameters": [
+                            "Dialogue",
+                            "Text_AutoTyping",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AutoTyping::Text_AutoTyping::SkipToEnd"
+                          },
+                          "parameters": [
+                            "Dialogue",
+                            "Text_AutoTyping",
+                            ""
+                          ]
+                        }
                       ]
                     }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "WrongBuildingCtr",
+                    ">=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "WrongBuildingCtr",
+                    "<",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "VariableString(WrongBuilding[Variable(WrongBuildingCtr)])"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "WrongBuildingCtr",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialogues\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Player",
+                    "isStationary",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "WrongBuildingCtr",
+                    "=",
+                    "3"
                   ]
                 }
               ]
@@ -3254,9 +3293,9 @@
                     "value": "VarScene"
                   },
                   "parameters": [
-                    "WrongBuilding",
+                    "WrongBuildingCtr",
                     "=",
-                    "4"
+                    "3"
                   ]
                 }
               ],
@@ -3334,7 +3373,7 @@
                 "value": "ModVarScene"
               },
               "parameters": [
-                "WrongBuilding",
+                "WrongBuildingCtr",
                 "=",
                 "0"
               ]
