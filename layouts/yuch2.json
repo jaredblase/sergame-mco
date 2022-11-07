@@ -1183,6 +1183,29 @@
               "value": "Come and audition!"
             }
           ]
+        },
+        {
+          "name": "Animation",
+          "type": "array",
+          "children": [
+            {
+              "type": "string",
+              "value": "Left"
+            },
+            {
+              "type": "string",
+              "value": "Right"
+            },
+            {
+              "type": "string",
+              "value": "Idle"
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "Up"
+            }
+          ]
         }
       ],
       "effects": [],
@@ -1497,6 +1520,29 @@
             {
               "type": "string",
               "value": "We do event coverage, online livestreaming, and many other more. Join us now!"
+            }
+          ]
+        },
+        {
+          "name": "Animation",
+          "type": "array",
+          "children": [
+            {
+              "type": "string",
+              "value": "Left"
+            },
+            {
+              "type": "string",
+              "value": "Right"
+            },
+            {
+              "type": "string",
+              "value": "Idle"
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "Up"
             }
           ]
         }
@@ -1816,6 +1862,29 @@
               "value": "Let your talent shine here in GGFM!"
             }
           ]
+        },
+        {
+          "name": "Animation",
+          "type": "array",
+          "children": [
+            {
+              "type": "string",
+              "value": "Left"
+            },
+            {
+              "type": "string",
+              "value": "Right"
+            },
+            {
+              "type": "string",
+              "value": "Idle"
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "Up"
+            }
+          ]
         }
       ],
       "effects": [],
@@ -2131,6 +2200,29 @@
             {
               "type": "string",
               "value": "Come and join CSO now!"
+            }
+          ]
+        },
+        {
+          "name": "Animation",
+          "type": "array",
+          "children": [
+            {
+              "type": "string",
+              "value": "Left"
+            },
+            {
+              "type": "string",
+              "value": "Right"
+            },
+            {
+              "type": "string",
+              "value": "Idle"
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "Up"
             }
           ]
         }
@@ -2487,7 +2579,6 @@
           "colorG": 2,
           "colorR": 208,
           "creationTime": 0,
-          "folded": true,
           "name": "Player Movement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2694,6 +2785,7 @@
       "colorG": 166,
       "colorR": 245,
       "creationTime": 0,
+      "folded": true,
       "name": "LAmb2 Dialog",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2989,6 +3081,7 @@
       "colorG": 166,
       "colorR": 245,
       "creationTime": 0,
+      "folded": true,
       "name": "LAmb2 Dialog after Task",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4438,15 +4531,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "Player",
-                "\"Idle\""
-              ]
-            },
             {
               "type": {
                 "value": "ShowLayer"

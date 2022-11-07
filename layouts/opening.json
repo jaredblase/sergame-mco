@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3499999999999993,
+    "zoomFactor": 0.5499999999999994,
     "windowMask": false
   },
   "objectsGroups": [
@@ -265,7 +265,7 @@
       "persistentUuid": "5378c9bb-c57d-4a8f-965d-1b1b294bbfe7",
       "width": 60.235294342041016,
       "x": 736,
-      "y": 64,
+      "y": 96,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -1033,7 +1033,31 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Animation",
+          "type": "array",
+          "children": [
+            {
+              "type": "string",
+              "value": "Left"
+            },
+            {
+              "type": "string",
+              "value": "Right"
+            },
+            {
+              "type": "string",
+              "value": "Idle"
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "Up"
+            }
+          ]
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -1624,7 +1648,6 @@
           "colorG": 2,
           "colorR": 208,
           "creationTime": 0,
-          "folded": true,
           "name": "Player Movement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1666,7 +1689,6 @@
           "colorG": 96,
           "colorR": 33,
           "creationTime": 0,
-          "folded": true,
           "name": "Camera",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1747,6 +1769,7 @@
       "colorG": 166,
       "colorR": 245,
       "creationTime": 0,
+      "folded": true,
       "name": "First Lamb Dialog",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2136,6 +2159,18 @@
                 "!=",
                 "5"
               ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "LAmb2",
+                "Player",
+                "",
+                "",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -2410,6 +2445,16 @@
                     "=",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Yuch2\"",
+                    ""
+                  ]
                 }
               ]
             }
@@ -2423,6 +2468,7 @@
       "colorG": 19,
       "colorR": 144,
       "creationTime": 0,
+      "folded": true,
       "name": "Finding Building",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

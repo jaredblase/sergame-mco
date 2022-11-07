@@ -1799,6 +1799,29 @@
           "name": "isStationary",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "Animation",
+          "type": "array",
+          "children": [
+            {
+              "type": "string",
+              "value": "Left"
+            },
+            {
+              "type": "string",
+              "value": "Right"
+            },
+            {
+              "type": "string",
+              "value": "Idle"
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "Up"
+            }
+          ]
         }
       ],
       "effects": [],
@@ -2262,7 +2285,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Male Character 7_Walking Up_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 10.373427391052246,
+                      "y": -5.086969375610352
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2271,8 +2300,8 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 7.8199687004089355,
+                    "y": 9.504225730895996
                   },
                   "customCollisionMask": []
                 }
@@ -2291,7 +2320,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Male Character 7_Walking Right_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 10.373427391052246,
+                      "y": -5.086969375610352
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2300,8 +2335,8 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 7.8199687004089355,
+                    "y": 9.504225730895996
                   },
                   "customCollisionMask": []
                 }
