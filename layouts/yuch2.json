@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3749999999999992,
+    "zoomFactor": 0.49999999999999933,
     "windowMask": false
   },
   "objectsGroups": [
@@ -27,6 +27,9 @@
       "objects": [
         {
           "name": "Player"
+        },
+        {
+          "name": "Char"
         }
       ]
     },
@@ -168,21 +171,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
-      "layer": "",
-      "name": "Player",
-      "persistentUuid": "3bc28311-a093-4a2c-8c7b-6de2adaa7550",
-      "width": 48,
-      "x": 144,
-      "y": -128,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "height": 1280,
       "layer": "",
       "name": "LeftBoundary",
@@ -278,8 +266,8 @@
       "name": "Floor",
       "persistentUuid": "89c17cdd-471f-4e11-bfd7-0d7838d06874",
       "width": 1632,
-      "x": -384,
-      "y": -352,
+      "x": -448,
+      "y": -224,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -333,13 +321,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "height": 34,
       "layer": "",
       "name": "LSDC_rep",
       "persistentUuid": "87316828-884f-4d48-a15d-f3e33edc4dcf",
-      "width": 60.235294342041016,
+      "width": 32,
       "x": 192,
-      "y": 160,
+      "y": 190,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -348,13 +336,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "height": 32,
       "layer": "",
       "name": "ArcherNet_rep",
       "persistentUuid": "df093a63-8c1a-4e16-aa84-1f157b51eee7",
-      "width": 60.235294342041016,
+      "width": 30.117647171020508,
       "x": 547.7647094726562,
-      "y": 160,
+      "y": 192,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -363,13 +351,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "height": 34,
       "layer": "",
       "name": "GGFM_rep",
       "persistentUuid": "b3b39675-1cf0-4190-9c41-1cb6d28c1350",
-      "width": 60.235294342041016,
+      "width": 32,
       "x": -96,
-      "y": 160,
+      "y": 190,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -378,13 +366,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "height": 34,
       "layer": "",
       "name": "CSO_rep",
       "persistentUuid": "1bca81cd-d2bf-4817-aed0-3243b498ee1f",
-      "width": 60.235294342041016,
+      "width": 32,
       "x": 864,
-      "y": 160,
+      "y": 190,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -393,13 +381,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "height": 32,
       "layer": "",
       "name": "LAmb2",
       "persistentUuid": "e7fcb1ff-a1c6-4b6a-99bb-b0b5c85b95ad",
-      "width": 60.235294342041016,
+      "width": 30.117647171020508,
       "x": 707.7647094726562,
-      "y": -128,
+      "y": -64,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -416,6 +404,51 @@
       "x": 288,
       "y": -288,
       "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "Char",
+      "persistentUuid": "ed6ae1cf-e0cc-4c27-9acb-0d427394c90f",
+      "width": 32,
+      "x": 128,
+      "y": -64,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 213.3333282470703,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "a31eca56-ea5a-4d8c-820f-a3bedc3ca29c",
+      "width": 320,
+      "x": -128,
+      "y": -277.33331298828125,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "eab5729a-f720-40e7-ba2d-a4546d7248f1",
+      "width": 96,
+      "x": -352,
+      "y": 32,
+      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2470,6 +2503,88 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "nbs.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewSprite2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "vendingmachine.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -2487,8 +2602,7 @@
           "colorG": 2,
           "colorR": 208,
           "creationTime": 0,
-          "folded": true,
-          "name": "Player Movement",
+          "name": "Char Movement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -2500,7 +2614,7 @@
                     "value": "ObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "Player",
+                    "Char",
                     "isStationary",
                     "False"
                   ]
@@ -2513,7 +2627,7 @@
                   },
                   "parameters": [
                     "",
-                    "Player",
+                    "Char",
                     "32",
                     "4",
                     ""
@@ -2529,7 +2643,6 @@
           "colorG": 96,
           "colorR": 33,
           "creationTime": 0,
-          "folded": true,
           "name": "Camera",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2550,6 +2663,17 @@
                     "BottomBoundary.Y()",
                     "\"\"",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ZoomCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "1.5",
+                    "\"\"",
+                    "0"
                   ]
                 }
               ]
@@ -2663,7 +2787,7 @@
           },
           "parameters": [
             "LAmb2",
-            "Player",
+            "Char",
             "200",
             "1"
           ]
@@ -2682,7 +2806,7 @@
             "value": "SetObjectVariableAsBoolean"
           },
           "parameters": [
-            "Player",
+            "Char",
             "isStationary",
             "True"
           ]
@@ -2706,7 +2830,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "LAmb2",
                 "",
                 "",
@@ -2739,8 +2863,8 @@
                 "value": "SetAnimationName"
               },
               "parameters": [
-                "Player",
-                "\"Idle Right\""
+                "Char",
+                "\"Walking Right\""
               ]
             },
             {
@@ -2954,7 +3078,7 @@
                     "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "Player",
+                    "Char",
                     "isStationary",
                     "False"
                   ]
@@ -3001,7 +3125,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "LAmb2",
                 "",
                 "",
@@ -3054,7 +3178,7 @@
                 "value": "SetAnimationName"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "\"Idle\""
               ]
             },
@@ -3081,7 +3205,7 @@
                 "value": "SetObjectVariableAsBoolean"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "isStationary",
                 "True"
               ]
@@ -3271,7 +3395,7 @@
                     "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "Player",
+                    "Char",
                     "isStationary",
                     "False"
                   ]
@@ -3297,7 +3421,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "LAmb2",
                 "",
                 "",
@@ -3350,7 +3474,7 @@
                 "value": "SetAnimationName"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "\"Idle\""
               ]
             },
@@ -3377,7 +3501,7 @@
                 "value": "SetObjectVariableAsBoolean"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "isStationary",
                 "True"
               ]
@@ -3567,7 +3691,7 @@
                     "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "Player",
+                    "Char",
                     "isStationary",
                     "False"
                   ]
@@ -3641,7 +3765,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "LAmb2",
                 "",
                 "",
@@ -3734,7 +3858,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "LSDC_rep",
                 "",
                 "",
@@ -3763,7 +3887,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "LSDC_rep",
                 "",
                 "",
@@ -3787,7 +3911,7 @@
                 "value": "SetAnimationName"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "\"Idle\""
               ]
             },
@@ -3805,7 +3929,7 @@
                 "value": "SetObjectVariableAsBoolean"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "isStationary",
                 "True"
               ]
@@ -3995,7 +4119,7 @@
                     "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "Player",
+                    "Char",
                     "isStationary",
                     "False"
                   ]
@@ -4062,7 +4186,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "CSO_rep",
                 "",
                 "",
@@ -4091,7 +4215,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "CSO_rep",
                 "",
                 "",
@@ -4115,7 +4239,7 @@
                 "value": "SetAnimationName"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "\"Idle\""
               ]
             },
@@ -4133,7 +4257,7 @@
                 "value": "SetObjectVariableAsBoolean"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "isStationary",
                 "True"
               ]
@@ -4323,7 +4447,7 @@
                     "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "Player",
+                    "Char",
                     "isStationary",
                     "False"
                   ]
@@ -4390,7 +4514,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "GGFM_rep",
                 "",
                 "",
@@ -4419,7 +4543,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "GGFM_rep",
                 "",
                 "",
@@ -4443,7 +4567,7 @@
                 "value": "SetAnimationName"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "\"Idle\""
               ]
             },
@@ -4461,7 +4585,7 @@
                 "value": "SetObjectVariableAsBoolean"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "isStationary",
                 "True"
               ]
@@ -4651,7 +4775,7 @@
                     "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "Player",
+                    "Char",
                     "isStationary",
                     "False"
                   ]
@@ -4718,7 +4842,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "ArcherNet_rep",
                 "",
                 "",
@@ -4747,7 +4871,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "ArcherNet_rep",
                 "",
                 "",
@@ -4771,7 +4895,7 @@
                 "value": "SetAnimationName"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "\"Idle\""
               ]
             },
@@ -4789,7 +4913,7 @@
                 "value": "SetObjectVariableAsBoolean"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "isStationary",
                 "True"
               ]
@@ -4979,7 +5103,7 @@
                     "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "Player",
+                    "Char",
                     "isStationary",
                     "False"
                   ]
@@ -5045,7 +5169,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "Placeholders",
                 "",
                 "",
@@ -5061,8 +5185,8 @@
               "parameters": [
                 "",
                 "Thought",
-                "Player.X(\"PointX\")",
-                "Player.Y(\"PointX\")",
+                "Char.X(\"PointX\")",
+                "Char.Y(\"PointX\")",
                 ""
               ]
             },
@@ -5073,7 +5197,7 @@
               "parameters": [
                 "Thought",
                 "Sticker",
-                "Player",
+                "Char",
                 ""
               ]
             }
@@ -5117,7 +5241,7 @@
                     "value": "ModVarObjet"
                   },
                   "parameters": [
-                    "Player",
+                    "Char",
                     "stay",
                     "=",
                     "0"
@@ -5240,7 +5364,7 @@
                         "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "Player",
+                        "Char",
                         "stay",
                         "=",
                         "1"
@@ -5325,7 +5449,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "Placeholders",
                 "",
                 "",
@@ -5363,7 +5487,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "Placeholders",
                 "",
                 "",

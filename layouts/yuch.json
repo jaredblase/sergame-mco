@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.39999999999999925,
+    "zoomFactor": 0.9249999999999996,
     "windowMask": false
   },
   "objectsGroups": [
@@ -27,6 +27,9 @@
       "objects": [
         {
           "name": "Player"
+        },
+        {
+          "name": "Char"
         }
       ]
     },
@@ -99,21 +102,6 @@
     }
   ],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 64,
-      "layer": "",
-      "name": "Player",
-      "persistentUuid": "3bc28311-a093-4a2c-8c7b-6de2adaa7550",
-      "width": 48,
-      "x": 294,
-      "y": 320,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,
@@ -267,13 +255,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "height": 32,
       "layer": "",
       "name": "LAmb2",
       "persistentUuid": "e7fcb1ff-a1c6-4b6a-99bb-b0b5c85b95ad",
-      "width": 60.235294342041016,
-      "x": 227.76470947265625,
-      "y": 320,
+      "width": 30.117647171020508,
+      "x": 256,
+      "y": 352,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -290,6 +278,21 @@
       "x": 288,
       "y": -288,
       "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "Char",
+      "persistentUuid": "045185b4-6c43-4b97-a071-e81c4caa4768",
+      "width": 32,
+      "x": 288,
+      "y": 352,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1844,7 +1847,7 @@
       "updateIfNotVisible": false,
       "variables": [
         {
-          "name": "Dialog",
+          "name": "Dialog1",
           "type": "array",
           "children": [
             {
@@ -2172,7 +2175,6 @@
           "colorG": 2,
           "colorR": 208,
           "creationTime": 0,
-          "folded": true,
           "name": "Player Movement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2185,7 +2187,7 @@
                     "value": "ObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "Player",
+                    "Char",
                     "isStationary",
                     "False"
                   ]
@@ -2198,7 +2200,7 @@
                   },
                   "parameters": [
                     "",
-                    "Player",
+                    "Char",
                     "32",
                     "4",
                     ""
@@ -2214,7 +2216,6 @@
           "colorG": 96,
           "colorR": 33,
           "creationTime": 0,
-          "folded": true,
           "name": "Camera",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2266,6 +2267,16 @@
           "parameters": [
             "Student",
             "Boundaries",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Student",
+            "Characters",
             ""
           ]
         },
@@ -2363,8 +2374,8 @@
                 "value": "SetAnimationName"
               },
               "parameters": [
-                "Player",
-                "\"Idle Left\""
+                "Char",
+                "\"Walking Left\""
               ]
             },
             {
@@ -2561,7 +2572,7 @@
                     "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "Player",
+                    "Char",
                     "isStationary",
                     "False"
                   ]
@@ -2590,7 +2601,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "Placeholder",
                 "",
                 "",
@@ -2676,7 +2687,7 @@
             "value": "Wait"
           },
           "parameters": [
-            "5"
+            "3.5"
           ]
         }
       ],
@@ -2716,7 +2727,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "Placeholders",
                 "",
                 "",
@@ -2744,7 +2755,7 @@
               "parameters": [
                 "Thought",
                 "Sticker",
-                "Player",
+                "Char",
                 ""
               ]
             }
@@ -2788,7 +2799,7 @@
                     "value": "ModVarObjet"
                   },
                   "parameters": [
-                    "Player",
+                    "Char",
                     "stay",
                     "=",
                     "0"
@@ -2911,7 +2922,7 @@
                         "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "Player",
+                        "Char",
                         "stay",
                         "=",
                         "1"
@@ -2996,7 +3007,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "Placeholders",
                 "",
                 "",
@@ -3034,7 +3045,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Player",
+                "Char",
                 "Placeholders",
                 "",
                 "",
