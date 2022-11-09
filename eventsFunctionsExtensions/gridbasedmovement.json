@@ -624,6 +624,16 @@
               "parameters": [
                 "Player"
               ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "DefaultCtr",
+                "=",
+                "-1"
+              ]
             }
           ]
         }
