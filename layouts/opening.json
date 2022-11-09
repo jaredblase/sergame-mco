@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.8150000000000002,
+    "zoomFactor": 0.7350000000000001,
     "windowMask": false
   },
   "objectsGroups": [
@@ -2388,6 +2388,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Game Environment",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2554,6 +2555,7 @@
       "colorG": 166,
       "colorR": 245,
       "creationTime": 0,
+      "folded": true,
       "name": "First Lamb Dialog",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2915,6 +2917,7 @@
       "colorG": 211,
       "colorR": 126,
       "creationTime": 0,
+      "folded": true,
       "name": "LAmb2",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

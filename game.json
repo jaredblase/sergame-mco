@@ -2267,6 +2267,60 @@
         "name": "assets\\images\\thestore.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/images/fullfrontfloor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\fullfrontfloor.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/images/tile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\tile.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/images/hori_monobloc_table.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\hori_monobloc_table.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/images/monobloc_chair_front.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\monobloc_chair_front.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/images/board4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\board4x.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/images/verti_monobloc_table.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\verti_monobloc_table.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3348,6 +3402,47 @@
                       "y": -9.263739585876465
                     }
                   ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Frontfloor",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\fullfrontfloor.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
