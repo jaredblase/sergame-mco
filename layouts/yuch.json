@@ -26,9 +26,6 @@
       "name": "Student",
       "objects": [
         {
-          "name": "Player"
-        },
-        {
           "name": "Char"
         }
       ]
@@ -3633,18 +3630,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Thought",
-                "Player.X(\"PointX\")",
-                "Player.Y(\"PointX\")",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "Sticker::Sticker::Stick"

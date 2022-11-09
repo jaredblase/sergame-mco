@@ -26,9 +26,6 @@
       "name": "Student",
       "objects": [
         {
-          "name": "Player"
-        },
-        {
           "name": "Char"
         }
       ]
