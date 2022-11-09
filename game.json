@@ -2258,6 +2258,15 @@
         "name": "assets\\Male Character 3_Walking Right_1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/images/thestore.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\thestore.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
