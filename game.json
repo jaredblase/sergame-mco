@@ -2339,6 +2339,249 @@
         "name": "assets\\images\\opening\\yuch.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Connon-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Connon-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tambayan_Verti.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tambayan_Verti.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Downloads/Tambayan_Hori.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Downloads\\Tambayan_Hori.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tambayan_Hori.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tambayan_Hori.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tileset.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tileset.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tarpaulin_stand_white.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tarpaulin_stand_white.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tarpaulin_stand_white2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tarpaulin_stand_white2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tarpaulin_stand_green.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tarpaulin_stand_green.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "LSCS_banner.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LSCS_banner.png.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "amphi_turtle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "amphi_turtle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tambayan_Verti2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tambayan_Verti2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tambayan_Hori2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tambayan_Hori2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "chair4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chair4x.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "monobloc_chair_front.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "monobloc_chair_front.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "hori_monobloc_table.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hori_monobloc_table.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "vendingmachine4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vendingmachine4x.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "board4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "board4x.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "amphi_tree.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "amphi_tree.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "LS-hall2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LS-hall2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Connon-22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Connon-22.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tileset2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tileset2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "nbs1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nbs1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "amphi_stage2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "amphi_stage2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "thestore.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "thestore.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bench4x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bench4x.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "amphi_pond2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "amphi_pond2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tarpaulin_stand_green2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tarpaulin_stand_green2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.31500000000000006,
+    "zoomFactor": 0.4550000000000002,
     "windowMask": false
   },
   "objectsGroups": [
@@ -34,16 +34,10 @@
       "name": "WrongBuildings",
       "objects": [
         {
-          "name": "AmphiStage"
-        },
-        {
-          "name": "AmphiTree"
-        },
-        {
           "name": "LSHall"
         },
         {
-          "name": "AmphiPond"
+          "name": "Connon"
         }
       ]
     },
@@ -72,6 +66,23 @@
         },
         {
           "name": "LAmb1"
+        }
+      ]
+    },
+    {
+      "name": "Unpassable",
+      "objects": [
+        {
+          "name": "AmphiChair1"
+        },
+        {
+          "name": "AmphiChair2"
+        },
+        {
+          "name": "AmphiPond"
+        },
+        {
+          "name": "AmphiTree"
         }
       ]
     }
@@ -226,13 +237,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 448,
+      "height": 461.066650390625,
       "layer": "",
       "name": "Yuch",
       "persistentUuid": "ed1fb1c1-e710-4808-9bd5-c35d70289553",
-      "width": 404.2105407714844,
-      "x": 576,
-      "y": -1056,
+      "width": 416,
+      "x": 224,
+      "y": -1069.066650390625,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -246,8 +257,8 @@
       "name": "LAmb1",
       "persistentUuid": "4207457d-a56a-448d-945d-03db1021b419",
       "width": 32,
-      "x": -416,
-      "y": -450,
+      "x": -256,
+      "y": -160,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -261,8 +272,8 @@
       "name": "Char",
       "persistentUuid": "63463417-2d56-48d4-8c08-8d4cbf2821ca",
       "width": 32,
-      "x": -96,
-      "y": -448,
+      "x": 128,
+      "y": -160,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -276,7 +287,7 @@
       "name": "LAmb2",
       "persistentUuid": "a5cea8fd-cc85-43c4-a302-f15e290cd5a7",
       "width": 32,
-      "x": 608,
+      "x": 256,
       "y": -576,
       "zOrder": 18,
       "numberProperties": [],
@@ -316,13 +327,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "height": 96,
       "layer": "",
       "name": "AmphiPond",
       "persistentUuid": "678d2670-5a55-4820-9ecf-07204925fafb",
-      "width": 128,
-      "x": 32,
-      "y": -416,
+      "width": 96,
+      "x": 128,
+      "y": -445,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -331,13 +342,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 202.6666717529297,
+      "height": 215.741943359375,
       "layer": "",
       "name": "AmphiStage",
       "persistentUuid": "30ff9a63-f09b-4d99-a795-4807b76600b6",
-      "width": 304,
-      "x": 176,
-      "y": -576,
+      "width": 323.6129150390625,
+      "x": 256,
+      "y": -436.741943359375,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -346,13 +357,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 192,
+      "height": 204.38710021972656,
       "layer": "",
       "name": "AmphiTree",
       "persistentUuid": "93a12cfe-6529-4e0d-a2fe-314882c59c69",
-      "width": 192,
-      "x": 256,
-      "y": -704,
+      "width": 204.38710021972656,
+      "x": 341.1612854003906,
+      "y": -573,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -361,14 +372,59 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 960,
+      "height": 870.4000244140625,
       "layer": "",
       "name": "LSHall",
       "persistentUuid": "216abba8-a42b-4c8e-8810-73dc9ecc1004",
-      "width": 1600,
-      "x": -768,
-      "y": -416,
+      "width": 1450.6666259765625,
+      "x": -554.6666259765625,
+      "y": -320,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 352,
+      "layer": "",
+      "name": "Connon",
+      "persistentUuid": "756ff4dc-a56b-4e63-8b32-74bd4fdeb6de",
+      "width": 469.33331298828125,
+      "x": -469.33331298828125,
+      "y": -992,
       "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 204.8000030517578,
+      "layer": "",
+      "name": "AmphiChair1",
+      "persistentUuid": "c6bc46a2-aaba-41e0-8133-4803fa38dc56",
+      "width": 128,
+      "x": -32,
+      "y": -457.79998779296875,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 160,
+      "layer": "",
+      "name": "AmphiChair2",
+      "persistentUuid": "2806ce4c-79f6-4461-9ef4-69e758d7a2e2",
+      "width": 160,
+      "x": 352,
+      "y": -253,
+      "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1945,6 +2001,181 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "Connon",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Connon-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "AmphiChair1",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Tambayan_Verti.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "AmphiChair2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "AmphiChair2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Tambayan_Hori.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Tileset",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Tileset.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -1953,7 +2184,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Game Environment",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2039,7 +2269,6 @@
           "colorG": 2,
           "colorR": 208,
           "creationTime": 0,
-          "folded": true,
           "name": "Player Movement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2166,6 +2395,16 @@
               "parameters": [
                 "Student",
                 "Yuch",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Student",
+                "Unpassable",
                 ""
               ]
             },

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4449999999999993,
+    "zoomFactor": 0.6249999999999994,
     "windowMask": false
   },
   "objectsGroups": [
@@ -76,6 +76,17 @@
       "objects": [
         {
           "name": "NewSprite3"
+        }
+      ]
+    },
+    {
+      "name": "Unpassable",
+      "objects": [
+        {
+          "name": "NewSprite3"
+        },
+        {
+          "name": "NewSprite"
         }
       ]
     }
@@ -275,13 +286,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 213.3333282470703,
+      "height": 277.33331298828125,
       "layer": "",
       "name": "NewSprite",
       "persistentUuid": "9709ba7f-5392-4c89-9ed1-e3a3c2ede80e",
-      "width": 320,
-      "x": -128,
-      "y": -277.33331298828125,
+      "width": 415.9999694824219,
+      "x": -160,
+      "y": -277,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -290,13 +301,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 213.3333282470703,
+      "height": 277.33331298828125,
       "layer": "",
       "name": "NewSprite3",
       "persistentUuid": "82bb4162-4fab-42db-8a54-03d6c6bb3fec",
-      "width": 320,
-      "x": 352,
-      "y": -277.33331298828125,
+      "width": 415.9999694824219,
+      "x": 256,
+      "y": -277,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -3189,7 +3200,7 @@
           },
           "parameters": [
             "Student",
-            "Placeholder",
+            "Unpassable",
             ""
           ]
         },
@@ -3234,6 +3245,16 @@
             "TransitionText",
             "=",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "Char",
+            "isStationary",
+            "True"
           ]
         }
       ]
@@ -3622,363 +3643,7 @@
               },
               "parameters": [
                 "Char",
-                "WrongBuildings",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Sticker::Sticker::Stick"
-              },
-              "parameters": [
-                "Thought",
-                "Sticker",
-                "Char",
-                ""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Space"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "WrongBuilding",
-                    "!=",
-                    "4"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ShowLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Dialogues\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Char",
-                    "stay",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "Space"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "WrongBuilding",
-                        "+",
-                        "1"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "WrongBuilding",
-                        "=",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "Dialogue",
-                        "=",
-                        "\"(This is not the building I am looking for...)\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "WrongBuilding",
-                        "=",
-                        "2"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "Dialogue",
-                        "=",
-                        "\"(Kuya Jay told me it has a flight of stairs outside...)\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "WrongBuilding",
-                        "=",
-                        "3"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "HideLayer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Dialogues\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Char",
-                        "stay",
-                        "=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "WrongBuilding",
-                        "=",
-                        "4"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AutoTyping::Text_AutoTyping::IsCharacterJustAdded"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "Text_AutoTyping",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "typewriter.wav",
-                    "",
-                    "5",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "WrongBuilding",
-                    "=",
-                    "4"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Thought",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Char",
-                "WrongBuildings",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "LayerVisible"
-              },
-              "parameters": [
-                "",
-                "\"Dialogues\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Thought",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Char",
-                "WrongBuildings",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "WrongBuilding",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Thought",
-                ""
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 254,
-      "colorG": 19,
-      "colorR": 144,
-      "creationTime": 0,
-      "name": "Finding Building",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Char",
-                "WrongBuildings",
+                "Placeholder",
                 "",
                 "",
                 ""
