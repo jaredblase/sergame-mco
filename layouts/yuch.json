@@ -316,21 +316,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 672,
-      "layer": "",
-      "name": "Frontfloor",
-      "persistentUuid": "210a2c8e-06cf-4848-b5cf-59048435087c",
-      "width": 1728,
-      "x": -448,
-      "y": 288,
-      "zOrder": -2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "height": 284,
       "layer": "",
       "name": "NewSprite4",

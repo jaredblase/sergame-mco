@@ -1,7 +1,6 @@
 {
   "author": "",
   "category": "",
-  "description": "",
   "extensionNamespace": "",
   "fullName": "GridBasedMovement",
   "helpPath": "",
@@ -10,6 +9,7 @@
   "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/grid-large.svg",
   "shortDescription": "Made to support grid-based movements similar to Pokemon.",
   "version": "",
+  "description": "",
   "tags": [],
   "authorIds": [],
   "dependencies": [],
@@ -18,9 +18,7 @@
       "description": "Simulate the grid by grid movement of an object",
       "fullName": "Move in grid",
       "functionType": "Action",
-      "group": "",
       "name": "Move",
-      "private": false,
       "sentence": "_PARAM1_ will move in a grid of _PARAM2_ pixel size and _PARAM3_ speed. ",
       "events": [
         {
@@ -624,49 +622,25 @@
               "parameters": [
                 "Player"
               ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "DefaultCtr",
-                "=",
-                "-1"
-              ]
             }
           ]
         }
       ],
       "parameters": [
         {
-          "codeOnly": false,
-          "defaultValue": "",
           "description": "Object",
-          "longDescription": "",
           "name": "Player",
-          "optional": false,
           "supplementaryInformation": "Sprite",
           "type": "objectList"
         },
         {
-          "codeOnly": false,
-          "defaultValue": "",
           "description": "Distance",
-          "longDescription": "",
           "name": "Distance",
-          "optional": false,
-          "supplementaryInformation": "",
           "type": "expression"
         },
         {
-          "codeOnly": false,
-          "defaultValue": "",
           "description": "Speed",
-          "longDescription": "",
           "name": "Speed",
-          "optional": false,
-          "supplementaryInformation": "",
           "type": "expression"
         }
       ],
