@@ -865,7 +865,7 @@
             },
             {
               "type": "string",
-              "value": "Why don't you unwind and talk to some of the people here?"
+              "value": "Welcome to the Bro. Connon Bldg! Why don't you unwind and talk to some of the people here?"
             },
             {
               "type": "string",
@@ -3100,7 +3100,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "You were brought to the University Clinic...",
+      "string": "You were escorted to the Amphitheater...",
       "font": "VCR_OSD_MONO_1.001.ttf",
       "characterSize": 50,
       "color": {

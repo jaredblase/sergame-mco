@@ -18,19 +18,57 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.9249999999999999,
+    "zoomFactor": 0.8749999999999999,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
-  "instances": [],
-  "objects": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 47,
+      "layer": "",
+      "name": "NewText",
+      "persistentUuid": "5416de9e-828d-4026-8824-809e7af4db74",
+      "width": 233,
+      "x": 305,
+      "y": 276,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NewText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "AMPHI PLACEHOLDER",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    }
+  ],
   "events": [],
   "layers": [
     {
-      "ambientLightColorB": 0,
-      "ambientLightColorG": 0,
-      "ambientLightColorR": 0,
+      "ambientLightColorB": 6788248,
+      "ambientLightColorG": 6788248,
+      "ambientLightColorR": 1869182049,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "",
