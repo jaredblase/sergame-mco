@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5000000000000002,
+    "zoomFactor": 0.39999999999999875,
     "windowMask": false
   },
   "objectsGroups": [
@@ -497,6 +497,21 @@
       "x": 704,
       "y": 64,
       "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 544,
+      "layer": "",
+      "name": "Tiles",
+      "persistentUuid": "f85de233-ada7-45ec-b1a9-c11534cb2d7f",
+      "width": 1568,
+      "x": -352,
+      "y": 96,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4248,6 +4263,18 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Tiles",
+      "tags": "",
+      "texture": "Tile.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "events": [

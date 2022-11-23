@@ -2594,15 +2594,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "connon_wall.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "connon_wall.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewFile-1-6-1.png",
         "kind": "image",
         "metadata": "",
@@ -3009,6 +3000,24 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\Male Character 9_Walking Right_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tile.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "connon_wall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "connon_wall.png",
         "smoothed": true,
         "userAdded": true
       }
