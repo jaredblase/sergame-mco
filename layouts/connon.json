@@ -100,7 +100,7 @@
       "folded": true,
       "name": "Dialog2Ctr",
       "type": "number",
-      "value": 0
+      "value": -1
     },
     {
       "folded": true,
@@ -112,7 +112,7 @@
       "folded": true,
       "name": "NPC1Ctr",
       "type": "number",
-      "value": 0
+      "value": -1
     },
     {
       "folded": true,
@@ -123,30 +123,6 @@
     {
       "folded": true,
       "name": "InteractionCtr",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "folded": true,
-      "name": "LSDCCtr",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "folded": true,
-      "name": "GGFMCtr",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "folded": true,
-      "name": "CSOCtr",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "folded": true,
-      "name": "ANCtr",
       "type": "number",
       "value": 0
     },
@@ -185,7 +161,7 @@
       "folded": true,
       "name": "NPC2Ctr",
       "type": "number",
-      "value": 0
+      "value": -1
     },
     {
       "folded": true,
@@ -5618,7 +5594,7 @@
               "parameters": [
                 "Dialog2Ctr",
                 "=",
-                "0"
+                "-1"
               ]
             },
             {
