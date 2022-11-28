@@ -18,13 +18,1361 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8799999999999999,
+    "zoomFactor": 1.780000000000001,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
-  "instances": [],
-  "objects": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 832,
+      "layer": "",
+      "name": "LeftBoundary",
+      "persistentUuid": "ed8c71b5-8c18-4c6a-b7ba-746d9e8bc73b",
+      "width": 32.00001525878906,
+      "x": 63.99998474121094,
+      "y": -192,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "TopBoundary",
+      "persistentUuid": "1f39032b-e6fc-4ed4-82ca-72b1761b909a",
+      "width": 576,
+      "x": 64,
+      "y": -192,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 832,
+      "layer": "",
+      "name": "RightBoundary",
+      "persistentUuid": "b294a96e-317f-4181-867d-4c621b16803a",
+      "width": 31.99999237060547,
+      "x": 608,
+      "y": -192,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32.00001525878906,
+      "layer": "",
+      "name": "BottomBoundary",
+      "persistentUuid": "add0791d-ebd6-4bb8-b131-b606eae367b6",
+      "width": 576,
+      "x": 64,
+      "y": 608,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 256,
+      "layer": "",
+      "name": "wall",
+      "persistentUuid": "dbcb2d8d-7f20-412a-b051-7704d419995f",
+      "width": 576,
+      "x": 64,
+      "y": -192,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "PericosLogo",
+      "persistentUuid": "8a72355f-ba7d-4469-9d54-be365f1866f8",
+      "width": 192,
+      "x": 160,
+      "y": -128,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "Menu",
+      "persistentUuid": "4d652856-5573-4d42-82d8-23d9d129cbe2",
+      "width": 128,
+      "x": 416,
+      "y": -128,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 144,
+      "layer": "",
+      "name": "PericoTile",
+      "persistentUuid": "9363cc15-2d6d-4d09-8aaa-cbbc5b5d4431",
+      "width": 144,
+      "x": 64,
+      "y": 64,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 144,
+      "layer": "",
+      "name": "PericoTile",
+      "persistentUuid": "fb2e3e16-8307-4fde-a281-9c4704172944",
+      "width": 144,
+      "x": 208,
+      "y": 64,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 144,
+      "layer": "",
+      "name": "PericoTile",
+      "persistentUuid": "96ed67e6-dd3d-42d1-880a-7374d0ae0fec",
+      "width": 144,
+      "x": 352,
+      "y": 64,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 144,
+      "layer": "",
+      "name": "PericoTile",
+      "persistentUuid": "d3d0ba36-a204-4eb7-aeb1-f44820b0e98b",
+      "width": 144,
+      "x": 496,
+      "y": 64,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 144,
+      "layer": "",
+      "name": "PericoTile",
+      "persistentUuid": "6ce7f251-a284-4e50-811b-ff965f67a477",
+      "width": 144,
+      "x": 496,
+      "y": 207.99998474121094,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 144,
+      "layer": "",
+      "name": "PericoTile",
+      "persistentUuid": "c8e4f2f5-85d5-4652-afef-81101cc8fe30",
+      "width": 144,
+      "x": 352,
+      "y": 207.99998474121094,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 144,
+      "layer": "",
+      "name": "PericoTile",
+      "persistentUuid": "b5c368f2-8356-43b2-9f3a-dec33fbbfc27",
+      "width": 144,
+      "x": 208,
+      "y": 207.99998474121094,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 144.3461456298828,
+      "layer": "",
+      "name": "PericoTile",
+      "persistentUuid": "ea1b14b2-bc1e-45b0-8e6c-639b8e509735",
+      "width": 144,
+      "x": 64,
+      "y": 208,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 144,
+      "layer": "",
+      "name": "PericoTile",
+      "persistentUuid": "04e1d64d-096f-4dda-a693-e8cb784a5f26",
+      "width": 144,
+      "x": 496,
+      "y": 352,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 144,
+      "layer": "",
+      "name": "PericoTile",
+      "persistentUuid": "3f67ce98-59eb-45fa-9098-a296bc41682e",
+      "width": 144,
+      "x": 352,
+      "y": 352,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 144,
+      "layer": "",
+      "name": "PericoTile",
+      "persistentUuid": "78259278-7dce-4b7c-a951-6c9d3d917b53",
+      "width": 144,
+      "x": 208,
+      "y": 352,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 144,
+      "layer": "",
+      "name": "PericoTile",
+      "persistentUuid": "ce995a7e-74c3-453b-a21b-a13366a65515",
+      "width": 144,
+      "x": 64,
+      "y": 352,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 144,
+      "layer": "",
+      "name": "PericoTile",
+      "persistentUuid": "b84e1469-0de6-4986-b74a-fd03b6757e15",
+      "width": 144,
+      "x": 496,
+      "y": 496,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 144,
+      "layer": "",
+      "name": "PericoTile",
+      "persistentUuid": "0622ad4a-e53c-4408-9ea7-a8e8d43f313d",
+      "width": 144,
+      "x": 352,
+      "y": 496,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 144,
+      "layer": "",
+      "name": "PericoTile",
+      "persistentUuid": "5f6de9d5-445f-4013-adb9-f93841b6aedd",
+      "width": 144,
+      "x": 208,
+      "y": 496,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 144,
+      "layer": "",
+      "name": "PericoTile",
+      "persistentUuid": "844de7c6-2a06-4ae3-b7ba-b1d90b57d4a7",
+      "width": 144,
+      "x": 64,
+      "y": 496,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 160,
+      "layer": "",
+      "name": "CafeTable",
+      "persistentUuid": "e3d36c2a-b295-456e-af1f-2073839d3a61",
+      "width": 202.66665649414062,
+      "x": 341.3333435058594,
+      "y": 128,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 160,
+      "layer": "",
+      "name": "LeftColumn",
+      "persistentUuid": "f1b9b8d6-31dd-4b84-af2e-6fe059a87eba",
+      "width": 64,
+      "x": 64,
+      "y": 64,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 160,
+      "layer": "",
+      "name": "LeftColumn",
+      "persistentUuid": "8d9532e9-c00e-4ac3-9b06-ddd230eb1ea4",
+      "width": 64,
+      "x": 64,
+      "y": 256,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 160,
+      "layer": "",
+      "name": "LeftColumn",
+      "persistentUuid": "caeab81a-01a1-4441-a9d4-f77062089f13",
+      "width": 64,
+      "x": 64,
+      "y": 448,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 160,
+      "layer": "",
+      "name": "RightColumn",
+      "persistentUuid": "f7b5b6a3-816d-464d-ab0a-ab3c1b9de53a",
+      "width": 64.00000762939453,
+      "x": 576,
+      "y": 64,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 160,
+      "layer": "",
+      "name": "RightColumn",
+      "persistentUuid": "4f1d6701-12e9-4d32-827d-f3777ff3927f",
+      "width": 64.00000762939453,
+      "x": 576,
+      "y": 256,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 160,
+      "layer": "",
+      "name": "RightColumn",
+      "persistentUuid": "e80de1bf-a328-435e-9b1a-11241ece9308",
+      "width": 64.00000762939453,
+      "x": 576,
+      "y": 448,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 58.18182373046875,
+      "layer": "",
+      "name": "Table",
+      "persistentUuid": "6782694e-6600-486f-8e74-950ae79d32ff",
+      "width": 61.89646530151367,
+      "x": 211.31565856933594,
+      "y": 267.6363830566406,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 43.6363639831543,
+      "layer": "",
+      "name": "WChairFront",
+      "persistentUuid": "de773e0f-1879-40dc-9e62-0e7893e8c0e7",
+      "width": 46.78787612915039,
+      "x": 218.62628173828125,
+      "y": 224,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 43.6363639831543,
+      "layer": "",
+      "name": "WChairBack",
+      "persistentUuid": "8bb3cf03-3278-4319-8055-55b7596b3e06",
+      "width": 46.78787612915039,
+      "x": 219.11363220214844,
+      "y": 325.8182067871094,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 43.6363639831543,
+      "layer": "",
+      "name": "WChairLeft",
+      "persistentUuid": "c10b40fc-7a1a-4aea-8d51-abf94d3818ee",
+      "width": 46.78787612915039,
+      "x": 273.2121276855469,
+      "y": 267.6363830566406,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 43.6363639831543,
+      "layer": "",
+      "name": "WChairRight",
+      "persistentUuid": "b19a89c1-cbb8-4449-9dcf-86f0d2c7a567",
+      "width": 46.78787612915039,
+      "x": 164.0404052734375,
+      "y": 267.6363830566406,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 43.6363639831543,
+      "layer": "",
+      "name": "BChairFront",
+      "persistentUuid": "3bbd6812-5683-45ea-ab0b-7cff322300a7",
+      "width": 46.78787612915039,
+      "x": 218.62628173828125,
+      "y": 416,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 43.6363639831543,
+      "layer": "",
+      "name": "BChairBack",
+      "persistentUuid": "f24a9daf-dde9-4ded-bce2-8b9e7694022d",
+      "width": 46.78787612915039,
+      "x": 218.13890075683594,
+      "y": 517.8182373046875,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 43.6363639831543,
+      "layer": "",
+      "name": "BChairLeft",
+      "persistentUuid": "0f346297-14fa-4d3a-812e-f076ba8a993b",
+      "width": 46.78787612915039,
+      "x": 273.2121276855469,
+      "y": 459.6363525390625,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 43.6363639831543,
+      "layer": "",
+      "name": "BChairRight",
+      "persistentUuid": "ecd73553-a614-4893-a295-3ce3e5785c79",
+      "width": 46.78787612915039,
+      "x": 164.0404052734375,
+      "y": 459.6363525390625,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 58.18182373046875,
+      "layer": "",
+      "name": "Table",
+      "persistentUuid": "ee50e04d-2416-4476-b9e3-16342e6084b4",
+      "width": 62.38383483886719,
+      "x": 210.8282928466797,
+      "y": 459.6363525390625,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 58.18182373046875,
+      "layer": "",
+      "name": "Table",
+      "persistentUuid": "dc450ad2-abd0-4dc7-aaee-d6f78decff5e",
+      "width": 61.89646530151367,
+      "x": 434.82830810546875,
+      "y": 378.18182373046875,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 43.6363639831543,
+      "layer": "",
+      "name": "BChairFront",
+      "persistentUuid": "d3f0628a-fe8d-44db-b8cf-b616b9eec33a",
+      "width": 46.78787612915039,
+      "x": 441.6515197753906,
+      "y": 334.54547119140625,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 43.6363639831543,
+      "layer": "",
+      "name": "BChairLeft",
+      "persistentUuid": "1c00c831-d4b0-480a-bd06-5f305ab9c60c",
+      "width": 46.78787612915039,
+      "x": 497.2121276855469,
+      "y": 378.18182373046875,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 43.6363639831543,
+      "layer": "",
+      "name": "BChairRight",
+      "persistentUuid": "5949fa9b-20c5-4b1a-bff4-c67726f84ba2",
+      "width": 46.78787612915039,
+      "x": 388.0404357910156,
+      "y": 378.18182373046875,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 43.6363639831543,
+      "layer": "",
+      "name": "BChairBack",
+      "persistentUuid": "14846aa7-9fcd-46b3-820b-2cf7a863a19a",
+      "width": 46.78787612915039,
+      "x": 442.138916015625,
+      "y": 436.3636474609375,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "Char",
+      "persistentUuid": "396d9d7d-dc13-4a06-b4f2-66f30fc0375e",
+      "width": 32,
+      "x": 352,
+      "y": 544,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "PericosLogo",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "logo",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\pericos_logo.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "LeftColumn",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Left column",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\column_left.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "RightColumn",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\column_right.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "wall",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\wall.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "CafeTable",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\turo-turo_part.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "PericoTile",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\tile_perico.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Menu",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\menu.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Table",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\table.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "WChairFront",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\Chairs\\white_chair_front.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "WChairLeft",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\Chairs\\white_chair_left.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "WChairRight",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\Chairs\\white_chair_right.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "WChairBack",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\Chairs\\white_chair_back.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "BChairFront",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\Chairs\\black_chair_front.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "BChairBack",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\Chairs\\black_chair_back.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "BChairLeft",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\Chairs\\black_chair_left.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "BChairRight",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\images\\Chairs\\black_chair_right.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "events": [
     {
       "colorB": 228,
@@ -149,6 +1497,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
+    },
     {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"

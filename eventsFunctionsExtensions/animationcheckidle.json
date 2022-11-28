@@ -1,7 +1,6 @@
 {
   "author": "",
   "category": "",
-  "description": "Originally automatically extracted from events of the project",
   "extensionNamespace": "",
   "fullName": "AnimationCheckIdle",
   "helpPath": "",
@@ -10,6 +9,7 @@
   "previewIconUrl": "",
   "shortDescription": "",
   "version": "",
+  "description": "Originally automatically extracted from events of the project",
   "tags": [],
   "authorIds": [],
   "dependencies": [],
@@ -20,7 +20,6 @@
       "functionType": "Action",
       "group": "Animation Checker to Idle",
       "name": "Animation_Checker_to_Idle",
-      "private": false,
       "sentence": "Checks current animation of _PARAM1_, set the animation of _PARAM2_ to face _PARAM1_",
       "events": [
         {
@@ -152,22 +151,14 @@
       ],
       "parameters": [
         {
-          "codeOnly": false,
-          "defaultValue": "",
           "description": "Player",
-          "longDescription": "",
           "name": "Char",
-          "optional": false,
           "supplementaryInformation": "Sprite",
           "type": "objectList"
         },
         {
-          "codeOnly": false,
-          "defaultValue": "",
           "description": "NPC",
-          "longDescription": "",
           "name": "NPC",
-          "optional": false,
           "supplementaryInformation": "Sprite",
           "type": "objectList"
         }

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.7499999999999997,
+    "zoomFactor": 0.38999999999999935,
     "windowMask": false
   },
   "objectsGroups": [
@@ -763,6 +763,21 @@
       "x": -352,
       "y": -288,
       "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1280,
+      "layer": "",
+      "name": "LeftBoundary",
+      "persistentUuid": "7e963fd2-0934-48e3-aa5c-6f4dc7227ec5",
+      "width": 64,
+      "x": -416,
+      "y": -384,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []

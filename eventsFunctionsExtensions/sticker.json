@@ -1,7 +1,6 @@
 {
   "author": "D8H",
   "category": "Movement",
-  "description": "This extension can be useful for:\n* Stick an accessory to a moving object,\n* Animate a skeleton.",
   "extensionNamespace": "",
   "fullName": "Stick objects to others",
   "helpPath": "",
@@ -10,6 +9,7 @@
   "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/sticker-outline.svg",
   "shortDescription": "Behavior to stick objects to other objects - so that they follow the position and rotation of the object they are stuck to.",
   "version": "0.3.4",
+  "description": "This extension can be useful for:\n* Stick an accessory to a moving object,\n* Animate a skeleton.",
   "origin": {
     "identifier": "Sticker",
     "name": "gdevelop-extension-store"
@@ -30,9 +30,7 @@
       "description": "Check if the object is stuck to another object.",
       "fullName": "Is stuck to another object",
       "functionType": "Condition",
-      "group": "",
       "name": "IsStuck",
-      "private": false,
       "sentence": "_PARAM1_ is stuck to _PARAM3_",
       "events": [
         {
@@ -45,33 +43,19 @@
       ],
       "parameters": [
         {
-          "codeOnly": false,
-          "defaultValue": "",
           "description": "Sticker",
-          "longDescription": "",
           "name": "Object",
-          "optional": false,
-          "supplementaryInformation": "",
           "type": "objectList"
         },
         {
-          "codeOnly": false,
-          "defaultValue": "",
           "description": "Sticker behavior",
-          "longDescription": "",
           "name": "Behavior",
-          "optional": false,
           "supplementaryInformation": "Sticker::Sticker",
           "type": "behavior"
         },
         {
-          "codeOnly": false,
-          "defaultValue": "",
           "description": "Basis",
-          "longDescription": "",
           "name": "BasisObject",
-          "optional": false,
-          "supplementaryInformation": "",
           "type": "objectList"
         }
       ],
@@ -86,12 +70,9 @@
       "objectType": "",
       "eventsFunctions": [
         {
-          "description": "",
           "fullName": "",
           "functionType": "Action",
-          "group": "",
           "name": "onCreated",
-          "private": false,
           "sentence": "",
           "events": [
             {
@@ -104,22 +85,13 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Sticker::Sticker",
               "type": "behavior"
             }
@@ -127,12 +99,9 @@
           "objectGroups": []
         },
         {
-          "description": "",
           "fullName": "",
           "functionType": "Action",
-          "group": "",
           "name": "doStepPreEvents",
-          "private": false,
           "sentence": "",
           "events": [
             {
@@ -145,22 +114,13 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Sticker::Sticker",
               "type": "behavior"
             }
@@ -168,12 +128,9 @@
           "objectGroups": []
         },
         {
-          "description": "",
           "fullName": "",
           "functionType": "Action",
-          "group": "",
           "name": "doStepPostEvents",
-          "private": false,
           "sentence": "",
           "events": [
             {
@@ -186,22 +143,13 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Sticker::Sticker",
               "type": "behavior"
             }
@@ -212,9 +160,7 @@
           "description": "Stick on another object.",
           "fullName": "Stick",
           "functionType": "Action",
-          "group": "",
           "name": "Stick",
-          "private": false,
           "sentence": "Stick _PARAM0_ to _PARAM2_",
           "events": [
             {
@@ -227,33 +173,19 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Sticker::Sticker",
               "type": "behavior"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object to stick to",
-              "longDescription": "",
               "name": "BasisObject",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "objectList"
             }
           ],
@@ -263,9 +195,7 @@
           "description": "Unstick from the object it was stuck to.",
           "fullName": "Unstick",
           "functionType": "Action",
-          "group": "",
           "name": "Unstick",
-          "private": false,
           "sentence": "Unstick _PARAM0_",
           "events": [
             {
@@ -278,22 +208,13 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Sticker::Sticker",
               "type": "behavior"
             }
@@ -301,12 +222,9 @@
           "objectGroups": []
         },
         {
-          "description": "",
           "fullName": "",
           "functionType": "Action",
-          "group": "",
           "name": "onDestroy",
-          "private": false,
           "sentence": "",
           "events": [
             {
@@ -319,22 +237,13 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Sticker::Sticker",
               "type": "behavior"
             }
@@ -353,7 +262,8 @@
           "hidden": false,
           "name": "OnlyFollowPosition"
         }
-      ]
+      ],
+      "sharedPropertyDescriptors": []
     }
   ],
   "eventsBasedObjects": []
