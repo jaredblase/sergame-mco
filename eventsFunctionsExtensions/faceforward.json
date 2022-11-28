@@ -1,6 +1,7 @@
 {
   "author": "Tristan Rhodes (https://victrisgames.itch.io/)",
   "category": "Movement",
+  "description": "Set the angle of the object to match the direction of movement. You can customize the speed of the rotation.\n\nThis works with any kind of movement (forces, physics...) as it uses the object center position to compute the rotation of the object.",
   "extensionNamespace": "",
   "fullName": "Face Forward",
   "helpPath": "https://victrisgames.itch.io/extension-faceforward",
@@ -9,7 +10,6 @@
   "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/cart-arrow-right.svg",
   "shortDescription": "Face object towards the direction of movement.",
   "version": "0.1.1",
-  "description": "Set the angle of the object to match the direction of movement. You can customize the speed of the rotation.\n\nThis works with any kind of movement (forces, physics...) as it uses the object center position to compute the rotation of the object.",
   "origin": {
     "identifier": "FaceForward",
     "name": "gdevelop-extension-store"
@@ -33,9 +33,12 @@
       "objectType": "",
       "eventsFunctions": [
         {
+          "description": "",
           "fullName": "",
           "functionType": "Action",
+          "group": "",
           "name": "doStepPostEvents",
+          "private": false,
           "sentence": "",
           "events": [
             {
@@ -193,13 +196,22 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "FaceForward::FaceForward",
               "type": "behavior"
             }
@@ -210,7 +222,9 @@
           "description": "Set rotation speed (degrees per second).  Use \"0\" for immediate turning.",
           "fullName": "Set rotation speed",
           "functionType": "Action",
+          "group": "",
           "name": "SetRotationSpeed",
+          "private": false,
           "sentence": "Set rotation speed of _PARAM0_ to _PARAM2_",
           "events": [
             {
@@ -233,19 +247,33 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "FaceForward::FaceForward",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Rotation Speed",
+              "longDescription": "",
               "name": "RotationSpeed",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -255,7 +283,9 @@
           "description": "Rotation speed (in degrees per second).",
           "fullName": "Rotation speed",
           "functionType": "Expression",
+          "group": "",
           "name": "RotationSpeed",
+          "private": false,
           "sentence": "Rotation speed of _PARAM0_",
           "events": [
             {
@@ -273,18 +303,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "FaceForward::FaceForward",
               "type": "behavior"
             }
@@ -295,7 +331,9 @@
           "description": "Direction the object is moving (in degrees).",
           "fullName": "Movement direction",
           "functionType": "Expression",
+          "group": "",
           "name": "MovementDirection",
+          "private": false,
           "sentence": "",
           "events": [
             {
@@ -313,18 +351,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "FaceForward::FaceForward",
               "type": "behavior"
             }
@@ -373,8 +417,7 @@
           "hidden": true,
           "name": "MovementDirection"
         }
-      ],
-      "sharedPropertyDescriptors": []
+      ]
     }
   ],
   "eventsBasedObjects": []

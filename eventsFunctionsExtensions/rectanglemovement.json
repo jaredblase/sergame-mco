@@ -1,6 +1,7 @@
 {
   "author": "@4ian, Tristan Rhodes (https://victrisgames.itch.io/)",
   "category": "Movement",
+  "description": "Move objects in a rectangular pattern with easing functions from the Tween extension.\n\nIt can be used for:\n- Moveable platforms\n- Enemy movement patterns",
   "extensionNamespace": "",
   "fullName": "Rectangular movement",
   "helpPath": "",
@@ -9,7 +10,6 @@
   "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/shape-rectangle-plus.svg",
   "shortDescription": "Move objects in a rectangular pattern.",
   "version": "1.0.0",
-  "description": "Move objects in a rectangular pattern with easing functions from the Tween extension.\n\nIt can be used for:\n- Moveable platforms\n- Enemy movement patterns",
   "origin": {
     "identifier": "RectangleMovement",
     "name": "gdevelop-extension-store"
@@ -37,9 +37,12 @@
       "objectType": "",
       "eventsFunctions": [
         {
+          "description": "",
           "fullName": "",
           "functionType": "Action",
+          "group": "",
           "name": "onCreated",
+          "private": false,
           "sentence": "",
           "events": [
             {
@@ -201,13 +204,22 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -215,9 +227,12 @@
           "objectGroups": []
         },
         {
+          "description": "",
           "fullName": "",
           "functionType": "Action",
+          "group": "",
           "name": "doStepPreEvents",
+          "private": false,
           "sentence": "",
           "events": [
             {
@@ -336,13 +351,22 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -350,9 +374,12 @@
           "objectGroups": []
         },
         {
+          "description": "",
           "fullName": "",
           "functionType": "Action",
+          "group": "",
           "name": "doStepPostEvents",
+          "private": false,
           "sentence": "",
           "events": [
             {
@@ -426,13 +453,22 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -443,7 +479,9 @@
           "description": "Teleport the object to a corner of the movement rectangle.",
           "fullName": "Teleport at a corner",
           "functionType": "Action",
+          "group": "",
           "name": "TeleportToCorner",
+          "private": false,
           "sentence": "Set the position of _PARAM0_ at the _PARAM2_ of the rectangle loop",
           "events": [
             {
@@ -561,19 +599,32 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Corner",
+              "longDescription": "",
               "name": "Corner",
+              "optional": false,
               "supplementaryInformation": "[\"Top-left corner\",\"Top-right corner\",\"Bottom-left corner\",\"Bottom-right corner\"]",
               "type": "stringWithSelector"
             }
@@ -586,6 +637,7 @@
           "functionType": "Expression",
           "group": "Rectangular movement shape",
           "name": "Perimeter",
+          "private": false,
           "sentence": "",
           "events": [
             {
@@ -603,18 +655,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -625,7 +683,9 @@
           "description": "Return the time the object takes to go through the whole rectangle (in seconds).",
           "fullName": "Loop duration",
           "functionType": "Expression",
+          "group": "",
           "name": "LoopDuration",
+          "private": false,
           "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
           "events": [
             {
@@ -643,18 +703,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -665,7 +731,9 @@
           "description": "Return the time the object takes to go through a horizontal edge (in seconds).",
           "fullName": "Horizontal edge duration",
           "functionType": "Expression",
+          "group": "",
           "name": "HorizontalEdgeDuration",
+          "private": false,
           "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
           "events": [
             {
@@ -683,18 +751,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -705,7 +779,9 @@
           "description": "Return the time the object takes to go through a vertical edge (in seconds).",
           "fullName": "Vertical edge duration",
           "functionType": "Expression",
+          "group": "",
           "name": "VerticalEdgeDuration",
+          "private": false,
           "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
           "events": [
             {
@@ -723,18 +799,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -747,6 +829,7 @@
           "functionType": "Expression",
           "group": "Rectangular movement/Shape",
           "name": "Width",
+          "private": false,
           "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
           "events": [
             {
@@ -764,18 +847,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -788,6 +877,7 @@
           "functionType": "Expression",
           "group": "Rectangular movement/Shape",
           "name": "Height",
+          "private": false,
           "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
           "events": [
             {
@@ -805,18 +895,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -829,6 +925,7 @@
           "functionType": "Expression",
           "group": "Rectangular movement/Shape",
           "name": "Left",
+          "private": false,
           "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
           "events": [
             {
@@ -846,18 +943,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -870,6 +973,7 @@
           "functionType": "Expression",
           "group": "Rectangular movement/Shape",
           "name": "Top",
+          "private": false,
           "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
           "events": [
             {
@@ -887,18 +991,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -911,6 +1021,7 @@
           "functionType": "Expression",
           "group": "Rectangular movement/Shape",
           "name": "Right",
+          "private": false,
           "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
           "events": [
             {
@@ -928,18 +1039,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -952,6 +1069,7 @@
           "functionType": "Expression",
           "group": "Rectangular movement/Shape",
           "name": "Bottom",
+          "private": false,
           "sentence": "Set initial Y of _PARAM0_ to _PARAM2_",
           "events": [
             {
@@ -969,18 +1087,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -993,6 +1117,7 @@
           "functionType": "Action",
           "group": "Rectangular movement shape",
           "name": "SetLeft",
+          "private": false,
           "sentence": "Change the movement left bound of _PARAM0_ to _PARAM2_",
           "events": [
             {
@@ -1026,19 +1151,33 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Value",
+              "longDescription": "",
               "name": "Value",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -1050,6 +1189,7 @@
           "functionType": "Action",
           "group": "Rectangular movement shape",
           "name": "SetTop",
+          "private": false,
           "sentence": "Change the movement top bound of _PARAM0_ to _PARAM2_",
           "events": [
             {
@@ -1083,19 +1223,33 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Value",
+              "longDescription": "",
               "name": "Value",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -1107,6 +1261,7 @@
           "functionType": "Action",
           "group": "Rectangular movement shape",
           "name": "SetRight",
+          "private": false,
           "sentence": "Change the movement right bound of _PARAM0_ to _PARAM2_",
           "events": [
             {
@@ -1129,19 +1284,33 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Value",
+              "longDescription": "",
               "name": "Value",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -1153,6 +1322,7 @@
           "functionType": "Action",
           "group": "Rectangular movement shape",
           "name": "SetBottom",
+          "private": false,
           "sentence": "Change the movement bottom bound of _PARAM0_ to _PARAM2_",
           "events": [
             {
@@ -1175,19 +1345,33 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Value",
+              "longDescription": "",
               "name": "Value",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -1199,6 +1383,7 @@
           "functionType": "Action",
           "group": "Rectangular movement speed",
           "name": "SetHorizontalEdgeDuration",
+          "private": false,
           "sentence": "Change the time _PARAM0_ takes to go through a horizontal edge to _PARAM2_",
           "events": [
             {
@@ -1221,19 +1406,33 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Value",
+              "longDescription": "",
               "name": "Value",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -1245,6 +1444,7 @@
           "functionType": "Action",
           "group": "Rectangular movement speed",
           "name": "SetVerticalEdgeDuration",
+          "private": false,
           "sentence": "Change the time _PARAM0_ takes to go through a vertical edge to _PARAM2_",
           "events": [
             {
@@ -1267,19 +1467,33 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Value",
+              "longDescription": "",
               "name": "Value",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -1291,6 +1505,7 @@
           "functionType": "Action",
           "group": "Rectangular movement speed",
           "name": "SetClockwise",
+          "private": false,
           "sentence": "Use clockwise direction for _PARAM0_: _PARAM2_",
           "events": [
             {
@@ -1347,19 +1562,33 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Clockwise",
+              "longDescription": "",
               "name": "Value",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "yesorno"
             }
           ],
@@ -1371,6 +1600,7 @@
           "functionType": "Action",
           "group": "Rectangular movement speed",
           "name": "SetEasing",
+          "private": false,
           "sentence": "Change the easing of _PARAM0_ to _PARAM2_",
           "events": [
             {
@@ -1393,19 +1623,32 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Easing",
+              "longDescription": "",
               "name": "Easing",
+              "optional": false,
               "supplementaryInformation": "[\"linear\",\"easeInQuad\",\"easeOutQuad\",\"easeInOutQuad\",\"easeInCubic\",\"easeOutCubic\",\"easeInOutCubic\",\"easeInQuart\",\"easeOutQuart\",\"easeInOutQuart\",\"easeInQuint\",\"easeOutQuint\",\"easeInOutQuint\",\"easeInOutSine\",\"easeInExpo\",\"easeOutExpo\",\"easeInOutExpo\",\"easeInCirc\",\"easeOutCirc\",\"easeInOutCirc\",\"easeOutBounce\",\"easeInBack\",\"easeOutBack\",\"easeInOutBack\",\"elastic\",\"swingFromTo\",\"swingFrom\",\"swingTo\",\"bounce\",\"bouncePast\",\"easeFromTo\",\"easeFrom\",\"easeTo\"]",
               "type": "stringWithSelector"
             }
@@ -1416,7 +1659,9 @@
           "description": "Toggle the direction to clockwise or counter-clockwise.",
           "fullName": "Toggle direction",
           "functionType": "Action",
+          "group": "",
           "name": "ToogleClockwise",
+          "private": false,
           "sentence": "Toogle the direction of _PARAM0_",
           "events": [
             {
@@ -1528,13 +1773,22 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -1545,7 +1799,9 @@
           "description": "Check if the object is moving to the left.",
           "fullName": "Is moving left",
           "functionType": "Condition",
+          "group": "",
           "name": "IsMovingLeft",
+          "private": false,
           "sentence": "_PARAM0_ is moving to the left",
           "events": [
             {
@@ -1620,13 +1876,22 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -1637,7 +1902,9 @@
           "description": "Check if the object is moving up.",
           "fullName": "Is moving up",
           "functionType": "Condition",
+          "group": "",
           "name": "IsMovingUp",
+          "private": false,
           "sentence": "_PARAM0_ is moving up",
           "events": [
             {
@@ -1712,13 +1979,22 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -1729,7 +2005,9 @@
           "description": "Object is moving to the right.",
           "fullName": "Is moving right",
           "functionType": "Condition",
+          "group": "",
           "name": "IsMovingRight",
+          "private": false,
           "sentence": "_PARAM0_ is moving to the right",
           "events": [
             {
@@ -1804,13 +2082,22 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -1821,7 +2108,9 @@
           "description": "Check if the object is moving down.",
           "fullName": "Is moving down",
           "functionType": "Condition",
+          "group": "",
           "name": "IsMovingDown",
+          "private": false,
           "sentence": "_PARAM0_ is moving down",
           "events": [
             {
@@ -1896,13 +2185,22 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -1913,7 +2211,9 @@
           "description": "Object is on the left side of the rectangle.",
           "fullName": "Is on left",
           "functionType": "Condition",
+          "group": "",
           "name": "IsOnLeft",
+          "private": false,
           "sentence": "_PARAM0_ is on the left side",
           "events": [
             {
@@ -1944,13 +2244,22 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -1961,7 +2270,9 @@
           "description": "Object is on the top side of the rectangle.",
           "fullName": "Is on top",
           "functionType": "Condition",
+          "group": "",
           "name": "IsOnTop",
+          "private": false,
           "sentence": "_PARAM0_ is on the top side",
           "events": [
             {
@@ -1992,13 +2303,22 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -2009,7 +2329,9 @@
           "description": "Object is on the right side of the rectangle.",
           "fullName": "Is on right",
           "functionType": "Condition",
+          "group": "",
           "name": "IsOnRight",
+          "private": false,
           "sentence": "_PARAM0_ is on the right side",
           "events": [
             {
@@ -2050,13 +2372,22 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -2067,7 +2398,9 @@
           "description": "Object is on the bottom side of the rectangle.",
           "fullName": "Is on bottom",
           "functionType": "Condition",
+          "group": "",
           "name": "IsOnBottom",
+          "private": false,
           "sentence": "_PARAM0_ is on the bottom side",
           "events": [
             {
@@ -2108,13 +2441,22 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -2125,6 +2467,7 @@
           "description": "Return the duration between the top-left vertex and the top-right one.",
           "fullName": "Duration to top right",
           "functionType": "Expression",
+          "group": "",
           "name": "TopRightDuration",
           "private": true,
           "sentence": "",
@@ -2144,18 +2487,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -2166,6 +2515,7 @@
           "description": "Return the duration between the top-left vertex and the bottom-right one.",
           "fullName": "Duration to bottom right",
           "functionType": "Expression",
+          "group": "",
           "name": "BottomRightDuration",
           "private": true,
           "sentence": "",
@@ -2185,18 +2535,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -2207,6 +2563,7 @@
           "description": "Return the duration between the top-left vertex and the bottom-left one.",
           "fullName": "Duration to bottom left",
           "functionType": "Expression",
+          "group": "",
           "name": "BottomLeftDuration",
           "private": true,
           "sentence": "",
@@ -2226,18 +2583,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -2248,6 +2611,7 @@
           "description": "Return the ratio between the covered distance from the last vertex and the edge length (between 0 and 1).",
           "fullName": "Progress on edge",
           "functionType": "Expression",
+          "group": "",
           "name": "EdgeProgress",
           "private": true,
           "sentence": "",
@@ -2292,18 +2656,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -2314,6 +2684,7 @@
           "description": "Return the X position of the current edge origin.",
           "fullName": "Edge origin X",
           "functionType": "Expression",
+          "group": "",
           "name": "EdgeOriginX",
           "private": true,
           "sentence": "",
@@ -2354,18 +2725,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -2376,6 +2753,7 @@
           "description": "Return the Y position of the current edge origin.",
           "fullName": "Edge origin Y",
           "functionType": "Expression",
+          "group": "",
           "name": "EdgeOriginY",
           "private": true,
           "sentence": "",
@@ -2416,18 +2794,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -2438,6 +2822,7 @@
           "description": "Return the X position of the current edge target.",
           "fullName": "Edge target X",
           "functionType": "Expression",
+          "group": "",
           "name": "EdgeTargetY",
           "private": true,
           "sentence": "",
@@ -2478,18 +2863,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -2500,6 +2891,7 @@
           "description": "Return the Y position of the current edge target.",
           "fullName": "Edge target Y",
           "functionType": "Expression",
+          "group": "",
           "name": "EdgeTargetX",
           "private": true,
           "sentence": "",
@@ -2530,18 +2922,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -2552,6 +2950,7 @@
           "description": "Return the time from the top-left vertex.",
           "fullName": "Current time",
           "functionType": "Expression",
+          "group": "",
           "name": "CurrentTime",
           "private": true,
           "sentence": "",
@@ -2571,18 +2970,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -2593,6 +2998,7 @@
           "description": "Return the covered length from the top-left vertex or the bottom-right one.",
           "fullName": "Half Current length",
           "functionType": "Expression",
+          "group": "",
           "name": "HalfCurrentTime",
           "private": true,
           "sentence": "",
@@ -2612,18 +3018,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -2634,6 +3046,7 @@
           "description": "Return the displacement on the X axis from the top-left vertex.",
           "fullName": "Delta X",
           "functionType": "Expression",
+          "group": "",
           "name": "DeltaX",
           "private": true,
           "sentence": "",
@@ -2653,18 +3066,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -2675,6 +3094,7 @@
           "description": "Return the displacement on the Y axis from the top-left vertex.",
           "fullName": "Delta Y",
           "functionType": "Expression",
+          "group": "",
           "name": "DeltaY",
           "private": true,
           "sentence": "",
@@ -2694,18 +3114,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "RectangleMovement::RectangleMovement",
               "type": "behavior"
             }
@@ -2883,8 +3309,7 @@
           "hidden": true,
           "name": "ToogleClockwise"
         }
-      ],
-      "sharedPropertyDescriptors": []
+      ]
     }
   ],
   "eventsBasedObjects": []

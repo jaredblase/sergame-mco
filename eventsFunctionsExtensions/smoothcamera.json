@@ -1,6 +1,7 @@
 {
   "author": "",
   "category": "Camera",
+  "description": "The camera follows an object according to:\n- a frame rate independent catch-up speed to make the scrolling from smooth to strong\n- a maximum speed to do linear following or slow down the camera when teleporting the object\n- a follow-free zone to avoid scrolling on small movements\n- an offset to see further in one direction\n- an extra delay and catch-up speed to give an impression of speed (useful for dash)\n- position forecasting and delay to simulate a cameraman response time\n\nA platformer dedicated behavior allows to switch of settings when the character is in air or on the floor. This can be used to stabilize the camera when jumping.",
   "extensionNamespace": "",
   "fullName": "Smooth Camera",
   "helpPath": "",
@@ -9,7 +10,6 @@
   "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Computers and Hardware/Computers and Hardware_camcoder_gopro_go_pro_camera.svg",
   "shortDescription": "Smoothly scroll to follow an object.",
   "version": "0.2.2",
-  "description": "The camera follows an object according to:\n- a frame rate independent catch-up speed to make the scrolling from smooth to strong\n- a maximum speed to do linear following or slow down the camera when teleporting the object\n- a follow-free zone to avoid scrolling on small movements\n- an offset to see further in one direction\n- an extra delay and catch-up speed to give an impression of speed (useful for dash)\n- position forecasting and delay to simulate a cameraman response time\n\nA platformer dedicated behavior allows to switch of settings when the character is in air or on the floor. This can be used to stabilize the camera when jumping.",
   "origin": {
     "identifier": "SmoothCamera",
     "name": "gdevelop-extension-store"
@@ -33,9 +33,12 @@
       "objectType": "",
       "eventsFunctions": [
         {
+          "description": "",
           "fullName": "",
           "functionType": "Action",
+          "group": "",
           "name": "onCreated",
+          "private": false,
           "sentence": "",
           "events": [
             {
@@ -203,13 +206,22 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             }
@@ -217,9 +229,12 @@
           "objectGroups": []
         },
         {
+          "description": "",
           "fullName": "",
           "functionType": "Action",
+          "group": "",
           "name": "doStepPreEvents",
+          "private": false,
           "sentence": "",
           "events": [
             {
@@ -252,13 +267,22 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             }
@@ -269,7 +293,9 @@
           "description": "Move the camera closer to the object. This action must be called after the object has moved for the frame.",
           "fullName": "Move the camera closer",
           "functionType": "Action",
+          "group": "",
           "name": "MoveCameraCloser",
+          "private": false,
           "sentence": "Move the camera closer to _PARAM0_",
           "events": [
             {
@@ -314,13 +340,22 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             }
@@ -331,6 +366,7 @@
           "description": "Move the camera closer to the object.",
           "fullName": "Do move the camera closer",
           "functionType": "Action",
+          "group": "",
           "name": "DoMoveCameraCloser",
           "private": true,
           "sentence": "Do move the camera closer _PARAM0_",
@@ -704,13 +740,22 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             }
@@ -721,7 +766,9 @@
           "description": "Delay the camera according to a maximum speed and catch up the delay.",
           "fullName": "Wait and catch up",
           "functionType": "Action",
+          "group": "",
           "name": "WaitAndCatchUp",
+          "private": false,
           "sentence": "Delay the camera of _PARAM0_ during: _PARAM2_ seconds according to the maximum speed _PARAM3_;_PARAM4_ seconds and catch up in _PARAM5_ seconds",
           "events": [
             {
@@ -807,34 +854,63 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Waiting duration (in seconds)",
+              "longDescription": "",
               "name": "WaitingDuration",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Waiting maximum camera target speed X",
+              "longDescription": "",
               "name": "WaitingSpeedXMax",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Waiting maximum camera target speed Y",
+              "longDescription": "",
               "name": "WaitingSpeedYMax",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Catch up duration (in seconds)",
+              "longDescription": "",
               "name": "CatchUpDuration",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -844,7 +920,9 @@
           "description": "Draw the targeted and actual camera position.",
           "fullName": "Draw debug",
           "functionType": "Action",
+          "group": "",
           "name": "DrawDebug",
+          "private": false,
           "sentence": "Draw targeted and actual camera position for _PARAM0_ on _PARAM2_",
           "events": [
             {
@@ -1156,19 +1234,32 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Shape painter",
+              "longDescription": "",
               "name": "ShapePainter",
+              "optional": false,
               "supplementaryInformation": "PrimitiveDrawing::Drawer",
               "type": "objectList"
             }
@@ -1181,6 +1272,7 @@
           "functionType": "Action",
           "group": "Camera configuration",
           "name": "SetFollowOnX",
+          "private": false,
           "sentence": "The camera follows _PARAM0_ on X axis: _PARAM2_",
           "events": [
             {
@@ -1227,19 +1319,33 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Follow on X axis",
+              "longDescription": "",
               "name": "FollowOnX",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "yesorno"
             }
           ],
@@ -1251,6 +1357,7 @@
           "functionType": "Action",
           "group": "Camera configuration",
           "name": "SetFollowOnY",
+          "private": false,
           "sentence": "The camera follows _PARAM0_ on Y axis: _PARAM2_",
           "events": [
             {
@@ -1297,19 +1404,33 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Follow on Y axis",
+              "longDescription": "",
               "name": "FollowOnY",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "yesorno"
             }
           ],
@@ -1321,6 +1442,7 @@
           "functionType": "Action",
           "group": "Camera configuration",
           "name": "SetFollowFreeAreaRight",
+          "private": false,
           "sentence": "Change the camera follow free area right border of _PARAM0_: _PARAM2_",
           "events": [
             {
@@ -1343,19 +1465,33 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Follow free area right border",
+              "longDescription": "",
               "name": "SetFollowFreeAreaRight",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -1367,6 +1503,7 @@
           "functionType": "Action",
           "group": "Camera configuration",
           "name": "SetFollowFreeAreaLeft",
+          "private": false,
           "sentence": "Change the camera follow free area left border of _PARAM0_: _PARAM2_",
           "events": [
             {
@@ -1389,19 +1526,33 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Follow free area left border",
+              "longDescription": "",
               "name": "SetFollowFreeAreaLeft",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -1413,6 +1564,7 @@
           "functionType": "Action",
           "group": "Camera configuration",
           "name": "SetFollowFreeAreaTop",
+          "private": false,
           "sentence": "Change the camera follow free area top border of _PARAM0_: _PARAM2_",
           "events": [
             {
@@ -1435,19 +1587,33 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Follow free area top border",
+              "longDescription": "",
               "name": "FollowFreeAreaTop",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -1459,6 +1625,7 @@
           "functionType": "Action",
           "group": "Camera configuration",
           "name": "SetFollowFreeAreaBottom",
+          "private": false,
           "sentence": "Change the camera follow free area bottom border of _PARAM0_: _PARAM2_",
           "events": [
             {
@@ -1481,19 +1648,33 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Follow free area bottom border",
+              "longDescription": "",
               "name": "SetFollowFreeAreaBottom",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -1505,6 +1686,7 @@
           "functionType": "Action",
           "group": "Camera configuration",
           "name": "SetLeftwardSpeedMax",
+          "private": false,
           "sentence": "Change the camera leftward maximum speed of _PARAM0_: _PARAM2_",
           "events": [
             {
@@ -1527,19 +1709,33 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Leftward maximum speed (in ratio per second)",
+              "longDescription": "",
               "name": "Speed",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -1551,6 +1747,7 @@
           "functionType": "Action",
           "group": "Camera configuration",
           "name": "SetRightwardSpeedMax",
+          "private": false,
           "sentence": "Change the camera rightward maximum speed of _PARAM0_: _PARAM2_",
           "events": [
             {
@@ -1573,19 +1770,33 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Rightward maximum speed (in pixels per second)",
+              "longDescription": "",
               "name": "Speed",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -1597,6 +1808,7 @@
           "functionType": "Action",
           "group": "Camera configuration",
           "name": "SetUpwardSpeedMax",
+          "private": false,
           "sentence": "Change the camera upward maximum speed of _PARAM0_: _PARAM2_",
           "events": [
             {
@@ -1619,19 +1831,33 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Upward maximum speed (in pixels per second)",
+              "longDescription": "",
               "name": "Speed",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -1643,6 +1869,7 @@
           "functionType": "Action",
           "group": "Camera configuration",
           "name": "SetDownwardSpeedMax",
+          "private": false,
           "sentence": "Change the camera downward maximum speed of _PARAM0_: _PARAM2_",
           "events": [
             {
@@ -1665,19 +1892,33 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Downward maximum speed (in pixels per second)",
+              "longDescription": "",
               "name": "Speed",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -1689,6 +1930,7 @@
           "functionType": "Action",
           "group": "Camera configuration",
           "name": "SetLeftwardSpeed",
+          "private": false,
           "sentence": "Change the camera leftward catch-up speed of _PARAM0_: _PARAM2_",
           "events": [
             {
@@ -1722,19 +1964,33 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Leftward catch-up speed (in ratio per second)",
+              "longDescription": "",
               "name": "LeftwardSpeed",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -1746,6 +2002,7 @@
           "functionType": "Action",
           "group": "Camera configuration",
           "name": "SetRightwardSpeed",
+          "private": false,
           "sentence": "Change the camera rightward catch-up speed of _PARAM0_: _PARAM2_",
           "events": [
             {
@@ -1779,19 +2036,33 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Rightward catch-up speed (in ratio per second)",
+              "longDescription": "",
               "name": "RightwardSpeed",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -1803,6 +2074,7 @@
           "functionType": "Action",
           "group": "Camera configuration",
           "name": "SetDownwardSpeed",
+          "private": false,
           "sentence": "Change the camera downward catch-up speed of _PARAM0_: _PARAM2_",
           "events": [
             {
@@ -1836,19 +2108,33 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Downward catch-up speed (in ratio per second)",
+              "longDescription": "",
               "name": "DownwardSpeed",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -1860,6 +2146,7 @@
           "functionType": "Action",
           "group": "Camera configuration",
           "name": "SetUpwardSpeed",
+          "private": false,
           "sentence": "Change the camera upward catch-up speed of _PARAM0_: _PARAM2_",
           "events": [
             {
@@ -1893,19 +2180,33 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Upward catch-up speed (in ratio per second)",
+              "longDescription": "",
               "name": "UpwardSpeed",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -1917,6 +2218,7 @@
           "functionType": "Action",
           "group": "Camera configuration",
           "name": "SetOffsetX",
+          "private": false,
           "sentence": "Change the camera offset on X axis of _PARAM0_: _PARAM2_",
           "events": [
             {
@@ -1939,19 +2241,33 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Camera offset X",
+              "longDescription": "",
               "name": "CameraOffsetX",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -1963,6 +2279,7 @@
           "functionType": "Action",
           "group": "Camera configuration",
           "name": "SetOffsetY",
+          "private": false,
           "sentence": "Change the camera offset on Y axis of _PARAM0_: _PARAM2_",
           "events": [
             {
@@ -1985,19 +2302,33 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Camera offset Y",
+              "longDescription": "",
               "name": "CameraOffsetY",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -2009,6 +2340,7 @@
           "functionType": "Action",
           "group": "Camera configuration",
           "name": "SetForecastTime",
+          "private": false,
           "sentence": "Change the camera forecast time of _PARAM0_: _PARAM2_",
           "events": [
             {
@@ -2031,19 +2363,33 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Forecast time",
+              "longDescription": "",
               "name": "ForecastTime",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -2055,6 +2401,7 @@
           "functionType": "Action",
           "group": "Camera configuration",
           "name": "SetCameraDelay",
+          "private": false,
           "sentence": "Change the camera delay of _PARAM0_: _PARAM2_",
           "events": [
             {
@@ -2077,19 +2424,33 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Camera delay",
+              "longDescription": "",
               "name": "CameraDelay",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -2119,18 +2480,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             }
@@ -2161,18 +2528,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             }
@@ -2203,18 +2576,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             }
@@ -2245,18 +2624,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             }
@@ -2910,13 +3295,22 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             }
@@ -2927,6 +3321,7 @@
           "description": "Check if the camera following target is delayed from the object.",
           "fullName": "Camera is delayed",
           "functionType": "Condition",
+          "group": "",
           "name": "IsDelayed",
           "private": true,
           "sentence": "The camera of _PARAM0_ is delayed",
@@ -2959,13 +3354,22 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             }
@@ -2976,6 +3380,7 @@
           "description": "Return the current camera delay.",
           "fullName": "Current delay",
           "functionType": "Expression",
+          "group": "",
           "name": "CurrentDelay",
           "private": true,
           "sentence": "",
@@ -2995,18 +3400,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             }
@@ -3017,6 +3428,7 @@
           "description": "Check if the camera following is waiting at a reduced speed.",
           "fullName": "Camera is waiting",
           "functionType": "Condition",
+          "group": "",
           "name": "IsWaiting",
           "private": true,
           "sentence": "The camera of _PARAM0_ is waiting",
@@ -3050,13 +3462,22 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             }
@@ -3217,29 +3638,53 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Time",
+              "longDescription": "",
               "name": "Time",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object X",
+              "longDescription": "",
               "name": "ObjectX",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object Y",
+              "longDescription": "",
               "name": "ObjectY",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -4163,13 +4608,22 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             }
@@ -4257,34 +4711,63 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "OldestX",
+              "longDescription": "",
               "name": "OldestX",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "OldestY",
+              "longDescription": "",
               "name": "OldestY",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Newest X",
+              "longDescription": "",
               "name": "NewestX",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Newest Y",
+              "longDescription": "",
               "name": "NewestY",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -4314,18 +4797,24 @@
               ]
             }
           ],
-          "expressionType": {
-            "type": "expression"
-          },
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             }
@@ -4814,8 +5303,7 @@
           "hidden": true,
           "name": "IsCalledManually"
         }
-      ],
-      "sharedPropertyDescriptors": []
+      ]
     },
     {
       "description": "Smoothly scroll to follow a character and stabilize the camera when jumping.",
@@ -4824,9 +5312,12 @@
       "objectType": "",
       "eventsFunctions": [
         {
+          "description": "",
           "fullName": "",
           "functionType": "Action",
+          "group": "",
           "name": "doStepPreEvents",
+          "private": false,
           "sentence": "",
           "events": [
             {
@@ -5024,13 +5515,22 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothPlatformerCamera",
               "type": "behavior"
             }
@@ -5193,8 +5693,7 @@
           "hidden": false,
           "name": "FloorDownwardSpeedMax"
         }
-      ],
-      "sharedPropertyDescriptors": []
+      ]
     }
   ],
   "eventsBasedObjects": []

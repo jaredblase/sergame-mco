@@ -1,6 +1,7 @@
 {
   "author": "@4ian",
   "category": "Movement",
+  "description": "Move the object linearly, according to the speed configured on X and Y axis. Useful for simple enemies, bullets or objects following a straight line on the screen.",
   "extensionNamespace": "",
   "fullName": "Linear Movement",
   "helpPath": "",
@@ -9,7 +10,6 @@
   "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/ray-start-arrow.svg",
   "shortDescription": "Move the object linearly, according to the speed configured on X and Y axis. Useful for simple enemies, bullets or objects following a straight line on the screen.",
   "version": "0.0.1",
-  "description": "Move the object linearly, according to the speed configured on X and Y axis. Useful for simple enemies, bullets or objects following a straight line on the screen.",
   "origin": {
     "identifier": "LinearMovement",
     "name": "gdevelop-extension-store"
@@ -32,9 +32,12 @@
       "objectType": "",
       "eventsFunctions": [
         {
+          "description": "",
           "fullName": "",
           "functionType": "Action",
+          "group": "",
           "name": "doStepPreEvents",
+          "private": false,
           "sentence": "",
           "events": [
             {
@@ -57,13 +60,22 @@
           ],
           "parameters": [
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Object",
+              "longDescription": "",
               "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
               "type": "object"
             },
             {
+              "codeOnly": false,
+              "defaultValue": "",
               "description": "Behavior",
+              "longDescription": "",
               "name": "Behavior",
+              "optional": false,
               "supplementaryInformation": "LinearMovement::LinearMovement",
               "type": "behavior"
             }
@@ -92,8 +104,7 @@
           "hidden": false,
           "name": "SpeedY"
         }
-      ],
-      "sharedPropertyDescriptors": []
+      ]
     }
   ],
   "eventsBasedObjects": []
