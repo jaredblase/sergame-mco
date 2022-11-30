@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.1400000000000001,
+    "zoomFactor": 1.0400000000000005,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -411,7 +411,7 @@
               },
               "parameters": [
                 "",
-                "\"Opening\"",
+                "\"BeforeOpening\"",
                 ""
               ]
             }
