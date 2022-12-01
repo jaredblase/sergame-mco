@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.7499999999999997,
+    "zoomFactor": 0.5299999999999994,
     "windowMask": false
   },
   "objectsGroups": [
@@ -100,6 +100,21 @@
         },
         {
           "name": "NewSprite3"
+        },
+        {
+          "name": "BackWall"
+        },
+        {
+          "name": "Gate"
+        },
+        {
+          "name": "SideBench"
+        },
+        {
+          "name": "Bench"
+        },
+        {
+          "name": "RightEntrance"
         }
       ]
     }
@@ -425,13 +440,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 277,
+      "height": 234.5,
       "layer": "",
       "name": "NewSprite",
       "persistentUuid": "a31eca56-ea5a-4d8c-820f-a3bedc3ca29c",
-      "width": 415.5,
-      "x": -159.5,
-      "y": -277,
+      "width": 351.75,
+      "x": 369,
+      "y": -287.5,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -455,13 +470,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 277,
+      "height": 234.5,
       "layer": "",
       "name": "NewSprite3",
       "persistentUuid": "fb2ed710-83a4-4065-bb08-df6d963110ab",
-      "width": 415.5000305175781,
-      "x": 256,
-      "y": -277,
+      "width": 351.7500305175781,
+      "x": 720.75,
+      "y": -287.5,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -763,6 +778,246 @@
       "x": -352,
       "y": -288,
       "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 200,
+      "layer": "",
+      "name": "BackWall",
+      "persistentUuid": "85d707bc-7436-4ed4-b6f6-0f4e1e25392e",
+      "width": 800,
+      "x": -416,
+      "y": -293,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 186,
+      "layer": "",
+      "name": "Gate",
+      "persistentUuid": "fd561365-393c-46b9-923b-7b864d942d5e",
+      "width": 186,
+      "x": -288,
+      "y": -282,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 800,
+      "layer": "",
+      "name": "RightEntrance",
+      "persistentUuid": "e5631905-8a53-4863-8319-31508f9c69a9",
+      "width": 32.478633880615234,
+      "x": 1184,
+      "y": 0,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "",
+      "name": "SideBench",
+      "persistentUuid": "9b9c53c4-3b52-4f94-af7a-5bb9f2a64788",
+      "width": 48,
+      "x": 1129,
+      "y": 28,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "",
+      "name": "SideBench",
+      "persistentUuid": "d93a8509-f918-4090-829d-6ba0337739d0",
+      "width": 48,
+      "x": 1129,
+      "y": 124,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "",
+      "name": "SideBench",
+      "persistentUuid": "d6e3be47-3db6-49f6-90ec-325129fead14",
+      "width": 48,
+      "x": 1129,
+      "y": 461,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "",
+      "name": "SideBench",
+      "persistentUuid": "b19d38ba-5095-4342-b71b-2d3c4f62db04",
+      "width": 48,
+      "x": 1129,
+      "y": 365,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 36.92307662963867,
+      "layer": "",
+      "name": "NewSprite5",
+      "persistentUuid": "4aad3a13-ee73-46ac-95bb-be43ac1fee82",
+      "width": 73.84615325927734,
+      "x": -36.846153259277344,
+      "y": -32,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 36.92307662963867,
+      "layer": "",
+      "name": "NewSprite5",
+      "persistentUuid": "2fb64569-fb6b-438f-94d3-5d74c6cd429f",
+      "width": 73.84615325927734,
+      "x": 91.0769271850586,
+      "y": -36.92307662963867,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 36.92307662963867,
+      "layer": "",
+      "name": "NewSprite5",
+      "persistentUuid": "9afe57da-a545-40f5-a809-1401f35dc05a",
+      "width": 73.84615325927734,
+      "x": 218.15383911132812,
+      "y": -36.92307662963867,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "NewSprite6",
+      "persistentUuid": "8e1b9291-3e5e-4bb1-87c8-c0feae3a5563",
+      "width": 0,
+      "x": -32,
+      "y": -64,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "NewSprite6",
+      "persistentUuid": "fa984d36-f4ce-4679-adfe-57ee35e5d634",
+      "width": 0,
+      "x": 0,
+      "y": -64,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "NewSprite6",
+      "persistentUuid": "38bfe6b0-a6e4-4a26-91ff-bef4a9603ec2",
+      "width": 0,
+      "x": 96,
+      "y": -64,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "NewSprite6",
+      "persistentUuid": "4db9dee2-dbce-4402-aea7-41fc0e82ed73",
+      "width": 0,
+      "x": 128,
+      "y": -64,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "NewSprite6",
+      "persistentUuid": "ce95530d-be1d-4dd0-8f58-adeae95196aa",
+      "width": 0,
+      "x": 224,
+      "y": -64,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "NewSprite6",
+      "persistentUuid": "24e550fc-7c55-42a6-b2e9-758fa08a18a7",
+      "width": 0,
+      "x": 256,
+      "y": -64,
+      "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1612,7 +1867,7 @@
             },
             {
               "type": "string",
-              "value": "We compete in dance competitions!"
+              "value": "We participate in dance competitions outside the campus."
             },
             {
               "folded": true,
@@ -4139,12 +4394,12 @@
     },
     {
       "assetStoreId": "",
-      "height": 128,
+      "height": 20,
       "name": "Tiles",
       "tags": "",
-      "texture": "assets\\images\\tile-1.png",
+      "texture": "stonetiles.png",
       "type": "TiledSpriteObject::TiledSprite",
-      "width": 128,
+      "width": 20,
       "variables": [],
       "effects": [],
       "behaviors": []
@@ -4211,6 +4466,211 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "tarpaulin_stand_green2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "BackWall",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "backwall.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Gate",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gate.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "RightEntrance",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "rightentrance.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "SideBench",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "bench side.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Bench",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "benchshua.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

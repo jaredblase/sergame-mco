@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4100000000000003,
+    "zoomFactor": 0.9500000000000007,
     "windowMask": false
   },
   "objectsGroups": [
@@ -287,7 +287,7 @@
       "name": "LAmb2",
       "persistentUuid": "a5cea8fd-cc85-43c4-a302-f15e290cd5a7",
       "width": 32,
-      "x": 480,
+      "x": 672,
       "y": -640,
       "zOrder": 18,
       "numberProperties": [],
@@ -695,6 +695,21 @@
       "x": 640,
       "y": -704,
       "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "Sign",
+      "persistentUuid": "fdd2536d-6fcb-4fbf-b84b-22b87b5cbc17",
+      "width": 32,
+      "x": 480,
+      "y": -672,
+      "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1166,9 +1181,14 @@
             },
             {
               "type": "string",
-              "value": "I am Kuya Jared! A Lasallian Ambassador under the SLIFE! Ready to serve!"
+              "value": "I am Kuya Jared! A Lasallian Ambassador under the Office of Student LIFE."
             },
             {
+              "type": "string",
+              "value": "We are a group of students who participates in campus tours, ushering, and the LPEP."
+            },
+            {
+              "folded": true,
               "type": "string",
               "value": "I bet it's your first day! Maybe you will need some school supplies."
             },
@@ -1178,13 +1198,8 @@
               "value": "There is a National Bookstore located at the first floor of the Yuchengco building."
             },
             {
-              "folded": true,
               "type": "string",
               "value": "Walk to the right then go up. It has a flight of stairs outside the building."
-            },
-            {
-              "type": "string",
-              "value": "Another LAmb is situated there. She will guide you to the store."
             },
             {
               "type": "string",
@@ -1198,7 +1213,7 @@
           "children": [
             {
               "type": "string",
-              "value": "Go approach the LAmb situated near the Yuchengco building to the far right!"
+              "value": "Go approach the signboard situated near the Yuchengco building to the far right!"
             },
             {
               "type": "string",
@@ -2664,6 +2679,47 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "b91f1d1fac1990a1f75bc2bac9355d8149ecf558486183ac484be93c3a080d76",
+      "name": "Sign",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sign.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [

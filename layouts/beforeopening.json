@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.49999999999999933,
+    "zoomFactor": 0.6799999999999995,
     "windowMask": false
   },
   "objectsGroups": [
@@ -285,7 +285,7 @@
       "name": "MaleCharacter8",
       "persistentUuid": "d2a846ba-fc2b-43e6-8db1-e906486c3cf3",
       "width": 32,
-      "x": 352,
+      "x": 384,
       "y": 512,
       "zOrder": 34,
       "numberProperties": [],
@@ -302,7 +302,7 @@
       "width": 404,
       "x": 204,
       "y": -160.26226806640625,
-      "zOrder": 35,
+      "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -318,6 +318,36 @@
       "x": -64,
       "y": 421.7049255371094,
       "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 512,
+      "layer": "",
+      "name": "NewTiledSprite2",
+      "persistentUuid": "754f175d-9696-47bd-a4a6-99ccf25a9308",
+      "width": 352,
+      "x": 480,
+      "y": -76,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32.74418640136719,
+      "layer": "",
+      "name": "Sign",
+      "persistentUuid": "4ffcf7bf-e07c-4c0d-9c40-b058c2235ae6",
+      "width": 32,
+      "x": 480,
+      "y": 480,
+      "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3424,6 +3454,71 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "fullfrontfloor.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite",
+      "tags": "",
+      "texture": "",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite2",
+      "tags": "",
+      "texture": "NewFile-1-12.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "b91f1d1fac1990a1f75bc2bac9355d8149ecf558486183ac484be93c3a080d76",
+      "name": "Sign",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sign.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

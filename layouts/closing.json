@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.47499999999999937,
+    "zoomFactor": 0.5149999999999993,
     "windowMask": false
   },
   "objectsGroups": [
@@ -378,6 +378,21 @@
       "x": 64,
       "y": 384,
       "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 448,
+      "layer": "",
+      "name": "NewTiledSprite",
+      "persistentUuid": "26e9a233-3ebf-4b73-a2b9-aa48b205d4e1",
+      "width": 288,
+      "x": 512,
+      "y": -192,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2981,47 +2996,6 @@
     },
     {
       "assetStoreId": "",
-      "name": "SouthGate",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "soutgate.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
       "name": "LSHall",
       "tags": "",
       "type": "Sprite",
@@ -3040,7 +3014,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "LS-hall (1).png",
+                  "image": "LS-hall2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3503,6 +3477,18 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite",
+      "tags": "",
+      "texture": "NewFile-1-11.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "events": [

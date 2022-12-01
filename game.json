@@ -1634,15 +1634,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewFile-1-8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewFile-1-8.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Female Character 4_Walking Right_1.png",
         "kind": "image",
         "metadata": "",
@@ -3230,6 +3221,127 @@
         "name": "assets\\Male Character 8_Walking Up_12.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "soutgate (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "soutgate (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fullfrontfloor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fullfrontfloor.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sign.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sign.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Worlds/Desert/Objects/e4efa3a998ec733e40b41bb0f90a07a1f9b68ce13d4d72d1371be8068bdda724_Sign.png",
+          "name": "Sign.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "yuchfloor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "yuchfloor.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "backwall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "backwall.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gate.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "stonetiles.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "stonetiles.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rightentrance.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rightentrance.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bench side.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bench side.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "benchshua.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "benchshua.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
