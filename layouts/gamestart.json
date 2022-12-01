@@ -216,6 +216,10 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"
     },

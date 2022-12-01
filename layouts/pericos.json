@@ -18,22 +18,108 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.2400000000000004,
+    "zoomFactor": 0.8400000000000001,
     "windowMask": false
   },
-  "objectsGroups": [],
-  "variables": [],
+  "objectsGroups": [
+    {
+      "name": "Unpassable",
+      "objects": [
+        {
+          "name": "wall"
+        },
+        {
+          "name": "LeftColumn"
+        },
+        {
+          "name": "RightColumn"
+        },
+        {
+          "name": "Table"
+        },
+        {
+          "name": "WChairFront"
+        },
+        {
+          "name": "WChairLeft"
+        },
+        {
+          "name": "WChairRight"
+        },
+        {
+          "name": "WChairBack"
+        },
+        {
+          "name": "BChairFront"
+        },
+        {
+          "name": "BChairBack"
+        },
+        {
+          "name": "BChairLeft"
+        },
+        {
+          "name": "BChairRight"
+        }
+      ]
+    },
+    {
+      "name": "Student",
+      "objects": [
+        {
+          "name": "Char"
+        }
+      ]
+    },
+    {
+      "name": "Boundaries",
+      "objects": [
+        {
+          "name": "LeftBoundary"
+        },
+        {
+          "name": "RightBoundary"
+        },
+        {
+          "name": "TopBoundary"
+        },
+        {
+          "name": "BottomBoundary"
+        }
+      ]
+    },
+    {
+      "name": "Placeholder",
+      "objects": []
+    },
+    {
+      "name": "Characters",
+      "objects": [
+        {
+          "name": "LAmb2"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "folded": true,
+      "name": "DialogCtr",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "instances": [
     {
       "angle": 0,
       "customSize": true,
-      "height": 832,
+      "height": 1056,
       "layer": "",
       "name": "LeftBoundary",
       "persistentUuid": "ed8c71b5-8c18-4c6a-b7ba-746d9e8bc73b",
-      "width": 32.00001525878906,
-      "x": 127.9999771118164,
-      "y": -192.00001525878906,
+      "width": 44.444461822509766,
+      "x": 0,
+      "y": -448,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -42,13 +128,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 32,
+      "height": 40.61538314819336,
       "layer": "",
       "name": "TopBoundary",
       "persistentUuid": "1f39032b-e6fc-4ed4-82ca-72b1761b909a",
-      "width": 576,
-      "x": 127.99999237060547,
-      "y": -192.00001525878906,
+      "width": 799.9999389648438,
+      "x": 0.000023841856091166846,
+      "y": -448,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -57,13 +143,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 832,
+      "height": 1056,
       "layer": "",
       "name": "RightBoundary",
       "persistentUuid": "b294a96e-317f-4181-867d-4c621b16803a",
-      "width": 31.99999237060547,
-      "x": 672,
-      "y": -192.00001525878906,
+      "width": 44.44443130493164,
+      "x": 755.5555419921875,
+      "y": -448,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -72,13 +158,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 32.00001525878906,
+      "height": 40.61540222167969,
       "layer": "",
       "name": "BottomBoundary",
       "persistentUuid": "add0791d-ebd6-4bb8-b131-b606eae367b6",
-      "width": 576,
-      "x": 127.99999237060547,
-      "y": 608,
+      "width": 799.9999389648438,
+      "x": 0.000023841856091166846,
+      "y": 567.3845825195312,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -87,13 +173,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 256,
+      "height": 324.9230651855469,
       "layer": "",
       "name": "wall",
       "persistentUuid": "dbcb2d8d-7f20-412a-b051-7704d419995f",
-      "width": 576,
-      "x": 127.99999237060547,
-      "y": -192.00001525878906,
+      "width": 799.9999389648438,
+      "x": 0.000023841856091166846,
+      "y": -448,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -102,13 +188,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "height": 162.46153259277344,
       "layer": "",
       "name": "PericosLogo",
       "persistentUuid": "8a72355f-ba7d-4469-9d54-be365f1866f8",
-      "width": 192,
-      "x": 224,
-      "y": -128.00001525878906,
+      "width": 266.6666564941406,
+      "x": 133.33335876464844,
+      "y": -366.76922607421875,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -117,13 +203,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "height": 162.46153259277344,
       "layer": "",
       "name": "Menu",
       "persistentUuid": "4d652856-5573-4d42-82d8-23d9d129cbe2",
-      "width": 128,
-      "x": 480,
-      "y": -128.00001525878906,
+      "width": 177.77777099609375,
+      "x": 488.888916015625,
+      "y": -366.76922607421875,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -132,13 +218,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 144,
+      "height": 182.76922607421875,
       "layer": "",
       "name": "PericoTile",
       "persistentUuid": "9363cc15-2d6d-4d09-8aaa-cbbc5b5d4431",
-      "width": 144,
-      "x": 127.99999237060547,
-      "y": 63.99998474121094,
+      "width": 199.99998474121094,
+      "x": 0.000023841856091166846,
+      "y": -123.07694244384766,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -147,13 +233,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 144,
+      "height": 182.76922607421875,
       "layer": "",
       "name": "PericoTile",
       "persistentUuid": "fb2e3e16-8307-4fde-a281-9c4704172944",
-      "width": 144,
-      "x": 272,
-      "y": 63.99998474121094,
+      "width": 199.99998474121094,
+      "x": 200.00003051757812,
+      "y": -123.07694244384766,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -162,13 +248,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 144,
+      "height": 182.76922607421875,
       "layer": "",
       "name": "PericoTile",
       "persistentUuid": "96ed67e6-dd3d-42d1-880a-7374d0ae0fec",
-      "width": 144,
-      "x": 416,
-      "y": 63.99998474121094,
+      "width": 199.99998474121094,
+      "x": 400.0000305175781,
+      "y": -123.07694244384766,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -177,13 +263,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 144,
+      "height": 182.76922607421875,
       "layer": "",
       "name": "PericoTile",
       "persistentUuid": "d3d0ba36-a204-4eb7-aeb1-f44820b0e98b",
-      "width": 144,
-      "x": 560,
-      "y": 63.99998474121094,
+      "width": 199.99998474121094,
+      "x": 600,
+      "y": -123.07694244384766,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -192,13 +278,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 144,
+      "height": 182.76922607421875,
       "layer": "",
       "name": "PericoTile",
       "persistentUuid": "6ce7f251-a284-4e50-811b-ff965f67a477",
-      "width": 144,
-      "x": 560,
-      "y": 207.99996948242188,
+      "width": 199.99998474121094,
+      "x": 600,
+      "y": 59.69224548339844,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -207,13 +293,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 144,
+      "height": 182.76922607421875,
       "layer": "",
       "name": "PericoTile",
       "persistentUuid": "c8e4f2f5-85d5-4652-afef-81101cc8fe30",
-      "width": 144,
-      "x": 416,
-      "y": 207.99996948242188,
+      "width": 199.99998474121094,
+      "x": 400.0000305175781,
+      "y": 59.69224548339844,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -222,13 +308,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 144,
+      "height": 182.76922607421875,
       "layer": "",
       "name": "PericoTile",
       "persistentUuid": "b5c368f2-8356-43b2-9f3a-dec33fbbfc27",
-      "width": 144,
-      "x": 272,
-      "y": 207.99996948242188,
+      "width": 199.99998474121094,
+      "x": 200.00003051757812,
+      "y": 59.69224548339844,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -237,13 +323,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 144.3461456298828,
+      "height": 183.20855712890625,
       "layer": "",
       "name": "PericoTile",
       "persistentUuid": "ea1b14b2-bc1e-45b0-8e6c-639b8e509735",
-      "width": 144,
-      "x": 127.99999237060547,
-      "y": 207.99998474121094,
+      "width": 199.99998474121094,
+      "x": 0.000023841856091166846,
+      "y": 59.692264556884766,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -252,13 +338,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 144,
+      "height": 182.76922607421875,
       "layer": "",
       "name": "PericoTile",
       "persistentUuid": "04e1d64d-096f-4dda-a693-e8cb784a5f26",
-      "width": 144,
-      "x": 560,
-      "y": 352,
+      "width": 199.99998474121094,
+      "x": 600,
+      "y": 242.46153259277344,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -267,13 +353,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 144,
+      "height": 182.76922607421875,
       "layer": "",
       "name": "PericoTile",
       "persistentUuid": "3f67ce98-59eb-45fa-9098-a296bc41682e",
-      "width": 144,
-      "x": 416,
-      "y": 352,
+      "width": 199.99998474121094,
+      "x": 400.0000305175781,
+      "y": 242.46153259277344,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -282,13 +368,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 144,
+      "height": 182.76922607421875,
       "layer": "",
       "name": "PericoTile",
       "persistentUuid": "78259278-7dce-4b7c-a951-6c9d3d917b53",
-      "width": 144,
-      "x": 272,
-      "y": 352,
+      "width": 199.99998474121094,
+      "x": 200.00003051757812,
+      "y": 242.46153259277344,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -297,13 +383,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 144,
+      "height": 182.76922607421875,
       "layer": "",
       "name": "PericoTile",
       "persistentUuid": "ce995a7e-74c3-453b-a21b-a13366a65515",
-      "width": 144,
-      "x": 127.99999237060547,
-      "y": 352,
+      "width": 199.99998474121094,
+      "x": 0.000023841856091166846,
+      "y": 242.46153259277344,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -312,13 +398,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 144,
+      "height": 182.76922607421875,
       "layer": "",
       "name": "PericoTile",
       "persistentUuid": "b84e1469-0de6-4986-b74a-fd03b6757e15",
-      "width": 144,
-      "x": 560,
-      "y": 496,
+      "width": 199.99998474121094,
+      "x": 600,
+      "y": 425.230712890625,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -327,13 +413,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 144,
+      "height": 182.76922607421875,
       "layer": "",
       "name": "PericoTile",
       "persistentUuid": "0622ad4a-e53c-4408-9ea7-a8e8d43f313d",
-      "width": 144,
-      "x": 416,
-      "y": 496,
+      "width": 199.99998474121094,
+      "x": 400.0000305175781,
+      "y": 425.230712890625,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -342,13 +428,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 144,
+      "height": 182.76922607421875,
       "layer": "",
       "name": "PericoTile",
       "persistentUuid": "5f6de9d5-445f-4013-adb9-f93841b6aedd",
-      "width": 144,
-      "x": 272,
-      "y": 496,
+      "width": 199.99998474121094,
+      "x": 200.00003051757812,
+      "y": 425.230712890625,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -357,13 +443,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 144,
+      "height": 182.76922607421875,
       "layer": "",
       "name": "PericoTile",
       "persistentUuid": "844de7c6-2a06-4ae3-b7ba-b1d90b57d4a7",
-      "width": 144,
-      "x": 127.99999237060547,
-      "y": 496,
+      "width": 199.99998474121094,
+      "x": 0.000023841856091166846,
+      "y": 425.230712890625,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -372,13 +458,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 160,
+      "height": 203.076904296875,
       "layer": "",
       "name": "CafeTable",
       "persistentUuid": "e3d36c2a-b295-456e-af1f-2073839d3a61",
-      "width": 202.66665649414062,
-      "x": 405.3333435058594,
-      "y": 127.99998474121094,
+      "width": 281.4814453125,
+      "x": 385.1852111816406,
+      "y": -41.8461799621582,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -387,13 +473,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 160,
+      "height": 203.076904296875,
       "layer": "",
       "name": "LeftColumn",
       "persistentUuid": "f1b9b8d6-31dd-4b84-af2e-6fe059a87eba",
-      "width": 64,
-      "x": 127.99999237060547,
-      "y": 63.99998474121094,
+      "width": 88.88888549804688,
+      "x": 0.000023841856091166846,
+      "y": -123.07694244384766,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -402,13 +488,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 160,
+      "height": 203.076904296875,
       "layer": "",
       "name": "LeftColumn",
       "persistentUuid": "8d9532e9-c00e-4ac3-9b06-ddd230eb1ea4",
-      "width": 64,
-      "x": 127.99999237060547,
-      "y": 255.99998474121094,
+      "width": 88.88888549804688,
+      "x": 0.000023841856091166846,
+      "y": 120.61534118652344,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -417,13 +503,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 160,
+      "height": 203.076904296875,
       "layer": "",
       "name": "LeftColumn",
       "persistentUuid": "caeab81a-01a1-4441-a9d4-f77062089f13",
-      "width": 64,
-      "x": 127.99999237060547,
-      "y": 448,
+      "width": 88.88888549804688,
+      "x": 0.000023841856091166846,
+      "y": 364.3076477050781,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -432,13 +518,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 160,
+      "height": 203.076904296875,
       "layer": "",
       "name": "RightColumn",
       "persistentUuid": "f7b5b6a3-816d-464d-ab0a-ab3c1b9de53a",
-      "width": 64.00000762939453,
-      "x": 640,
-      "y": 63.99998474121094,
+      "width": 88.8888931274414,
+      "x": 711.111083984375,
+      "y": -123.07694244384766,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -447,13 +533,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 160,
+      "height": 203.076904296875,
       "layer": "",
       "name": "RightColumn",
       "persistentUuid": "4f1d6701-12e9-4d32-827d-f3777ff3927f",
-      "width": 64.00000762939453,
-      "x": 640,
-      "y": 255.99998474121094,
+      "width": 88.8888931274414,
+      "x": 711.111083984375,
+      "y": 120.61534118652344,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -462,13 +548,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 160,
+      "height": 203.076904296875,
       "layer": "",
       "name": "RightColumn",
       "persistentUuid": "e80de1bf-a328-435e-9b1a-11241ece9308",
-      "width": 64.00000762939453,
-      "x": 640,
-      "y": 448,
+      "width": 88.8888931274414,
+      "x": 711.111083984375,
+      "y": 364.3076477050781,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -477,13 +563,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 58.18182373046875,
+      "height": 73.84616088867188,
       "layer": "",
       "name": "Table",
       "persistentUuid": "6782694e-6600-486f-8e74-950ae79d32ff",
-      "width": 61.89646530151367,
-      "x": 275.3156433105469,
-      "y": 267.6363525390625,
+      "width": 85.9673080444336,
+      "x": 204.60508728027344,
+      "y": 135.38458251953125,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -492,13 +578,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 43.6363639831543,
+      "height": 55.384613037109375,
       "layer": "",
       "name": "WChairFront",
       "persistentUuid": "de773e0f-1879-40dc-9e62-0e7893e8c0e7",
-      "width": 46.78787612915039,
-      "x": 282.62628173828125,
-      "y": 223.99998474121094,
+      "width": 64.983154296875,
+      "x": 214.75875854492188,
+      "y": 79.99996948242188,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -507,13 +593,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 43.6363639831543,
+      "height": 55.384613037109375,
       "layer": "",
       "name": "WChairBack",
       "persistentUuid": "8bb3cf03-3278-4319-8055-55b7596b3e06",
-      "width": 46.78787612915039,
-      "x": 283.1136169433594,
-      "y": 325.81817626953125,
+      "width": 64.983154296875,
+      "x": 215.4355926513672,
+      "y": 209.23074340820312,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -522,13 +608,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 43.6363639831543,
+      "height": 55.384613037109375,
       "layer": "",
       "name": "WChairLeft",
       "persistentUuid": "c10b40fc-7a1a-4aea-8d51-abf94d3818ee",
-      "width": 46.78787612915039,
-      "x": 337.2121276855469,
-      "y": 267.6363525390625,
+      "width": 64.983154296875,
+      "x": 290.57244873046875,
+      "y": 135.38458251953125,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -537,13 +623,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 43.6363639831543,
+      "height": 55.384613037109375,
       "layer": "",
       "name": "WChairRight",
       "persistentUuid": "b19a89c1-cbb8-4449-9dcf-86f0d2c7a567",
-      "width": 46.78787612915039,
-      "x": 228.0404052734375,
-      "y": 267.6363525390625,
+      "width": 64.983154296875,
+      "x": 138.94503784179688,
+      "y": 135.38458251953125,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -552,13 +638,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 43.6363639831543,
+      "height": 55.384613037109375,
       "layer": "",
       "name": "BChairFront",
       "persistentUuid": "3bbd6812-5683-45ea-ab0b-7cff322300a7",
-      "width": 46.78787612915039,
-      "x": 282.62628173828125,
-      "y": 416,
+      "width": 64.983154296875,
+      "x": 214.75875854492188,
+      "y": 323.6922912597656,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -567,13 +653,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 43.6363639831543,
+      "height": 55.384613037109375,
       "layer": "",
       "name": "BChairBack",
       "persistentUuid": "f24a9daf-dde9-4ded-bce2-8b9e7694022d",
-      "width": 46.78787612915039,
-      "x": 282.1388854980469,
-      "y": 517.8182373046875,
+      "width": 64.983154296875,
+      "x": 214.08180236816406,
+      "y": 452.92315673828125,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -582,13 +668,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 43.6363639831543,
+      "height": 55.384613037109375,
       "layer": "",
       "name": "BChairLeft",
       "persistentUuid": "0f346297-14fa-4d3a-812e-f076ba8a993b",
-      "width": 46.78787612915039,
-      "x": 337.2121276855469,
-      "y": 459.6363525390625,
+      "width": 64.983154296875,
+      "x": 290.57244873046875,
+      "y": 379.076904296875,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -597,13 +683,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 43.6363639831543,
+      "height": 55.384613037109375,
       "layer": "",
       "name": "BChairRight",
       "persistentUuid": "ecd73553-a614-4893-a295-3ce3e5785c79",
-      "width": 46.78787612915039,
-      "x": 228.0404052734375,
-      "y": 459.6363525390625,
+      "width": 64.983154296875,
+      "x": 138.94503784179688,
+      "y": 379.076904296875,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -612,13 +698,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 58.18182373046875,
+      "height": 73.84616088867188,
       "layer": "",
       "name": "Table",
       "persistentUuid": "ee50e04d-2416-4476-b9e3-16342e6084b4",
-      "width": 62.38383483886719,
-      "x": 274.8282775878906,
-      "y": 459.6363525390625,
+      "width": 86.64421081542969,
+      "x": 203.9281768798828,
+      "y": 379.076904296875,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -627,13 +713,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 58.18182373046875,
+      "height": 73.84616088867188,
       "layer": "",
       "name": "Table",
       "persistentUuid": "dc450ad2-abd0-4dc7-aaee-d6f78decff5e",
-      "width": 61.89646530151367,
-      "x": 498.82830810546875,
-      "y": 378.18182373046875,
+      "width": 85.9673080444336,
+      "x": 515.039306640625,
+      "y": 275.69232177734375,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -642,13 +728,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 43.6363639831543,
+      "height": 55.384613037109375,
       "layer": "",
       "name": "BChairFront",
       "persistentUuid": "d3f0628a-fe8d-44db-b8cf-b616b9eec33a",
-      "width": 46.78787612915039,
-      "x": 505.6515197753906,
-      "y": 334.54547119140625,
+      "width": 64.983154296875,
+      "x": 524.5160522460938,
+      "y": 220.30770874023438,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -657,13 +743,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 43.6363639831543,
+      "height": 55.384613037109375,
       "layer": "",
       "name": "BChairLeft",
       "persistentUuid": "1c00c831-d4b0-480a-bd06-5f305ab9c60c",
-      "width": 46.78787612915039,
-      "x": 561.2120971679688,
-      "y": 378.18182373046875,
+      "width": 64.983154296875,
+      "x": 601.6834106445312,
+      "y": 275.69232177734375,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -672,13 +758,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 43.6363639831543,
+      "height": 55.384613037109375,
       "layer": "",
       "name": "BChairRight",
       "persistentUuid": "5949fa9b-20c5-4b1a-bff4-c67726f84ba2",
-      "width": 46.78787612915039,
-      "x": 452.0404357910156,
-      "y": 378.18182373046875,
+      "width": 64.983154296875,
+      "x": 450.0561828613281,
+      "y": 275.69232177734375,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -687,13 +773,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 43.6363639831543,
+      "height": 55.384613037109375,
       "layer": "",
       "name": "BChairBack",
       "persistentUuid": "14846aa7-9fcd-46b3-820b-2cf7a863a19a",
-      "width": 46.78787612915039,
-      "x": 506.138916015625,
-      "y": 436.3636474609375,
+      "width": 64.983154296875,
+      "x": 525.1929321289062,
+      "y": 349.5384826660156,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -702,14 +788,97 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 32,
+      "height": 44,
       "layer": "",
       "name": "Char",
-      "persistentUuid": "396d9d7d-dc13-4a06-b4f2-66f30fc0375e",
-      "width": 32,
-      "x": 448,
-      "y": 544,
+      "persistentUuid": "b18460e0-e20c-4ace-86b7-fae16bbb08f3",
+      "width": 49.999996185302734,
+      "x": 350.0000305175781,
+      "y": 343.9999694824219,
       "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 44,
+      "layer": "",
+      "name": "LAmb2",
+      "persistentUuid": "bc20774c-bb55-4d4d-bb5b-4747876a4aac",
+      "width": 49.999996185302734,
+      "x": 450.0000305175781,
+      "y": 343.9999694824219,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Dialog1",
+          "type": "array",
+          "children": [
+            {
+              "type": "string",
+              "value": "Welcome to Pericos!"
+            },
+            {
+              "type": "string",
+              "value": "This is one of the many places that \nDLSU has when it comes to food."
+            },
+            {
+              "type": "string",
+              "value": "Go ahead check the area out!"
+            },
+            {
+              "type": "string",
+              "value": "Enjoy! Animo La Salle!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 31.624998092651367,
+      "layer": "",
+      "name": "Dialogue",
+      "persistentUuid": "55bf790c-c517-40a7-9b81-4055da985e83",
+      "width": 9.374999046325684,
+      "x": 350.0000305175781,
+      "y": 475.9999694824219,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 165,
+      "layer": "",
+      "name": "TextBox",
+      "persistentUuid": "4e3ed015-cf4c-483e-a1cb-db16f40e776c",
+      "width": 448,
+      "x": 192,
+      "y": 398.9999694824219,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Dialogue",
+      "persistentUuid": "4beb5f70-86b9-4096-af8c-bd86389b0981",
+      "width": 0,
+      "x": 256,
+      "y": 448,
+      "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -899,13 +1068,13 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\images\\turo-turo_part.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 0.47263070940971375,
+                    "y": 0.09558823704719543
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -913,7 +1082,48 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 160,
+                        "y": 0
+                      },
+                      {
+                        "x": 160,
+                        "y": 48.01715850830078
+                      },
+                      {
+                        "x": 128.2634735107422,
+                        "y": 47.67728805541992
+                      },
+                      {
+                        "x": 0,
+                        "y": 48.357025146484375
+                      }
+                    ],
+                    [
+                      {
+                        "x": 128.2634735107422,
+                        "y": 0
+                      },
+                      {
+                        "x": 160,
+                        "y": 0
+                      },
+                      {
+                        "x": 160,
+                        "y": 112
+                      },
+                      {
+                        "x": 129.96282958984375,
+                        "y": 112
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1470,6 +1680,469 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Student",
+            "Characters",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Student",
+            "Placeholder",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Student",
+            "Boundaries",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AlignObject::ToSceneCentered"
+          },
+          "parameters": [
+            "",
+            "TransitionText",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Student",
+            "Placeholder",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Boundaries"
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Student",
+            "Unpassable",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Char",
+            "CafeTable",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Student",
+            "CafeTable",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteObject::SetOpacity"
+          },
+          "parameters": [
+            "TransitionBG",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::Opacity"
+          },
+          "parameters": [
+            "TransitionText",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceVers"
+          },
+          "parameters": [
+            "LAmb2",
+            "Char",
+            "200",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Dialogues\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "Char",
+            "isStationary",
+            "True"
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 35,
+      "colorG": 166,
+      "colorR": 245,
+      "creationTime": 0,
+      "name": "LAmb2 Dialog",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Char",
+                "LAmb2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "DialogCtr",
+                "!=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "SceneCtr",
+                "False"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Char",
+                "\"Walking Right\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Dialogues\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "LAmb2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "LAmb2",
+                "\"Idle Left\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AutoTyping::Text_AutoTyping::IsCharacterJustAdded"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "Text_AutoTyping",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "typewriter.wav",
+                    "",
+                    "5",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                      },
+                      "parameters": [
+                        "Dialogue",
+                        "Text_AutoTyping",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "DialogCtr",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                      },
+                      "parameters": [
+                        "Dialogue",
+                        "Text_AutoTyping",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AutoTyping::Text_AutoTyping::SkipToEnd"
+                      },
+                      "parameters": [
+                        "Dialogue",
+                        "Text_AutoTyping",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "DialogCtr",
+                    ">=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "DialogCtr",
+                    "<",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "=",
+                    "LAmb2.VariableString(Dialog1[Variable(DialogCtr)])"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "DialogCtr",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialogues\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "DialogCtr",
+                    "=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Char",
+                    "isStationary",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SceneCtr",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "LAmb2",
+                    "\"Idle \""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     }
   ],
   "layers": [
@@ -1493,6 +2166,17 @@
           "width": 0
         }
       ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 13149792,
+      "ambientLightColorG": 6054000,
+      "ambientLightColorR": 9224888,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Dialogues",
+      "visibility": true,
+      "cameras": [],
       "effects": []
     }
   ],

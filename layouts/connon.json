@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5099999999999988,
+    "zoomFactor": 0.6499999999999989,
     "windowMask": false
   },
   "objectsGroups": [
@@ -4832,6 +4832,7 @@
       "colorG": 166,
       "colorR": 245,
       "creationTime": 0,
+      "folded": true,
       "name": "LAmb2 Dialog after Task",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5616,6 +5617,7 @@
       "colorG": 19,
       "colorR": 144,
       "creationTime": 0,
+      "folded": true,
       "name": "NPC1Dialog",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6078,6 +6080,7 @@
       "colorG": 19,
       "colorR": 144,
       "creationTime": 0,
+      "folded": true,
       "name": "NPC2",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
