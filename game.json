@@ -3440,9 +3440,9 @@
           "CurrentCharacter": ""
         }
       ],
-      "string": "",
+      "string": "text",
       "font": "",
-      "characterSize": 20,
+      "characterSize": 17,
       "color": {
         "b": 0,
         "g": 0,
@@ -4667,44 +4667,6 @@
           ]
         }
       ]
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "TransitionText",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "You were escorted to the Amphitheater...",
-      "font": "VCR_OSD_MONO_1.001.ttf",
-      "characterSize": 50,
-      "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bottomMargin": 0,
-      "height": 32,
-      "leftMargin": 0,
-      "name": "TransitionBG",
-      "rightMargin": 0,
-      "tags": "",
-      "texture": "NewFile-1-7.png",
-      "tiled": true,
-      "topMargin": 0,
-      "type": "PanelSpriteObject::PanelSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
     }
   ],
   "objectsGroups": [],
