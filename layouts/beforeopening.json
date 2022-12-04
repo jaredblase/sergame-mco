@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.6799999999999995,
+    "zoomFactor": 0.5549999999999994,
     "windowMask": false
   },
   "objectsGroups": [
@@ -77,98 +77,42 @@
           "name": "LAmb2"
         }
       ]
+    },
+    {
+      "name": "Signboards",
+      "objects": [
+        {
+          "name": "Sign"
+        }
+      ]
     }
   ],
   "variables": [
     {
       "folded": true,
-      "name": "DialogCtr",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "folded": true,
-      "name": "Dialog2Ctr",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "folded": true,
-      "name": "Dialog3Ctr",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "folded": true,
-      "name": "WrongBuilding",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "folded": true,
-      "name": "SceneCtr",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "folded": true,
-      "name": "InteractionCtr",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "folded": true,
-      "name": "LSDCCtr",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "folded": true,
-      "name": "GGFMCtr",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "folded": true,
-      "name": "CSOCtr",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "folded": true,
-      "name": "ANCtr",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "folded": true,
-      "name": "LSDC_done_talk",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "folded": true,
-      "name": "GGFM_done_talk",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "folded": true,
-      "name": "CSO_done_talk",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "folded": true,
-      "name": "ANyes_done_talk",
-      "type": "boolean",
-      "value": false
-    },
-    {
-      "folded": true,
       "name": "IsNextScene",
       "type": "boolean",
       "value": false
+    },
+    {
+      "folded": true,
+      "name": "SignCtr",
+      "type": "number",
+      "value": -1
+    },
+    {
+      "name": "Variable",
+      "type": "array",
+      "children": [
+        {
+          "type": "string",
+          "value": "Welcome to the South Gate!"
+        },
+        {
+          "type": "string",
+          "value": "Your new adventure begins here!"
+        }
+      ]
     }
   ],
   "instances": [
@@ -180,7 +124,7 @@
       "name": "LeftBoundary",
       "persistentUuid": "ef7013c7-76e9-4a3e-8674-2a7706b5dedb",
       "width": 64,
-      "x": -416,
+      "x": -32,
       "y": -384,
       "zOrder": 6,
       "numberProperties": [],
@@ -195,7 +139,7 @@
       "name": "RightBoundary",
       "persistentUuid": "a58e5740-b3bd-4882-b718-a2c23fdccf3f",
       "width": 64,
-      "x": 1216,
+      "x": 800,
       "y": -384,
       "zOrder": 7,
       "numberProperties": [],
@@ -210,8 +154,8 @@
       "name": "TopBoundary",
       "persistentUuid": "94dad71c-25ae-4d28-9e1f-5914721c37d2",
       "width": 1696,
-      "x": -416,
-      "y": -384,
+      "x": -448,
+      "y": -64,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -226,7 +170,7 @@
       "persistentUuid": "072b35ac-5266-42eb-a694-4ffd0a080928",
       "width": 1696,
       "x": -416,
-      "y": 800,
+      "y": 608,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -340,17 +284,24 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 32.74418640136719,
+      "height": 32,
       "layer": "",
       "name": "Sign",
-      "persistentUuid": "4ffcf7bf-e07c-4c0d-9c40-b058c2235ae6",
+      "persistentUuid": "489043c1-4233-4cad-b280-642cf27bda52",
       "width": 32,
-      "x": 480,
+      "x": 384,
       "y": 480,
-      "zOrder": 37,
+      "zOrder": 41,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "ID",
+          "type": "number",
+          "value": 0
+        }
+      ]
     }
   ],
   "objects": [
@@ -3497,47 +3448,6 @@
       "variables": [],
       "effects": [],
       "behaviors": []
-    },
-    {
-      "assetStoreId": "b91f1d1fac1990a1f75bc2bac9355d8149ecf558486183ac484be93c3a080d76",
-      "name": "Sign",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.02500000037252903,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Sign.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "events": [
@@ -3546,6 +3456,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Game Environment",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3606,6 +3517,22 @@
               "actions": [
                 {
                   "type": {
+                    "value": "AlignObject::ToSceneCentered"
+                  },
+                  "parameters": [
+                    "",
+                    "TransitionText",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
                     "value": "ClampCamera"
                   },
                   "parameters": [
@@ -3657,6 +3584,16 @@
           "parameters": [
             "Student",
             "Boundaries",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Student",
+            "Signboards",
             ""
           ]
         },
@@ -3721,6 +3658,27 @@
             "TransitionText",
             "=",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Dialogues\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "05 Welcome to the World of Pokémon!.mp3",
+            "yes",
+            "5",
+            ""
           ]
         }
       ]
@@ -4434,7 +4392,7 @@
               },
               "parameters": [
                 "MaleCharacter8",
-                "SouthGateNoTiles",
+                "Sign",
                 "",
                 "",
                 ""
@@ -4569,7 +4527,17 @@
           ]
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"Transition\""
+          ]
+        }
+      ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Repeat",
