@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4249999999999986,
+    "zoomFactor": 0.6249999999999988,
     "windowMask": false
   },
   "objectsGroups": [
@@ -507,7 +507,7 @@
       "name": "Sign",
       "persistentUuid": "df9b0c53-bf0b-46ac-8d78-bc5c4a79938f",
       "width": 32,
-      "x": 832,
+      "x": 800,
       "y": 224,
       "zOrder": 35,
       "numberProperties": [],

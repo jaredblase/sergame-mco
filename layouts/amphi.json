@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5600000000000008,
+    "zoomFactor": 1.0400000000000011,
     "windowMask": false
   },
   "objectsGroups": [
@@ -261,7 +261,7 @@
       "persistentUuid": "63463417-2d56-48d4-8c08-8d4cbf2821ca",
       "width": 32,
       "x": 352,
-      "y": 288,
+      "y": 352,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -276,7 +276,7 @@
       "persistentUuid": "a5cea8fd-cc85-43c4-a302-f15e290cd5a7",
       "width": 32,
       "x": 352,
-      "y": 256,
+      "y": 320,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -695,8 +695,8 @@
       "name": "Brother",
       "persistentUuid": "733da60e-b187-4fe7-a2e9-5e1594da3781",
       "width": 32,
-      "x": 352,
-      "y": 160,
+      "x": 448,
+      "y": 352,
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
@@ -2804,6 +2804,35 @@
       "effects": [],
       "behaviors": [],
       "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Male Character 5_Walking Down_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
         {
           "name": "Walking Down",
           "useMultipleDirections": false,
