@@ -3282,15 +3282,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "yuchfloor.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "yuchfloor.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "backwall.png",
         "kind": "image",
         "metadata": "",
@@ -3342,6 +3333,141 @@
         "name": "benchshua.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "nbslongversion.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nbslongversion.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cso-board.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cso-board.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ggfm-board.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ggfm-board.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "arch-board.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arch-board.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sidewal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sidewal.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lsdc-board.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lsdc-board.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pillar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pillar.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bottom entrances.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bottom entrances.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "yuchfloor2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "yuchfloor2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "yuchfloor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "yuchfloor.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "yuchfloor-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "yuchfloor-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "yuchfloor-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "yuchfloor-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "yuchfloor-1-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "yuchfloor-1-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "yuchfloor-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "yuchfloor-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "yuchfloor-1-0-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "yuchfloor-1-0-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
