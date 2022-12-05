@@ -5085,6 +5085,16 @@
         "name": "assets\\Male Character 12_Walking Left_1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "2-14 Friendly Shop.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "2-14 Friendly Shop.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -10271,7 +10281,7 @@
   "variables": [
     {
       "folded": true,
-      "name": "DefaultCtr",
+      "name": "CurrentSceneOW",
       "type": "number",
       "value": 0
     }
@@ -10284,6 +10294,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/mechanics"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/connon_ow"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -10300,6 +10314,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/yuch"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/amphi_ow"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5250000000000011,
+    "zoomFactor": 0.5000000000000011,
     "windowMask": false
   },
   "objectsGroups": [
@@ -680,21 +680,6 @@
       "x": -704,
       "y": -1120,
       "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "SolidGrass",
-      "persistentUuid": "39c499a1-92ca-4afc-9a5b-69d67b2e4321",
-      "width": 0,
-      "x": -512,
-      "y": -640,
-      "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5358,7 +5343,7 @@
                   "parameters": [
                     "NPC2Ctr",
                     "!=",
-                    "4"
+                    "3"
                   ]
                 }
               ],
@@ -5524,7 +5509,7 @@
                   "parameters": [
                     "NPC2Ctr",
                     "<",
-                    "3"
+                    "2"
                   ]
                 }
               ],
@@ -5551,7 +5536,7 @@
                   "parameters": [
                     "NPC2Ctr",
                     "=",
-                    "3"
+                    "2"
                   ]
                 }
               ],
@@ -5582,7 +5567,7 @@
                   "parameters": [
                     "NPC2Ctr",
                     "=",
-                    "4"
+                    "3"
                   ]
                 }
               ]
@@ -5597,7 +5582,7 @@
                   "parameters": [
                     "NPC2Ctr",
                     "=",
-                    "4"
+                    "3"
                   ]
                 }
               ],
