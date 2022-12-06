@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4449999999999993,
+    "zoomFactor": 0.5650000000000003,
     "windowMask": false
   },
   "objectsGroups": [
@@ -75,7 +75,18 @@
       "name": "WrongBuildings",
       "objects": [
         {
-          "name": "NewSprite3"
+          "name": "TheStore"
+        }
+      ]
+    },
+    {
+      "name": "Unpassable",
+      "objects": [
+        {
+          "name": "TheStore"
+        },
+        {
+          "name": "NBS"
         }
       ]
     }
@@ -275,13 +286,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 213.3333282470703,
+      "height": 277.33331298828125,
       "layer": "",
-      "name": "NewSprite",
+      "name": "NBS",
       "persistentUuid": "9709ba7f-5392-4c89-9ed1-e3a3c2ede80e",
-      "width": 320,
-      "x": -128,
-      "y": -277.33331298828125,
+      "width": 415.9999694824219,
+      "x": -160,
+      "y": -277,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -290,779 +301,29 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 213.3333282470703,
+      "height": 277.33331298828125,
       "layer": "",
-      "name": "NewSprite3",
+      "name": "TheStore",
       "persistentUuid": "82bb4162-4fab-42db-8a54-03d6c6bb3fec",
-      "width": 320,
-      "x": 352,
-      "y": -277.33331298828125,
+      "width": 415.9999694824219,
+      "x": 256,
+      "y": -277,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1088,
+      "layer": "",
+      "name": "Tiles",
+      "persistentUuid": "2c91b399-07c3-4627-a0d7-5fe65475b3fe",
+      "width": 1568,
+      "x": -352,
+      "y": -288,
       "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 672,
-      "layer": "",
-      "name": "Frontfloor",
-      "persistentUuid": "210a2c8e-06cf-4848-b5cf-59048435087c",
-      "width": 1728,
-      "x": -448,
-      "y": 288,
-      "zOrder": -2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "52840a76-525c-4e2d-ae6f-eb927054a9c4",
-      "width": 308,
-      "x": -451,
-      "y": 145,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "51adfbc2-6cad-46eb-a693-296e6a6a712c",
-      "width": 308,
-      "x": -281,
-      "y": 146,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "7455108d-b474-44eb-879a-5171fd09ef18",
-      "width": 308,
-      "x": 61,
-      "y": 148,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "cb758d1e-336d-4982-8e1f-4296765b9d35",
-      "width": 308,
-      "x": -109,
-      "y": 147,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "a7224a86-25ef-4bab-b2e4-846089363e59",
-      "width": 308,
-      "x": 741,
-      "y": 151,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "982077ff-eaa6-4091-9597-9f82065d2e67",
-      "width": 308,
-      "x": 571,
-      "y": 150,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "272c6eec-eda2-42ad-b0e4-8870bcbb3fb3",
-      "width": 308,
-      "x": 399,
-      "y": 149,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "857576dc-4375-416d-8fe9-ebd0710343e6",
-      "width": 308,
-      "x": 229,
-      "y": 148,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "3d90b8a2-1dbd-4699-bab0-b1c03c9fc63f",
-      "width": 308,
-      "x": 996,
-      "y": 151,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "061d01ca-06b9-4bea-a8a7-e805e6e75eaa",
-      "width": 308,
-      "x": 911,
-      "y": 151,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "c56a8b79-391e-4d32-8b95-ce5f2e22e0fa",
-      "width": 308,
-      "x": 913,
-      "y": -9,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "31b7fa5c-ebcf-4f6d-b698-388e32448d57",
-      "width": 308,
-      "x": 998,
-      "y": -9,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "fd19baae-3194-42a5-a9f3-d1c2a04a76f1",
-      "width": 308,
-      "x": 743,
-      "y": -9,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "62e500c3-0228-4b32-bd45-837dedf119d2",
-      "width": 308,
-      "x": 573,
-      "y": -10,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "5173a9da-921a-4850-a16f-022fc21c7435",
-      "width": 308,
-      "x": 401,
-      "y": -11,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "85598908-6d5b-4e76-adae-4fdc88fb428d",
-      "width": 308,
-      "x": 231,
-      "y": -12,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "52942f2d-8033-4bba-b3f9-cb8888adfce8",
-      "width": 308,
-      "x": 63,
-      "y": -12,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "e6691487-9205-49cc-a755-0275312104bc",
-      "width": 308,
-      "x": -107,
-      "y": -13,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "0e9e976c-ab1a-45c8-81b0-f84d58716852",
-      "width": 308,
-      "x": -279,
-      "y": -14,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "ff83988b-3288-40d2-b2be-e5c049335062",
-      "width": 308,
-      "x": -449,
-      "y": -15,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "9b6f3379-a1f0-4b67-a922-bfdf75652116",
-      "width": 308,
-      "x": 999,
-      "y": -169,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "274ffe37-e95b-4132-bdda-43b9c9cf2af5",
-      "width": 308,
-      "x": 744,
-      "y": -169,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "8343198f-177c-4bb1-b287-102fbd06d1fe",
-      "width": 308,
-      "x": 574,
-      "y": -170,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "1a06dd33-d889-452a-8273-157f2105a6c2",
-      "width": 308,
-      "x": 402,
-      "y": -171,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "37fb7b5c-01c1-4ecf-a8d9-8d6adf0c7734",
-      "width": 308,
-      "x": 232,
-      "y": -172,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "d689a38e-04ea-4b61-a056-94b93c839b7c",
-      "width": 308,
-      "x": 64,
-      "y": -172,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "4adefdc7-4dea-4c44-9c2d-a9285e170944",
-      "width": 308,
-      "x": -106,
-      "y": -173,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "64a60c2f-ed7a-4200-ba68-e9baff567a39",
-      "width": 308,
-      "x": -278,
-      "y": -174,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "030f8b66-1446-4b96-873d-22dffaac6785",
-      "width": 308,
-      "x": -448,
-      "y": -175,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "58ab4905-62f6-4731-af9a-5bca6e5f6c3c",
-      "width": 308,
-      "x": 830,
-      "y": -169,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "9affff5c-bc6d-4a32-acb7-78806545a294",
-      "width": 308,
-      "x": 999,
-      "y": -327,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "f1f0c6b6-aa41-4fb8-8257-fe5362cde6da",
-      "width": 308,
-      "x": 830,
-      "y": -327,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "3a8ae769-1761-4a4b-9a29-be76b90e24b3",
-      "width": 308,
-      "x": 744,
-      "y": -327,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "de63eff5-73b9-48b9-a1d2-a14abbb517fb",
-      "width": 308,
-      "x": 574,
-      "y": -328,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "f8258903-233d-4da4-9bbd-cca5a30d25d0",
-      "width": 308,
-      "x": 402,
-      "y": -329,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "c2441e0e-d808-49a9-8050-057e8e98f785",
-      "width": 308,
-      "x": 232,
-      "y": -330,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "ab1f5457-3554-46f8-98a2-6c63bdcd126f",
-      "width": 308,
-      "x": 64,
-      "y": -330,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "31339150-ab0a-4a9c-989e-c8ec6cb5ee8e",
-      "width": 308,
-      "x": -106,
-      "y": -331,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "4901a627-4bed-4d4f-bcf9-85d44cb9f7c5",
-      "width": 308,
-      "x": -278,
-      "y": -332,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "352e0936-4d2a-43c1-867b-635378b92b06",
-      "width": 308,
-      "x": -448,
-      "y": -333,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "076ec061-7214-46bf-8453-855d23496c07",
-      "width": 308,
-      "x": 998,
-      "y": -406,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "6c83c4b4-3c18-4574-a5a1-ad89e57214c3",
-      "width": 308,
-      "x": 829,
-      "y": -406,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "fe9e2f43-445d-4c41-b80f-3982ff3bd668",
-      "width": 308,
-      "x": 743,
-      "y": -406,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "a635e836-f63b-42d4-8d65-d71e57ef1c37",
-      "width": 308,
-      "x": 573,
-      "y": -407,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "3385c6bb-52de-4782-817b-b422572efa81",
-      "width": 308,
-      "x": 414,
-      "y": -406,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "f6600d34-fec2-4c79-89f1-3cd25848ebdb",
-      "width": 308,
-      "x": 231,
-      "y": -409,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "c508f72e-ab3f-45ce-897a-d642717138f5",
-      "width": 308,
-      "x": 63,
-      "y": -409,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "4b942ddf-9c0e-4c70-bdce-e1443c4891dc",
-      "width": 308,
-      "x": -107,
-      "y": -410,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "deebbb7a-d280-4582-8349-70bd45af9359",
-      "width": 308,
-      "x": -279,
-      "y": -411,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "1bbc6609-3487-4bdb-bf6e-496089e3ba9e",
-      "width": 308,
-      "x": -449,
-      "y": -412,
-      "zOrder": -10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2919,60 +2180,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "NewSprite4",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\images\\tile.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Placeholder",
-      "tags": "",
-      "texture": "NewFile-1-8.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "name": "NewSprite",
+      "name": "NBS",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -3013,7 +2221,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "NewSprite3",
+      "name": "TheStore",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -3051,6 +2259,18 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 128,
+      "name": "Tiles",
+      "tags": "",
+      "texture": "assets\\images\\tile-1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "events": [
@@ -3059,6 +2279,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Game Environment",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3130,6 +2351,17 @@
                     "\"\"",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ZoomCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "1.5",
+                    "\"\"",
+                    "0"
+                  ]
                 }
               ]
             }
@@ -3189,7 +2421,7 @@
           },
           "parameters": [
             "Student",
-            "Placeholder",
+            "Unpassable",
             ""
           ]
         },
@@ -3235,6 +2467,16 @@
             "=",
             "0"
           ]
+        },
+        {
+          "type": {
+            "value": "SetObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "Char",
+            "isStationary",
+            "True"
+          ]
         }
       ]
     },
@@ -3243,7 +2485,6 @@
       "colorG": 166,
       "colorR": 245,
       "creationTime": 0,
-      "folded": true,
       "name": "First Lamb Dialog",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3492,443 +2733,12 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Char",
-                "NewSprite",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "",
-                "\"Transition\""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Repeat",
-              "repeatExpression": "5",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PanelSpriteObject::SetOpacity"
-                  },
-                  "parameters": [
-                    "TransitionBG",
-                    "+",
-                    "TimeDelta()+2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextObject::Opacity"
-                  },
-                  "parameters": [
-                    "TransitionText",
-                    "+",
-                    "TimeDelta()+2"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetSceneVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "SceneCtr",
-                    "True"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SceneVariableAsBoolean"
-          },
-          "parameters": [
-            "SceneCtr",
-            "True"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "3.5"
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Yuch2\"",
-                ""
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "colorB": 254,
-      "colorG": 19,
-      "colorR": 144,
-      "creationTime": 0,
-      "name": "Finding Building",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Char",
-                "WrongBuildings",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Sticker::Sticker::Stick"
-              },
-              "parameters": [
-                "Thought",
-                "Sticker",
-                "Char",
-                ""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Space"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "WrongBuilding",
-                    "!=",
-                    "4"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ShowLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Dialogues\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Char",
-                    "stay",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "Space"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "WrongBuilding",
-                        "+",
-                        "1"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "WrongBuilding",
-                        "=",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "Dialogue",
-                        "=",
-                        "\"(This is not the building I am looking for...)\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "WrongBuilding",
-                        "=",
-                        "2"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "Dialogue",
-                        "=",
-                        "\"(Kuya Jay told me it has a flight of stairs outside...)\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "WrongBuilding",
-                        "=",
-                        "3"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "HideLayer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Dialogues\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Char",
-                        "stay",
-                        "=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "WrongBuilding",
-                        "=",
-                        "4"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AutoTyping::Text_AutoTyping::IsCharacterJustAdded"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "Text_AutoTyping",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "typewriter.wav",
-                    "",
-                    "5",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "WrongBuilding",
-                    "=",
-                    "4"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Thought",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Char",
-                "WrongBuildings",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "LayerVisible"
-              },
-              "parameters": [
-                "",
-                "\"Dialogues\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Thought",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "inverted": true,
                 "value": "CollisionNP"
               },
               "parameters": [
                 "Char",
-                "WrongBuildings",
+                "NBS",
                 "",
                 "",
                 ""
@@ -3936,16 +2746,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "WrongBuilding",
-                "=",
-                "0"
-              ]
-            },
             {
               "type": {
                 "value": "Delete"
@@ -3956,19 +2756,7 @@
               ]
             }
           ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 254,
-      "colorG": 19,
-      "colorR": 144,
-      "creationTime": 0,
-      "name": "Finding Building",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -3978,10 +2766,10 @@
               },
               "parameters": [
                 "Char",
-                "WrongBuildings",
+                "NBS",
                 "",
                 "",
-                ""
+                "no"
               ]
             }
           ],
@@ -4022,28 +2810,9 @@
                     "",
                     "Space"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "WrongBuildingCtr",
-                    "!=",
-                    "3"
-                  ]
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "ShowLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Dialogues\""
-                  ]
-                },
                 {
                   "type": {
                     "value": "SetObjectVariableAsBoolean"
@@ -4053,301 +2822,60 @@
                     "isStationary",
                     "True"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Transition\""
+                  ]
                 }
               ],
               "events": [
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
+                  "type": "BuiltinCommonInstructions::Repeat",
+                  "repeatExpression": "5",
+                  "conditions": [],
+                  "actions": [
                     {
                       "type": {
-                        "value": "KeyPressed"
+                        "value": "PanelSpriteObject::SetOpacity"
                       },
                       "parameters": [
-                        "",
-                        "Space"
+                        "TransitionBG",
+                        "+",
+                        "TimeDelta()+10"
                       ]
                     },
                     {
                       "type": {
-                        "value": "BuiltinCommonInstructions::Once"
+                        "value": "TextObject::Opacity"
                       },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "AutoTyping::Text_AutoTyping::TypingFinished"
-                          },
-                          "parameters": [
-                            "Dialogue",
-                            "Text_AutoTyping",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVarScene"
-                          },
-                          "parameters": [
-                            "WrongBuildingCtr",
-                            "+",
-                            "1"
-                          ]
-                        }
+                      "parameters": [
+                        "TransitionText",
+                        "+",
+                        "TimeDelta()+10"
                       ]
-                    },
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "AutoTyping::Text_AutoTyping::TypingFinished"
-                          },
-                          "parameters": [
-                            "Dialogue",
-                            "Text_AutoTyping",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AutoTyping::Text_AutoTyping::SkipToEnd"
-                          },
-                          "parameters": [
-                            "Dialogue",
-                            "Text_AutoTyping",
-                            ""
-                          ]
-                        }
+                      "type": {
+                        "value": "SetSceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "SceneCtr",
+                        "True"
                       ]
                     }
                   ]
                 }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "WrongBuildingCtr",
-                    ">=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "WrongBuildingCtr",
-                    "<",
-                    "2"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "=",
-                    "VariableString(WrongBuilding[Variable(WrongBuildingCtr)])"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "WrongBuildingCtr",
-                    "=",
-                    "2"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "HideLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Dialogues\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Char",
-                    "isStationary",
-                    "False"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "WrongBuildingCtr",
-                    "=",
-                    "3"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AutoTyping::Text_AutoTyping::IsCharacterJustAdded"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "Text_AutoTyping",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "typewriter.wav",
-                    "",
-                    "5",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "WrongBuildingCtr",
-                    "=",
-                    "3"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Thought",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Char",
-                "WrongBuildings",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "LayerVisible"
-              },
-              "parameters": [
-                "",
-                "\"Dialogues\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Thought",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Char",
-                "WrongBuildings",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "WrongBuildingCtr",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Thought",
-                ""
               ]
             }
           ]
@@ -4357,8 +2885,45 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "SceneCtr",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "5"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Yuch2\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -4422,6 +2987,10 @@
     {
       "name": "Platform",
       "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "RectangleMovement",
+      "type": "RectangleMovement::RectangleMovement"
     },
     {
       "name": "SmoothCamera",

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.1199999999999997,
+    "zoomFactor": 1.2100000000000002,
     "windowMask": false
   },
   "objectsGroups": [
@@ -70,6 +70,74 @@
           "name": "LAmb2"
         }
       ]
+    },
+    {
+      "name": "Unpassable",
+      "objects": [
+        {
+          "name": "NewSprite6"
+        },
+        {
+          "name": "NewSprite5"
+        },
+        {
+          "name": "WhiteBanner"
+        },
+        {
+          "name": "GreenBanner"
+        },
+        {
+          "name": "NewSprite2"
+        },
+        {
+          "name": "NewSprite7"
+        },
+        {
+          "name": "NewSprite8"
+        },
+        {
+          "name": "NewSprite"
+        },
+        {
+          "name": "NewSprite3"
+        },
+        {
+          "name": "BackWall"
+        },
+        {
+          "name": "Gate"
+        },
+        {
+          "name": "SideBench"
+        },
+        {
+          "name": "Bench"
+        },
+        {
+          "name": "RightEntrance"
+        },
+        {
+          "name": "NBS"
+        },
+        {
+          "name": "CSOboard"
+        },
+        {
+          "name": "SideWall"
+        },
+        {
+          "name": "GGFMboard"
+        },
+        {
+          "name": "ARCHboard"
+        },
+        {
+          "name": "LSDCboard"
+        },
+        {
+          "name": "Pillar"
+        }
+      ]
     }
   ],
   "variables": [
@@ -83,7 +151,7 @@
       "folded": true,
       "name": "Dialog2Ctr",
       "type": "number",
-      "value": 0
+      "value": -1
     },
     {
       "folded": true,
@@ -113,25 +181,25 @@
       "folded": true,
       "name": "LSDCCtr",
       "type": "number",
-      "value": 0
+      "value": -1
     },
     {
       "folded": true,
       "name": "GGFMCtr",
       "type": "number",
-      "value": 0
+      "value": -1
     },
     {
       "folded": true,
       "name": "CSOCtr",
       "type": "number",
-      "value": 0
+      "value": -1
     },
     {
       "folded": true,
       "name": "ANCtr",
       "type": "number",
-      "value": 0
+      "value": -1
     },
     {
       "folded": true,
@@ -309,7 +377,7 @@
       "persistentUuid": "87316828-884f-4d48-a15d-f3e33edc4dcf",
       "width": 32,
       "x": 192,
-      "y": 190,
+      "y": 446,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -323,8 +391,8 @@
       "name": "ArcherNet_rep",
       "persistentUuid": "df093a63-8c1a-4e16-aa84-1f157b51eee7",
       "width": 30.117647171020508,
-      "x": 547.7647094726562,
-      "y": 192,
+      "x": 480,
+      "y": 448,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -339,7 +407,7 @@
       "persistentUuid": "b3b39675-1cf0-4190-9c41-1cb6d28c1350",
       "width": 32,
       "x": -96,
-      "y": 190,
+      "y": 446,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -353,8 +421,8 @@
       "name": "CSO_rep",
       "persistentUuid": "1bca81cd-d2bf-4817-aed0-3243b498ee1f",
       "width": 32,
-      "x": 864,
-      "y": 190,
+      "x": 768,
+      "y": 446,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -368,7 +436,7 @@
       "name": "LAmb2",
       "persistentUuid": "e7fcb1ff-a1c6-4b6a-99bb-b0b5c85b95ad",
       "width": 30.117647171020508,
-      "x": 707.7647094726562,
+      "x": 897.88232421875,
       "y": -64,
       "zOrder": 25,
       "numberProperties": [],
@@ -383,7 +451,7 @@
       "name": "Char",
       "persistentUuid": "ed6ae1cf-e0cc-4c27-9acb-0d427394c90f",
       "width": 32,
-      "x": 128,
+      "x": 480,
       "y": -64,
       "zOrder": 25,
       "numberProperties": [],
@@ -393,28 +461,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 213.3333282470703,
-      "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "a31eca56-ea5a-4d8c-820f-a3bedc3ca29c",
-      "width": 320,
-      "x": -128,
-      "y": -277.33331298828125,
-      "zOrder": 27,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 96,
+      "height": 64,
       "layer": "",
       "name": "NewSprite2",
       "persistentUuid": "eab5729a-f720-40e7-ba2d-a4546d7248f1",
-      "width": 96,
-      "x": -352,
-      "y": 32,
+      "width": 64,
+      "x": -320,
+      "y": 352,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -423,779 +476,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 213.3333282470703,
+      "height": 194,
       "layer": "",
       "name": "NewSprite3",
       "persistentUuid": "fb2ed710-83a4-4065-bb08-df6d963110ab",
-      "width": 320,
-      "x": 352,
-      "y": -277.33331298828125,
+      "width": 288,
+      "x": 736,
+      "y": -290,
       "zOrder": 26,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 672,
-      "layer": "",
-      "name": "Frontfloor",
-      "persistentUuid": "64c2c13a-706d-4215-9cbd-913084a0b8ba",
-      "width": 1728,
-      "x": -448,
-      "y": 288,
-      "zOrder": -2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 283,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "1a18f757-1ea3-4751-9c81-1e47b1de88b9",
-      "width": 308,
-      "x": -276,
-      "y": 144,
-      "zOrder": -4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "4e56fc0e-3a24-45b0-9486-789a488967ce",
-      "width": 308,
-      "x": -107,
-      "y": 144,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "a824eab8-1a3c-46f3-ad70-fa021372a8f4",
-      "width": 308,
-      "x": 64,
-      "y": 144,
-      "zOrder": -6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "e9047522-10c2-419c-a1d3-71fbe37f37f3",
-      "width": 308,
-      "x": -451,
-      "y": 145,
-      "zOrder": -6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "8b92ec01-8f0a-4383-8cc1-df68108f0fbe",
-      "width": 308,
-      "x": 748,
-      "y": 144,
-      "zOrder": -6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "f0239bb9-df93-4faf-b5eb-39dadf52da22",
-      "width": 308,
-      "x": 577,
-      "y": 144,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 283,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "c850bbd9-52eb-421d-a2d3-1543469d0175",
-      "width": 308,
-      "x": 408,
-      "y": 144,
-      "zOrder": -4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "07b10f7d-954c-4da0-ae7f-38efed038487",
-      "width": 308,
-      "x": 233,
-      "y": 145,
-      "zOrder": -6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "f033b454-86c5-4934-a1f5-f90a88229546",
-      "width": 308,
-      "x": 916,
-      "y": 144,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "38e89d8a-a696-46b6-88a8-f7ed833d8fc2",
-      "width": 308,
-      "x": 1000,
-      "y": 144,
-      "zOrder": -6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "16d4e787-9500-4a08-82cc-e2c306a3a27f",
-      "width": 308,
-      "x": 66,
-      "y": -16,
-      "zOrder": -6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "4a6d3be4-535a-48fb-b463-7a08cbe3db4a",
-      "width": 308,
-      "x": -105,
-      "y": -16,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 283,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "f7e70247-2fe4-46fd-9dfe-ce810f1435ab",
-      "width": 308,
-      "x": -274,
-      "y": -16,
-      "zOrder": -4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "6894a423-2d37-4a5a-80c0-a242fa1307ee",
-      "width": 308,
-      "x": -449,
-      "y": -15,
-      "zOrder": -6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "746b434a-612e-4546-8f61-b99113b8bbdb",
-      "width": 308,
-      "x": 231,
-      "y": -15,
-      "zOrder": -6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 283,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "4a244c39-286f-4ea0-b99f-b12c5d8735d2",
-      "width": 308,
-      "x": 406,
-      "y": -16,
-      "zOrder": -4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "e26af488-9e66-4b9c-ac55-4ca47fe232e6",
-      "width": 308,
-      "x": 575,
-      "y": -16,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "4768fd1c-e48e-41d5-9bf9-6d5473e48fec",
-      "width": 308,
-      "x": 746,
-      "y": -16,
-      "zOrder": -6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "683b030a-71dc-4d76-b0d0-368b7a81b870",
-      "width": 308,
-      "x": 914,
-      "y": -16,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "d12ff6b3-c4cd-43ff-9901-bfb2bf149848",
-      "width": 308,
-      "x": 1004,
-      "y": -16,
-      "zOrder": -6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "6f6a7c2f-e73a-477d-9335-601f6d1d16da",
-      "width": 308,
-      "x": 998,
-      "y": -334,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "9837857c-07b0-4247-9712-5d97ca99a31a",
-      "width": 308,
-      "x": 998,
-      "y": -174,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "1ce05244-272f-48ca-883d-4295506abd76",
-      "width": 308,
-      "x": 915,
-      "y": -174,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "bf20524d-ec7f-4061-acc0-1c4fd9f8a9c8",
-      "width": 308,
-      "x": 913,
-      "y": -334,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "65c9cc9e-7110-4a57-aa2f-42686a08af76",
-      "width": 308,
-      "x": 745,
-      "y": -334,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "7aa3323d-bef6-47ca-ab0b-c4eac0312135",
-      "width": 308,
-      "x": 747,
-      "y": -174,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "efa1de6d-71a6-4ee7-a182-9a27bdcc2ab8",
-      "width": 308,
-      "x": 576,
-      "y": -174,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "77bf0c79-0e12-4fb0-b780-a26c588aa305",
-      "width": 308,
-      "x": 574,
-      "y": -334,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 283,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "2c4ac97e-6ba9-4958-af9c-98e4e6c7c0fa",
-      "width": 308,
-      "x": 405,
-      "y": -334,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 283,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "08aa1c13-4c3f-4181-8e60-ffb4d26a1f2e",
-      "width": 308,
-      "x": 407,
-      "y": -174,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "d32a0339-c89e-40ef-9511-fb7e7a75c831",
-      "width": 308,
-      "x": 232,
-      "y": -173,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "84dc4ffe-19d6-4cff-9100-6e978ace9fdb",
-      "width": 308,
-      "x": 230,
-      "y": -333,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "9ffe1c73-24e7-496f-bc10-8d5496a95a41",
-      "width": 308,
-      "x": -106,
-      "y": -334,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "e5a30297-62f8-4d13-ad3b-9ccf13e8f2f9",
-      "width": 308,
-      "x": 65,
-      "y": -334,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "ca284891-5769-4f50-964d-b834fc12749e",
-      "width": 308,
-      "x": 63,
-      "y": -174,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "34d7e21c-3c4b-42f2-8a39-1a8cc7611e14",
-      "width": 308,
-      "x": -108,
-      "y": -174,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 283,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "ce7a1668-35cf-4b8b-9062-f4479ddcbb53",
-      "width": 308,
-      "x": -277,
-      "y": -174,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 283,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "e56c104c-5703-4baf-b997-6640a43dae8f",
-      "width": 308,
-      "x": -275,
-      "y": -334,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "021c910b-9056-4b38-a6df-ad039339ee71",
-      "width": 308,
-      "x": -450,
-      "y": -333,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "4d7a00b9-27b1-48a4-a59d-88db003589f9",
-      "width": 308,
-      "x": -452,
-      "y": -173,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "95bf891a-9c9f-49b5-9939-e1bb1eb3356c",
-      "width": 308,
-      "x": -456,
-      "y": -411,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 283,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "ae877947-0673-48b9-80a0-57435cdd0a81",
-      "width": 308,
-      "x": -281,
-      "y": -412,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "4d51b7d8-b800-4116-acbc-bc955bd87e66",
-      "width": 308,
-      "x": -112,
-      "y": -412,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "56be0ac3-f6a1-424f-bd5c-32c6c6fe95d0",
-      "width": 308,
-      "x": 59,
-      "y": -412,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "7893a6b4-fc57-4feb-961c-d12f33b226f6",
-      "width": 308,
-      "x": 228,
-      "y": -411,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 283,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "2b00bf43-8fd8-4b04-8b89-c9acfc20d7c4",
-      "width": 308,
-      "x": 403,
-      "y": -412,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "82e7d759-f378-4286-8677-371f59d5675b",
-      "width": 308,
-      "x": 572,
-      "y": -412,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "aa186af7-2c28-4773-91c5-61342fe58596",
-      "width": 308,
-      "x": 743,
-      "y": -412,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "ad9c3c7c-2686-4428-8515-3780312f2b47",
-      "width": 308,
-      "x": 911,
-      "y": -412,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "d12073d4-5a7c-4f2f-8d35-73102b0f8c39",
-      "width": 308,
-      "x": 998,
-      "y": -416,
-      "zOrder": -8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1247,734 +535,14 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "height": 34,
-      "layer": "",
-      "name": "GGFM_rep",
-      "persistentUuid": "d2dc0836-327c-46bd-b08d-88375157c5a0",
-      "width": 32,
-      "x": -96,
-      "y": 190,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "",
-      "name": "LAmb2",
-      "persistentUuid": "1c62ce29-3759-4f7c-9d59-71775d807cf1",
-      "width": 30.117647171020508,
-      "x": 707.7647094726562,
-      "y": -64,
-      "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "",
-      "name": "Char",
-      "persistentUuid": "11d0d52b-2449-48a7-a948-381f0e3dffa7",
-      "width": 32,
-      "x": 128,
-      "y": -64,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 283,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "c586206c-4931-40ea-bde0-40770806be61",
-      "width": 308,
-      "x": -276,
-      "y": 144,
-      "zOrder": -4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "aa65bc6e-5fc3-4cd2-a7c3-d6ff8e85f58f",
-      "width": 308,
-      "x": -107,
-      "y": 144,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "dfbae71c-a255-4f23-94df-b034b123d622",
-      "width": 308,
-      "x": 64,
-      "y": 144,
-      "zOrder": -6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "98e62d53-7c95-4609-8d91-04775874f232",
-      "width": 308,
-      "x": 748,
-      "y": 144,
-      "zOrder": -6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "1b148351-4068-488d-8d19-d16eef8c17ff",
-      "width": 308,
-      "x": 577,
-      "y": 144,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 283,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "851e3812-1b32-403d-b1e1-694b6c2e87fd",
-      "width": 308,
-      "x": 408,
-      "y": 144,
-      "zOrder": -4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "99abfa3c-b788-4f06-a501-8149fe0e7c45",
-      "width": 308,
-      "x": 233,
-      "y": 145,
-      "zOrder": -6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "d6c7c3bd-cc77-4c46-ba93-4d9e15da4632",
-      "width": 308,
-      "x": 916,
-      "y": 144,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "772a19d0-1826-4076-a134-e560344fcf61",
-      "width": 308,
-      "x": 1000,
-      "y": 144,
-      "zOrder": -6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "16215bdb-b7d8-41fb-803d-fea2f4cc314c",
-      "width": 308,
-      "x": 66,
-      "y": -16,
-      "zOrder": -6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "5386e797-9732-4020-9017-78f246961edc",
-      "width": 308,
-      "x": -105,
-      "y": -16,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 283,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "935848a7-75a3-41e6-91aa-01553d863316",
-      "width": 308,
-      "x": -274,
-      "y": -16,
-      "zOrder": -4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "3f90011b-bd9c-417a-a1e6-14db17b47612",
-      "width": 308,
-      "x": 231,
-      "y": -15,
-      "zOrder": -6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 283,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "b0aefd26-523e-403c-8a65-8b759850b631",
-      "width": 308,
-      "x": 406,
-      "y": -16,
-      "zOrder": -4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "ea3c69ce-8ac9-48c4-8779-04477b205e7d",
-      "width": 308,
-      "x": 575,
-      "y": -16,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "7845d9df-7da8-481d-abaa-96f6f5410a9e",
-      "width": 308,
-      "x": 746,
-      "y": -16,
-      "zOrder": -6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "3c15aadf-2740-4b95-a8ef-bc5f40a7b753",
-      "width": 308,
-      "x": 914,
-      "y": -16,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "041b3135-7f9f-48c6-b2fa-e239833a2168",
-      "width": 308,
-      "x": 1004,
-      "y": -16,
-      "zOrder": -6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "0dadc601-0543-4385-aece-3475391431f1",
-      "width": 308,
-      "x": 998,
-      "y": -334,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "cff2cf6e-359d-40d8-b3e7-99c1bc57776a",
-      "width": 308,
-      "x": 998,
-      "y": -174,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "5ec97bf7-d828-4220-b8ed-7812caefbba7",
-      "width": 308,
-      "x": 915,
-      "y": -174,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "54719326-dcf2-4e9f-b195-5a682c96d118",
-      "width": 308,
-      "x": 913,
-      "y": -334,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "e5ce9cda-2514-44cb-b2fb-de3e42ba063f",
-      "width": 308,
-      "x": 745,
-      "y": -334,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "b84c9758-5681-44c9-9abc-c1f4402b6f8f",
-      "width": 308,
-      "x": 747,
-      "y": -174,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "90b95c5c-e793-4c4c-bf82-33a83a042d61",
-      "width": 308,
-      "x": 576,
-      "y": -174,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "bbb42ae9-728e-4bc5-9f29-27b1c5c77af2",
-      "width": 308,
-      "x": 574,
-      "y": -334,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 283,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "13a23a4d-fc8f-4103-a825-7701eb32caee",
-      "width": 308,
-      "x": 405,
-      "y": -334,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 283,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "6e800875-10b4-4b4a-85b0-93c1e2d3e4f0",
-      "width": 308,
-      "x": 407,
-      "y": -174,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "7844b82b-1e71-4f29-852e-625e952a749f",
-      "width": 308,
-      "x": 232,
-      "y": -173,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "976391a4-92a4-489d-9fe8-2b407d564664",
-      "width": 308,
-      "x": 230,
-      "y": -333,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "0507c329-c43b-41d5-8372-a6ef24d45979",
-      "width": 308,
-      "x": -106,
-      "y": -334,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "fd3845bb-4b92-47dd-91a1-38d11164faec",
-      "width": 308,
-      "x": 65,
-      "y": -334,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "3aa3953e-14e8-49a8-af50-94b595a8a4fa",
-      "width": 308,
-      "x": 63,
-      "y": -174,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "35c13c8a-1226-4df1-91a7-dc784f5349ed",
-      "width": 308,
-      "x": -108,
-      "y": -174,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 283,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "53fb556f-1ba5-4666-b085-dde36928d9bc",
-      "width": 308,
-      "x": -277,
-      "y": -174,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 283,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "1a8dd282-65cc-43b5-8ed4-9469c1cc0eeb",
-      "width": 308,
-      "x": -275,
-      "y": -334,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 283,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "3b6ac3a1-8570-4461-9bd1-0f21de484123",
-      "width": 308,
-      "x": -281,
-      "y": -412,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "aa9ad07d-4d02-4627-8277-409fe4a3bec2",
-      "width": 308,
-      "x": -112,
-      "y": -412,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "4d34b591-d23c-442f-96d8-2e84c4a59852",
-      "width": 308,
-      "x": 59,
-      "y": -412,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "b6bd592a-eb11-4797-aac3-5fb406777eed",
-      "width": 308,
-      "x": 228,
-      "y": -411,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 283,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "623d5bce-1a8d-4bd7-b92d-d8e606c09ffc",
-      "width": 308,
-      "x": 403,
-      "y": -412,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "2f21e37e-39bc-4413-a7f4-c49b63824f06",
-      "width": 308,
-      "x": 572,
-      "y": -412,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "c2a6e4b3-8c4b-416c-98a2-4537fac09cab",
-      "width": 308,
-      "x": 743,
-      "y": -412,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "dc3686f4-64a3-4144-99ef-595ebb5d2742",
-      "width": 308,
-      "x": 911,
-      "y": -412,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 284,
-      "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "c9a58729-3698-407f-888c-807f1c22a956",
-      "width": 308,
-      "x": 998,
-      "y": -416,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "NewSprite6",
       "persistentUuid": "856b46be-72f8-410d-9cb0-6ff27f261bbe",
       "width": 0,
-      "x": -64,
-      "y": 192,
+      "x": -32,
+      "y": 413,
       "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
@@ -1989,7 +557,7 @@
       "persistentUuid": "fed8e26b-c276-4a01-9936-364a7b365e95",
       "width": 0,
       "x": -128,
-      "y": 192,
+      "y": 416,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -2003,8 +571,8 @@
       "name": "NewSprite5",
       "persistentUuid": "287c3439-d9dd-4539-bd4a-85e7b6254ec2",
       "width": 0,
-      "x": -96,
-      "y": 224,
+      "x": -64,
+      "y": 448,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -2012,15 +580,180 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 1088,
       "layer": "",
-      "name": "NewSprite7",
-      "persistentUuid": "6cca1eee-1755-4107-a542-9751d7322ae9",
-      "width": 0,
-      "x": -224,
-      "y": 64,
-      "zOrder": 31,
+      "name": "Tiles",
+      "persistentUuid": "4868fa4a-e13a-4547-ab4b-ea85d08f093e",
+      "width": 1568,
+      "x": -352,
+      "y": -288,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 184,
+      "layer": "",
+      "name": "BackWall",
+      "persistentUuid": "85d707bc-7436-4ed4-b6f6-0f4e1e25392e",
+      "width": 736,
+      "x": -416,
+      "y": -293,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 179.239990234375,
+      "layer": "",
+      "name": "Gate",
+      "persistentUuid": "fd561365-393c-46b9-923b-7b864d942d5e",
+      "width": 179.239990234375,
+      "x": -223.239990234375,
+      "y": -288,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 800,
+      "layer": "",
+      "name": "RightEntrance",
+      "persistentUuid": "e5631905-8a53-4863-8319-31508f9c69a9",
+      "width": 32.478633880615234,
+      "x": 1184,
+      "y": 0,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "",
+      "name": "SideBench",
+      "persistentUuid": "9b9c53c4-3b52-4f94-af7a-5bb9f2a64788",
+      "width": 48,
+      "x": 1129,
+      "y": 28,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "",
+      "name": "SideBench",
+      "persistentUuid": "d93a8509-f918-4090-829d-6ba0337739d0",
+      "width": 48,
+      "x": 1129,
+      "y": 124,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "",
+      "name": "SideBench",
+      "persistentUuid": "d6e3be47-3db6-49f6-90ec-325129fead14",
+      "width": 48,
+      "x": 1129,
+      "y": 461,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "",
+      "name": "SideBench",
+      "persistentUuid": "b19d38ba-5095-4342-b71b-2d3c4f62db04",
+      "width": 48,
+      "x": 1129,
+      "y": 365,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 36.92307662963867,
+      "layer": "",
+      "name": "NewSprite5",
+      "persistentUuid": "4aad3a13-ee73-46ac-95bb-be43ac1fee82",
+      "width": 73.84615325927734,
+      "x": -36.846153259277344,
+      "y": -6,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 36.92307662963867,
+      "layer": "",
+      "name": "NewSprite5",
+      "persistentUuid": "2fb64569-fb6b-438f-94d3-5d74c6cd429f",
+      "width": 73.84615325927734,
+      "x": 91.0769271850586,
+      "y": -6.923076629638672,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 36.92307662963867,
+      "layer": "",
+      "name": "NewSprite5",
+      "persistentUuid": "9afe57da-a545-40f5-a809-1401f35dc05a",
+      "width": 73.84615325927734,
+      "x": 218.15383911132812,
+      "y": -6.923076629638672,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "NewSprite6",
+      "persistentUuid": "8e1b9291-3e5e-4bb1-87c8-c0feae3a5563",
+      "width": 32,
+      "x": -32,
+      "y": -41,
+      "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2030,12 +763,27 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewSprite7",
-      "persistentUuid": "22556d67-7344-49d7-9ad1-50bf36e0170d",
+      "name": "NewSprite6",
+      "persistentUuid": "fa984d36-f4ce-4679-adfe-57ee35e5d634",
+      "width": 0,
+      "x": 0,
+      "y": -41,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "NewSprite6",
+      "persistentUuid": "38bfe6b0-a6e4-4a26-91ff-bef4a9603ec2",
       "width": 0,
       "x": 96,
-      "y": 64,
-      "zOrder": 31,
+      "y": -41,
+      "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2046,10 +794,25 @@
       "height": 0,
       "layer": "",
       "name": "NewSprite6",
-      "persistentUuid": "48d5a4a2-ab3e-4ce4-b1f2-b6a16dbf842a",
+      "persistentUuid": "4db9dee2-dbce-4402-aea7-41fc0e82ed73",
+      "width": 0,
+      "x": 128,
+      "y": -41,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "NewSprite6",
+      "persistentUuid": "ce95530d-be1d-4dd0-8f58-adeae95196aa",
       "width": 0,
       "x": 224,
-      "y": 192,
+      "y": -41,
       "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
@@ -2060,11 +823,161 @@
       "customSize": false,
       "height": 0,
       "layer": "",
+      "name": "NewSprite6",
+      "persistentUuid": "24e550fc-7c55-42a6-b2e9-758fa08a18a7",
+      "width": 0,
+      "x": 256,
+      "y": -42,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 196.38357543945312,
+      "layer": "",
+      "name": "NBS",
+      "persistentUuid": "dbed6a4e-6c44-4ab3-89d4-f65d2ed5d08a",
+      "width": 448,
+      "x": 288,
+      "y": -292.3835754394531,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "",
+      "name": "CSOboard",
+      "persistentUuid": "4c6be32f-9c0d-4a8e-bfe6-86497ca36af3",
+      "width": 192,
+      "x": 736,
+      "y": 320,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "",
+      "name": "ARCHboard",
+      "persistentUuid": "d0e099c4-e712-494c-9207-ee4240e8443c",
+      "width": 192,
+      "x": 448,
+      "y": 320,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "",
+      "name": "GGFMboard",
+      "persistentUuid": "b173f7b3-0e90-48c0-91f8-b9a54c4e176d",
+      "width": 192,
+      "x": -128,
+      "y": 320,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 576,
+      "layer": "",
+      "name": "SideWall",
+      "persistentUuid": "d6af871a-b077-4032-b5bb-09b7bbb37d2e",
+      "width": 73.7851333618164,
+      "x": -361.7851257324219,
+      "y": -283,
+      "zOrder": 42,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "c34edb4e-f2a3-45fe-88cc-808b9b819fb1",
+      "width": 64,
+      "x": -320,
+      "y": 448,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "",
+      "name": "LSDCboard",
+      "persistentUuid": "5e931be8-4597-4f31-8f4c-e4b0dfbcc470",
+      "width": 192,
+      "x": 160,
+      "y": 320,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "GreenBanner",
+      "persistentUuid": "6ada4fdf-b6f2-45d3-9640-8be7faafe367",
+      "width": 32,
+      "x": 0,
+      "y": 416,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WhiteBanner",
+      "persistentUuid": "f31f8245-5fab-4c51-b394-6830b53f696d",
+      "width": 32,
+      "x": 32,
+      "y": 416,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
       "name": "NewSprite8",
-      "persistentUuid": "25bcaa9b-d4e6-433e-94fb-ef4231a10578",
+      "persistentUuid": "05af6a83-dd36-4a20-a0da-fb804b79824f",
       "width": 0,
       "x": 160,
-      "y": 192,
+      "y": 416,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -2076,10 +989,10 @@
       "height": 0,
       "layer": "",
       "name": "NewSprite5",
-      "persistentUuid": "7307d59f-5b0d-4b89-8087-3668ad2b0499",
+      "persistentUuid": "cdebeaab-52c7-4ec2-b4c3-a7db862787b8",
       "width": 0,
-      "x": 192,
-      "y": 224,
+      "x": 224,
+      "y": 448,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -2091,10 +1004,10 @@
       "height": 0,
       "layer": "",
       "name": "NewSprite6",
-      "persistentUuid": "23e40052-8ddc-4c9c-9923-00c7360e81e0",
+      "persistentUuid": "bed3a63d-5abb-4856-8cd5-09ee408cb750",
       "width": 0,
-      "x": 576,
-      "y": 192,
+      "x": 256,
+      "y": 413,
       "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
@@ -2102,15 +1015,30 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 64,
       "layer": "",
-      "name": "NewSprite5",
-      "persistentUuid": "7b00d335-1b0a-4552-afe4-b6df1e3145af",
-      "width": 0,
-      "x": 544,
-      "y": 224,
-      "zOrder": 30,
+      "name": "GreenBanner",
+      "persistentUuid": "4cba5777-140b-4984-adb8-ed879f39ba8d",
+      "width": 32,
+      "x": 288,
+      "y": 416,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WhiteBanner",
+      "persistentUuid": "d3bb680e-b818-4233-89fa-1f56afe8f33b",
+      "width": 32,
+      "x": 320,
+      "y": 416,
+      "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2121,70 +1049,10 @@
       "height": 0,
       "layer": "",
       "name": "NewSprite8",
-      "persistentUuid": "4e7195dd-934c-49e5-b114-a08f4a5a103e",
-      "width": 0,
-      "x": 512,
-      "y": 192,
-      "zOrder": 33,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "NewSprite7",
-      "persistentUuid": "9b22c042-9e92-45f1-adfb-988ff2c32717",
+      "persistentUuid": "71483a05-a964-4646-a9b4-8d9d92d9231a",
       "width": 0,
       "x": 448,
-      "y": 64,
-      "zOrder": 31,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "NewSprite6",
-      "persistentUuid": "10355dd2-a145-4b7b-a05f-93028cc6b4b8",
-      "width": 0,
-      "x": 896,
-      "y": 192,
-      "zOrder": 32,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "NewSprite5",
-      "persistentUuid": "d172a5f2-733d-4aa5-a6ea-264259fbc8be",
-      "width": 0,
-      "x": 864,
-      "y": 224,
-      "zOrder": 30,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "NewSprite8",
-      "persistentUuid": "05946cd8-95de-4b38-8f5a-627ac0e2da25",
-      "width": 0,
-      "x": 832,
-      "y": 192,
+      "y": 416,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -2195,12 +1063,312 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewSprite7",
-      "persistentUuid": "98e76da0-16be-438f-8ab5-00121016d809",
+      "name": "NewSprite5",
+      "persistentUuid": "cd44886e-7f37-426a-a942-4c39d0fa3e10",
       "width": 0,
-      "x": 768,
+      "x": 512,
+      "y": 448,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "NewSprite6",
+      "persistentUuid": "39622e0d-5497-40fe-a337-97de8d8e8646",
+      "width": 0,
+      "x": 544,
+      "y": 413,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "GreenBanner",
+      "persistentUuid": "309b18e3-b916-4f3c-bef8-d1357fb680dc",
+      "width": 32,
+      "x": 576,
+      "y": 416,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WhiteBanner",
+      "persistentUuid": "e881086c-b748-4f4c-858e-452c68a94ad7",
+      "width": 32,
+      "x": 608,
+      "y": 416,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "NewSprite8",
+      "persistentUuid": "47438efc-a93e-4103-8ab2-30e9c4ba445e",
+      "width": 0,
+      "x": 736,
+      "y": 416,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "NewSprite5",
+      "persistentUuid": "d5c3c160-d7a2-49bb-a2cc-7c6a9b0d079e",
+      "width": 0,
+      "x": 800,
+      "y": 448,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "NewSprite6",
+      "persistentUuid": "7996d904-1b49-4dd2-8130-14dc95a92a4d",
+      "width": 0,
+      "x": 832,
+      "y": 413,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "GreenBanner",
+      "persistentUuid": "b76e94c3-d07f-4e0c-8019-27f780c76dd9",
+      "width": 32,
+      "x": 864,
+      "y": 416,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WhiteBanner",
+      "persistentUuid": "a05b971d-1f7a-4182-a188-bac33c48138d",
+      "width": 32,
+      "x": 896,
+      "y": 416,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "Pillar",
+      "persistentUuid": "07c98739-2092-4c7e-bb7c-e6029c87de04",
+      "width": 85.33333587646484,
+      "x": -21,
       "y": 64,
-      "zOrder": 31,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "Pillar",
+      "persistentUuid": "0e5855ad-f27a-49b7-9735-cb82ed571b61",
+      "width": 85.33333587646484,
+      "x": 233,
+      "y": 64,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "Pillar",
+      "persistentUuid": "c2a8bdbc-217e-4b3a-9c30-91b3f9093f6e",
+      "width": 85.33333587646484,
+      "x": 483,
+      "y": 64,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "Pillar",
+      "persistentUuid": "f7ac8fc6-fae0-472b-a372-0e6f052507d7",
+      "width": 85.33333587646484,
+      "x": 732,
+      "y": 64,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Bench",
+      "persistentUuid": "02f621d2-b5e0-4204-b4d0-6f53e1413b39",
+      "width": 64,
+      "x": -10,
+      "y": 160,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Bench",
+      "persistentUuid": "a4df66ae-c2a3-4a8f-b9ef-d43cebd91668",
+      "width": 64,
+      "x": 245,
+      "y": 160,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Bench",
+      "persistentUuid": "f1cb48ee-9b5e-4dcf-a418-a85af73f0993",
+      "width": 64,
+      "x": 494,
+      "y": 160,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Bench",
+      "persistentUuid": "b236bc85-1a72-426a-8cd6-d7defeb9cae9",
+      "width": 64,
+      "x": 743,
+      "y": 160,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "SquareTiles",
+      "persistentUuid": "c7a29286-ec8f-48d5-aab3-a00a8345dafb",
+      "width": 0,
+      "x": -96,
+      "y": 96,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Bench",
+      "persistentUuid": "021b69f3-cf21-41d9-a447-d9065bc797c9",
+      "width": 64,
+      "x": 994.6666870117188,
+      "y": 160,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "Pillar",
+      "persistentUuid": "ea23b78f-e979-4b68-bcdc-83879e5e7c1d",
+      "width": 85.33333587646484,
+      "x": 983.6666870117188,
+      "y": 64,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "NewSprite9",
+      "persistentUuid": "17087788-3b49-4b76-a56c-566e239513d7",
+      "width": 64,
+      "x": 493,
+      "y": 128,
+      "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2586,7 +1754,7 @@
           "children": [
             {
               "type": "string",
-              "value": "Congratulations! Here is an award. "
+              "value": "Now you got to know more about some of the organizations in the campus!"
             },
             {
               "type": "string",
@@ -2609,7 +1777,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Female Character 4_Walking Left_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2626,7 +1800,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Female Character 4_Walking Left_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2643,7 +1823,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Female Character 4_Walking Left_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2672,7 +1858,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Female Character 4_Walking Right_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2701,7 +1893,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Female Character 4_Walking Down_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2718,7 +1916,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Female Character 4_Walking Down_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2735,7 +1939,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Female Character 4_Walking Down_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2764,7 +1974,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Female Character 4_Walking Right_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2781,7 +1997,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Female Character 4_Walking Right_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2798,7 +2020,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Female Character 4_Walking Right_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2827,7 +2055,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Female Character 4_Walking Up_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2844,7 +2078,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Female Character 4_Walking Up_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2861,7 +2101,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Female Character 4_Walking Up_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2890,7 +2136,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Female Character 4_Walking Left_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2909,7 +2161,7 @@
           ]
         },
         {
-          "name": "Idle ",
+          "name": "Idle Down",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2919,7 +2171,48 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Female Character 4_Walking Down_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Idle Up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Female Character 4_Walking Up_1.png",
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2952,15 +2245,15 @@
           "children": [
             {
               "type": "string",
-              "value": "Hi! I am the president of the La Salle Dance Company-Street! "
+              "value": "Hi! I am from the La Salle Dance Company!"
             },
             {
               "type": "string",
-              "value": "There are other 2 divisions namely Folk and Contemporary."
+              "value": "There are 3 divisions in total namely Street, Folk, and Contemporary."
             },
             {
               "type": "string",
-              "value": "We compete in dance competitions!"
+              "value": "We participate in dance competitions outside the campus."
             },
             {
               "folded": true,
@@ -2984,7 +2277,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Female Character 7_Walking Down_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3013,7 +2312,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Female Character 7_Walking Down_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3030,7 +2335,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Female Character 7_Walking Down_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3047,7 +2358,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Female Character 7_Walking Down_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3076,7 +2393,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Female Character 7_Walking Left_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3093,7 +2416,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Female Character 7_Walking Left_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3110,7 +2439,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Female Character 7_Walking Left_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3139,7 +2474,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Female Character 7_Walking Right_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3156,7 +2497,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Female Character 7_Walking Right_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3173,7 +2520,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Female Character 7_Walking Right_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3202,7 +2555,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Female Character 7_Walking Up_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3219,7 +2578,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Female Character 7_Walking Up_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3236,7 +2601,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Female Character 7_Walking Up_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3265,7 +2636,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Female Character 7_Walking Down_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3294,7 +2671,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Female Character 7_Walking Up_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3323,7 +2706,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Female Character 7_Walking Left_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3352,7 +2741,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Female Character 7_Walking Right_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3416,7 +2811,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Male Character 1_Walking Down_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3445,7 +2846,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 1_Walking Down_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3462,7 +2869,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 1_Walking Down_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3479,7 +2892,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 1_Walking Down_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3508,7 +2927,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 1_Walking Left_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3525,7 +2950,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 1_Walking Left_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3542,7 +2973,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 1_Walking Left_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3571,7 +3008,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 1_Walking Right_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3588,7 +3031,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 1_Walking Right_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3605,7 +3054,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 1_Walking Right_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3634,7 +3089,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 1_Walking Up_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3651,7 +3112,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 1_Walking Up_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3668,7 +3135,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 1_Walking Up_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3697,7 +3170,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Male Character 1_Walking Down_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3726,7 +3205,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Male Character 1_Walking Up_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3755,7 +3240,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Male Character 1_Walking Left_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3784,7 +3275,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Male Character 1_Walking Right_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3849,7 +3346,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Male Character 6_Walking Down_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3878,7 +3381,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 6_Walking Down_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3895,7 +3404,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 6_Walking Down_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3912,7 +3427,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 6_Walking Down_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3941,7 +3462,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 6_Walking Left_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3958,7 +3485,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 6_Walking Left_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3975,7 +3508,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 6_Walking Left_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4004,7 +3543,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 6_Walking Right_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4021,7 +3566,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 6_Walking Right_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4038,7 +3589,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 6_Walking Right_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4067,7 +3624,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 6_Walking Up_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4084,7 +3647,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 6_Walking Up_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4101,7 +3670,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 6_Walking Up_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4130,7 +3705,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Male Character 6_Walking Up_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4159,7 +3740,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Male Character 6_Walking Down_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4188,7 +3775,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Male Character 6_Walking Left_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4217,7 +3810,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Male Character 6_Walking Right_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4282,7 +3881,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Male Character 3_Walking Down_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4311,7 +3916,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 3_Walking Down_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4328,7 +3939,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 3_Walking Down_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4345,7 +3962,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 3_Walking Down_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4374,7 +3997,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 3_Walking Left_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4391,7 +4020,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 3_Walking Left_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4408,7 +4043,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 3_Walking Left_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4437,7 +4078,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 3_Walking Right_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4454,7 +4101,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 3_Walking Right_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4471,7 +4124,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 3_Walking Right_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4500,7 +4159,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 3_Walking Up_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4517,7 +4182,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 3_Walking Up_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4534,7 +4205,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Male Character 3_Walking Up_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4563,7 +4240,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Male Character 3_Walking Down_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4592,7 +4275,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Male Character 3_Walking Up_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4621,7 +4310,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Male Character 3_Walking Left_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4650,7 +4345,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Male Character 3_Walking Right_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -4707,18 +4408,6 @@
         "g": 255,
         "r": 255
       }
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Placeholder",
-      "tags": "",
-      "texture": "NewFile-1-8.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
     },
     {
       "assetStoreId": "",
@@ -5088,6 +4777,686 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 20,
+      "name": "Tiles",
+      "tags": "",
+      "texture": "yuchfloor-1-0-1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 20,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "WhiteBanner",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "tarpaulin_stand_white.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "GreenBanner",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "tarpaulin_stand_green2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "BackWall",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "backwall.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Gate",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "gate.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "RightEntrance",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "rightentrance.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "SideBench",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "bench side.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Bench",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "benchshua.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "NBS",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "nbslongversion.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "CSOboard",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "cso-board.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "GGFMboard",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ggfm-board.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "ARCHboard",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "arch-board.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "SideWall",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sidewal.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "LSDCboard",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "lsdc-board.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Pillar",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "pillar.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "BottomEntrance",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "bottom entrances.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewSprite9",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "LSCS_banner.png (1)2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 16,
+      "name": "SquareTiles",
+      "tags": "",
+      "texture": "yuchfloor-1-1-1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 16,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "events": [
@@ -5096,7 +5465,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Game Environment",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5208,16 +5576,6 @@
           },
           "parameters": [
             "Student",
-            "Placeholders",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "Student",
             "Boundaries",
             ""
           ]
@@ -5234,20 +5592,20 @@
         },
         {
           "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "Student",
-            "Placeholder",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "Cache"
           },
           "parameters": [
             "Boundaries"
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Student",
+            "Unpassable",
+            ""
           ]
         }
       ]
@@ -5313,6 +5671,47 @@
             "Char",
             "isStationary",
             "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "2-02 Hiwamaki City.mp3",
+            "yes",
+            "5",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Char",
+            "Characters",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Thought",
+            ""
           ]
         }
       ]
@@ -5617,7 +6016,6 @@
       "colorG": 166,
       "colorR": 245,
       "creationTime": 0,
-      "folded": true,
       "name": "LAmb2 Dialog after Task",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5680,72 +6078,29 @@
           "actions": [
             {
               "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "Char",
-                "\"Idle\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ShowLayer"
+                "value": "Create"
               },
               "parameters": [
                 "",
-                "\"Dialogues\""
+                "Thought",
+                "LAmb2.X(\"PointX\")",
+                "LAmb2.Y(\"PointX\")",
+                ""
               ]
             },
             {
               "type": {
-                "value": "SetAnimationName"
+                "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
+                "Thought",
+                "Sticker",
                 "LAmb2",
-                "\"Idle \""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "Char",
-                "isStationary",
-                "True"
+                ""
               ]
             }
           ],
           "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AutoTyping::Text_AutoTyping::IsCharacterJustAdded"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "Text_AutoTyping",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "typewriter.wav",
-                    "",
-                    "5",
-                    ""
-                  ]
-                }
-              ]
-            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -5757,39 +6112,115 @@
                     "",
                     "Space"
                   ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimationCheckIdle::Animation_Checker_to_Idle"
+                  },
+                  "parameters": [
+                    "",
+                    "Char",
+                    "LAmb2",
+                    ""
+                  ]
                 },
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Once"
+                    "value": "ShowLayer"
                   },
-                  "parameters": []
+                  "parameters": [
+                    "",
+                    "\"Dialogues\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Char",
+                    "isStationary",
+                    "True"
+                  ]
                 }
               ],
-              "actions": [],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                        "value": "KeyPressed"
                       },
                       "parameters": [
-                        "Dialogue",
-                        "Text_AutoTyping",
-                        ""
+                        "",
+                        "Space"
                       ]
-                    }
-                  ],
-                  "actions": [
+                    },
                     {
                       "type": {
-                        "value": "ModVarScene"
+                        "value": "BuiltinCommonInstructions::Once"
                       },
-                      "parameters": [
-                        "Dialog2Ctr",
-                        "+",
-                        "1"
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                          },
+                          "parameters": [
+                            "Dialogue",
+                            "Text_AutoTyping",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Dialog2Ctr",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                          },
+                          "parameters": [
+                            "Dialogue",
+                            "Text_AutoTyping",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AutoTyping::Text_AutoTyping::SkipToEnd"
+                          },
+                          "parameters": [
+                            "Dialogue",
+                            "Text_AutoTyping",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -5799,8 +6230,7 @@
                   "conditions": [
                     {
                       "type": {
-                        "inverted": true,
-                        "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                        "value": "AutoTyping::Text_AutoTyping::IsCharacterJustAdded"
                       },
                       "parameters": [
                         "Dialogue",
@@ -5812,11 +6242,13 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "AutoTyping::Text_AutoTyping::SkipToEnd"
+                        "value": "PlaySound"
                       },
                       "parameters": [
-                        "Dialogue",
-                        "Text_AutoTyping",
+                        "",
+                        "typewriter.wav",
+                        "",
+                        "5",
                         ""
                       ]
                     }
@@ -5976,72 +6408,29 @@
           "actions": [
             {
               "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "Char",
-                "\"Idle\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ShowLayer"
+                "value": "Create"
               },
               "parameters": [
                 "",
-                "\"Dialogues\""
+                "Thought",
+                "LAmb2.X(\"PointX\")",
+                "LAmb2.Y(\"PointX\")",
+                "\"Base Layer\""
               ]
             },
             {
               "type": {
-                "value": "SetAnimationName"
+                "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
+                "Thought",
+                "Sticker",
                 "LAmb2",
-                "\"Idle \""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "Char",
-                "isStationary",
-                "True"
+                ""
               ]
             }
           ],
           "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AutoTyping::Text_AutoTyping::IsCharacterJustAdded"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "Text_AutoTyping",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "typewriter.wav",
-                    "",
-                    "5",
-                    ""
-                  ]
-                }
-              ]
-            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -6053,39 +6442,115 @@
                     "",
                     "Space"
                   ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimationCheckIdle::Animation_Checker_to_Idle"
+                  },
+                  "parameters": [
+                    "",
+                    "Char",
+                    "LAmb2",
+                    ""
+                  ]
                 },
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Once"
+                    "value": "ShowLayer"
                   },
-                  "parameters": []
+                  "parameters": [
+                    "",
+                    "\"Dialogues\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Char",
+                    "isStationary",
+                    "True"
+                  ]
                 }
               ],
-              "actions": [],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                        "value": "KeyPressed"
                       },
                       "parameters": [
-                        "Dialogue",
-                        "Text_AutoTyping",
-                        ""
+                        "",
+                        "Space"
                       ]
-                    }
-                  ],
-                  "actions": [
+                    },
                     {
                       "type": {
-                        "value": "ModVarScene"
+                        "value": "BuiltinCommonInstructions::Once"
                       },
-                      "parameters": [
-                        "Dialog3Ctr",
-                        "+",
-                        "1"
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                          },
+                          "parameters": [
+                            "Dialogue",
+                            "Text_AutoTyping",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Dialog3Ctr",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                          },
+                          "parameters": [
+                            "Dialogue",
+                            "Text_AutoTyping",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AutoTyping::Text_AutoTyping::SkipToEnd"
+                          },
+                          "parameters": [
+                            "Dialogue",
+                            "Text_AutoTyping",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -6095,8 +6560,7 @@
                   "conditions": [
                     {
                       "type": {
-                        "inverted": true,
-                        "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                        "value": "AutoTyping::Text_AutoTyping::IsCharacterJustAdded"
                       },
                       "parameters": [
                         "Dialogue",
@@ -6108,11 +6572,13 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "AutoTyping::Text_AutoTyping::SkipToEnd"
+                        "value": "PlaySound"
                       },
                       "parameters": [
-                        "Dialogue",
-                        "Text_AutoTyping",
+                        "",
+                        "typewriter.wav",
+                        "",
+                        "5",
                         ""
                       ]
                     }
@@ -6193,16 +6659,6 @@
                 },
                 {
                   "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Char",
-                    "isStationary",
-                    "False"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "SetAnimationName"
                   },
                   "parameters": [
@@ -6226,35 +6682,6 @@
                   "parameters": [
                     "IsNextScene",
                     "True"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Repeat",
-                  "repeatExpression": "5",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PanelSpriteObject::SetOpacity"
-                      },
-                      "parameters": [
-                        "TransitionBG",
-                        "+",
-                        "TimeDelta()+2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TextObject::Opacity"
-                      },
-                      "parameters": [
-                        "TransitionText",
-                        "+",
-                        "TimeDelta()+2"
-                      ]
-                    }
                   ]
                 }
               ]
@@ -6286,7 +6713,7 @@
               "parameters": [
                 "Dialog2Ctr",
                 "=",
-                "0"
+                "-1"
               ]
             },
             {
@@ -6316,21 +6743,47 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "5"
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Repeat",
+          "repeatExpression": "5",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteObject::SetOpacity"
+              },
+              "parameters": [
+                "TransitionBG",
+                "+",
+                "TimeDelta()+2"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "TransitionText",
+                "+",
+                "TimeDelta()+2"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3.5"
+              ]
+            },
             {
               "type": {
                 "value": "Scene"
@@ -6350,7 +6803,6 @@
       "colorG": 41,
       "colorR": 48,
       "creationTime": 0,
-      "folded": true,
       "name": "LSDC Dialog",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6380,7 +6832,7 @@
               "parameters": [
                 "LSDCCtr",
                 "=",
-                "0"
+                "-1"
               ]
             }
           ]
@@ -6399,86 +6851,34 @@
                 "",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "VarScene"
-              },
-              "parameters": [
-                "LSDCCtr",
-                "!=",
-                "5"
-              ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "ShowLayer"
+                "value": "Create"
               },
               "parameters": [
                 "",
-                "\"Dialogues\""
+                "Thought",
+                "LSDC_rep.X(\"PointX\")",
+                "LSDC_rep.Y(\"PointX\")",
+                ""
               ]
             },
             {
               "type": {
-                "value": "SetObjectVariableAsBoolean"
+                "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "Char",
-                "isStationary",
-                "True"
+                "Thought",
+                "Sticker",
+                "LSDC_rep",
+                ""
               ]
             }
           ],
           "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimationCheckIdle::Animation_Checker_to_Idle"
-                  },
-                  "parameters": [
-                    "",
-                    "Char",
-                    "LSDC_rep",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AutoTyping::Text_AutoTyping::IsCharacterJustAdded"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "Text_AutoTyping",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "typewriter.wav",
-                    "",
-                    "5",
-                    ""
-                  ]
-                }
-              ]
-            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -6493,36 +6893,122 @@
                 },
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Once"
+                    "value": "VarScene"
                   },
-                  "parameters": []
+                  "parameters": [
+                    "LSDCCtr",
+                    "!=",
+                    "5"
+                  ]
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Char",
+                    "isStationary",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialogues\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimationCheckIdle::Animation_Checker_to_Idle"
+                  },
+                  "parameters": [
+                    "",
+                    "Char",
+                    "LSDC_rep",
+                    ""
+                  ]
+                }
+              ],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                        "value": "KeyPressed"
                       },
                       "parameters": [
-                        "Dialogue",
-                        "Text_AutoTyping",
-                        ""
+                        "",
+                        "Space"
                       ]
-                    }
-                  ],
-                  "actions": [
+                    },
                     {
                       "type": {
-                        "value": "ModVarScene"
+                        "value": "BuiltinCommonInstructions::Once"
                       },
-                      "parameters": [
-                        "LSDCCtr",
-                        "+",
-                        "1"
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                          },
+                          "parameters": [
+                            "Dialogue",
+                            "Text_AutoTyping",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "LSDCCtr",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                          },
+                          "parameters": [
+                            "Dialogue",
+                            "Text_AutoTyping",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AutoTyping::Text_AutoTyping::SkipToEnd"
+                          },
+                          "parameters": [
+                            "Dialogue",
+                            "Text_AutoTyping",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -6532,8 +7018,7 @@
                   "conditions": [
                     {
                       "type": {
-                        "inverted": true,
-                        "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                        "value": "AutoTyping::Text_AutoTyping::IsCharacterJustAdded"
                       },
                       "parameters": [
                         "Dialogue",
@@ -6545,11 +7030,13 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "AutoTyping::Text_AutoTyping::SkipToEnd"
+                        "value": "PlaySound"
                       },
                       "parameters": [
-                        "Dialogue",
-                        "Text_AutoTyping",
+                        "",
+                        "typewriter.wav",
+                        "",
+                        "5",
                         ""
                       ]
                     }
@@ -6687,7 +7174,6 @@
       "colorG": 228,
       "colorR": 140,
       "creationTime": 0,
-      "folded": true,
       "name": "CSO Dialog",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6717,7 +7203,7 @@
               "parameters": [
                 "CSOCtr",
                 "=",
-                "0"
+                "-1"
               ]
             }
           ]
@@ -6751,71 +7237,29 @@
           "actions": [
             {
               "type": {
-                "value": "ShowLayer"
+                "value": "Create"
               },
               "parameters": [
                 "",
-                "\"Dialogues\""
+                "Thought",
+                "CSO_rep.X(\"PointX\")",
+                "CSO_rep.Y(\"PointX\")",
+                ""
               ]
             },
             {
               "type": {
-                "value": "SetObjectVariableAsBoolean"
+                "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "Char",
-                "isStationary",
-                "True"
+                "Thought",
+                "Sticker",
+                "CSO_rep",
+                ""
               ]
             }
           ],
           "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimationCheckIdle::Animation_Checker_to_Idle"
-                  },
-                  "parameters": [
-                    "",
-                    "Char",
-                    "CSO_rep",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AutoTyping::Text_AutoTyping::IsCharacterJustAdded"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "Text_AutoTyping",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "typewriter.wav",
-                    "",
-                    "5",
-                    ""
-                  ]
-                }
-              ]
-            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -6827,39 +7271,115 @@
                     "",
                     "Space"
                   ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Char",
+                    "isStationary",
+                    "True"
+                  ]
                 },
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Once"
+                    "value": "ShowLayer"
                   },
-                  "parameters": []
+                  "parameters": [
+                    "",
+                    "\"Dialogues\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimationCheckIdle::Animation_Checker_to_Idle"
+                  },
+                  "parameters": [
+                    "",
+                    "Char",
+                    "CSO_rep",
+                    ""
+                  ]
                 }
               ],
-              "actions": [],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                        "value": "KeyPressed"
                       },
                       "parameters": [
-                        "Dialogue",
-                        "Text_AutoTyping",
-                        ""
+                        "",
+                        "Space"
                       ]
-                    }
-                  ],
-                  "actions": [
+                    },
                     {
                       "type": {
-                        "value": "ModVarScene"
+                        "value": "BuiltinCommonInstructions::Once"
                       },
-                      "parameters": [
-                        "CSOCtr",
-                        "+",
-                        "1"
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                          },
+                          "parameters": [
+                            "Dialogue",
+                            "Text_AutoTyping",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "CSOCtr",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                          },
+                          "parameters": [
+                            "Dialogue",
+                            "Text_AutoTyping",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AutoTyping::Text_AutoTyping::SkipToEnd"
+                          },
+                          "parameters": [
+                            "Dialogue",
+                            "Text_AutoTyping",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -6869,8 +7389,7 @@
                   "conditions": [
                     {
                       "type": {
-                        "inverted": true,
-                        "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                        "value": "AutoTyping::Text_AutoTyping::IsCharacterJustAdded"
                       },
                       "parameters": [
                         "Dialogue",
@@ -6882,11 +7401,13 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "AutoTyping::Text_AutoTyping::SkipToEnd"
+                        "value": "PlaySound"
                       },
                       "parameters": [
-                        "Dialogue",
-                        "Text_AutoTyping",
+                        "",
+                        "typewriter.wav",
+                        "",
+                        "5",
                         ""
                       ]
                     }
@@ -7024,7 +7545,6 @@
       "colorG": 140,
       "colorR": 202,
       "creationTime": 0,
-      "folded": true,
       "name": "GGFM Dialog",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7054,7 +7574,7 @@
               "parameters": [
                 "GGFMCtr",
                 "=",
-                "0"
+                "-1"
               ]
             }
           ]
@@ -7088,71 +7608,29 @@
           "actions": [
             {
               "type": {
-                "value": "ShowLayer"
+                "value": "Create"
               },
               "parameters": [
                 "",
-                "\"Dialogues\""
+                "Thought",
+                "GGFM_rep.X(\"PointX\")",
+                "GGFM_rep.Y(\"PointX\")",
+                ""
               ]
             },
             {
               "type": {
-                "value": "SetObjectVariableAsBoolean"
+                "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "Char",
-                "isStationary",
-                "True"
+                "Thought",
+                "Sticker",
+                "GGFM_rep",
+                ""
               ]
             }
           ],
           "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimationCheckIdle::Animation_Checker_to_Idle"
-                  },
-                  "parameters": [
-                    "",
-                    "Char",
-                    "GGFM_rep",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AutoTyping::Text_AutoTyping::IsCharacterJustAdded"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "Text_AutoTyping",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "typewriter.wav",
-                    "",
-                    "5",
-                    ""
-                  ]
-                }
-              ]
-            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -7164,39 +7642,115 @@
                     "",
                     "Space"
                   ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimationCheckIdle::Animation_Checker_to_Idle"
+                  },
+                  "parameters": [
+                    "",
+                    "Char",
+                    "GGFM_rep",
+                    ""
+                  ]
                 },
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Once"
+                    "value": "ShowLayer"
                   },
-                  "parameters": []
+                  "parameters": [
+                    "",
+                    "\"Dialogues\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Char",
+                    "isStationary",
+                    "True"
+                  ]
                 }
               ],
-              "actions": [],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                        "value": "KeyPressed"
                       },
                       "parameters": [
-                        "Dialogue",
-                        "Text_AutoTyping",
-                        ""
+                        "",
+                        "Space"
                       ]
-                    }
-                  ],
-                  "actions": [
+                    },
                     {
                       "type": {
-                        "value": "ModVarScene"
+                        "value": "BuiltinCommonInstructions::Once"
                       },
-                      "parameters": [
-                        "GGFMCtr",
-                        "+",
-                        "1"
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                          },
+                          "parameters": [
+                            "Dialogue",
+                            "Text_AutoTyping",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "GGFMCtr",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                          },
+                          "parameters": [
+                            "Dialogue",
+                            "Text_AutoTyping",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AutoTyping::Text_AutoTyping::SkipToEnd"
+                          },
+                          "parameters": [
+                            "Dialogue",
+                            "Text_AutoTyping",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -7206,8 +7760,7 @@
                   "conditions": [
                     {
                       "type": {
-                        "inverted": true,
-                        "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                        "value": "AutoTyping::Text_AutoTyping::IsCharacterJustAdded"
                       },
                       "parameters": [
                         "Dialogue",
@@ -7219,11 +7772,13 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "AutoTyping::Text_AutoTyping::SkipToEnd"
+                        "value": "PlaySound"
                       },
                       "parameters": [
-                        "Dialogue",
-                        "Text_AutoTyping",
+                        "",
+                        "typewriter.wav",
+                        "",
+                        "5",
                         ""
                       ]
                     }
@@ -7361,7 +7916,6 @@
       "colorG": 165,
       "colorR": 228,
       "creationTime": 0,
-      "folded": true,
       "name": "Archers Network Dialog",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7391,7 +7945,7 @@
               "parameters": [
                 "ANCtr",
                 "=",
-                "0"
+                "-1"
               ]
             }
           ]
@@ -7425,71 +7979,29 @@
           "actions": [
             {
               "type": {
-                "value": "ShowLayer"
+                "value": "Create"
               },
               "parameters": [
                 "",
-                "\"Dialogues\""
+                "Thought",
+                "ArcherNet_rep.X(\"PointX\")",
+                "ArcherNet_rep.Y(\"PointX\")",
+                ""
               ]
             },
             {
               "type": {
-                "value": "SetObjectVariableAsBoolean"
+                "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "Char",
-                "isStationary",
-                "True"
+                "Thought",
+                "Sticker",
+                "ArcherNet_rep",
+                ""
               ]
             }
           ],
           "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimationCheckIdle::Animation_Checker_to_Idle"
-                  },
-                  "parameters": [
-                    "",
-                    "Char",
-                    "ArcherNet_rep",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AutoTyping::Text_AutoTyping::IsCharacterJustAdded"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "Text_AutoTyping",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "typewriter.wav",
-                    "",
-                    "5",
-                    ""
-                  ]
-                }
-              ]
-            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -7501,39 +8013,115 @@
                     "",
                     "Space"
                   ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimationCheckIdle::Animation_Checker_to_Idle"
+                  },
+                  "parameters": [
+                    "",
+                    "Char",
+                    "ArcherNet_rep",
+                    ""
+                  ]
                 },
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Once"
+                    "value": "ShowLayer"
                   },
-                  "parameters": []
+                  "parameters": [
+                    "",
+                    "\"Dialogues\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Char",
+                    "isStationary",
+                    "True"
+                  ]
                 }
               ],
-              "actions": [],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                        "value": "KeyPressed"
                       },
                       "parameters": [
-                        "Dialogue",
-                        "Text_AutoTyping",
-                        ""
+                        "",
+                        "Space"
                       ]
-                    }
-                  ],
-                  "actions": [
+                    },
                     {
                       "type": {
-                        "value": "ModVarScene"
+                        "value": "BuiltinCommonInstructions::Once"
                       },
-                      "parameters": [
-                        "ANCtr",
-                        "+",
-                        "1"
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                          },
+                          "parameters": [
+                            "Dialogue",
+                            "Text_AutoTyping",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "ANCtr",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                          },
+                          "parameters": [
+                            "Dialogue",
+                            "Text_AutoTyping",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AutoTyping::Text_AutoTyping::SkipToEnd"
+                          },
+                          "parameters": [
+                            "Dialogue",
+                            "Text_AutoTyping",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -7543,8 +8131,7 @@
                   "conditions": [
                     {
                       "type": {
-                        "inverted": true,
-                        "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                        "value": "AutoTyping::Text_AutoTyping::IsCharacterJustAdded"
                       },
                       "parameters": [
                         "Dialogue",
@@ -7556,11 +8143,13 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "AutoTyping::Text_AutoTyping::SkipToEnd"
+                        "value": "PlaySound"
                       },
                       "parameters": [
-                        "Dialogue",
-                        "Text_AutoTyping",
+                        "",
+                        "typewriter.wav",
+                        "",
+                        "5",
                         ""
                       ]
                     }
@@ -7692,375 +8281,6 @@
         }
       ],
       "parameters": []
-    },
-    {
-      "colorB": 254,
-      "colorG": 19,
-      "colorR": 144,
-      "creationTime": 0,
-      "folded": true,
-      "name": "Finding Building",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Char",
-                "Placeholders",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Thought",
-                "Char.X(\"PointX\")",
-                "Char.Y(\"PointX\")",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Sticker::Sticker::Stick"
-              },
-              "parameters": [
-                "Thought",
-                "Sticker",
-                "Char",
-                ""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Space"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "WrongBuilding",
-                    "!=",
-                    "4"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ShowLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Dialogues\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Char",
-                    "stay",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "Space"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "WrongBuilding",
-                        "+",
-                        "1"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "WrongBuilding",
-                        "=",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "Dialogue",
-                        "=",
-                        "\"(This is not the building I am looking for...)\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "WrongBuilding",
-                        "=",
-                        "2"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "Dialogue",
-                        "=",
-                        "\"(Kuya Jay told me it has a flight of stairs outside...)\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "WrongBuilding",
-                        "=",
-                        "3"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "HideLayer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Dialogues\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Char",
-                        "stay",
-                        "=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "WrongBuilding",
-                        "=",
-                        "4"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AutoTyping::Text_AutoTyping::IsCharacterJustAdded"
-                  },
-                  "parameters": [
-                    "Dialogue",
-                    "Text_AutoTyping",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "typewriter.wav",
-                    "",
-                    "5",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "WrongBuilding",
-                    "=",
-                    "4"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Thought",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Char",
-                "Placeholders",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "LayerVisible"
-              },
-              "parameters": [
-                "",
-                "\"Dialogues\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Thought",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Char",
-                "Placeholders",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "WrongBuilding",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Thought",
-                ""
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
     }
   ],
   "layers": [
@@ -8104,7 +8324,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Dialogues",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": []
     },
@@ -8124,6 +8344,10 @@
     {
       "name": "Platform",
       "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "RectangleMovement",
+      "type": "RectangleMovement::RectangleMovement"
     },
     {
       "name": "SmoothCamera",

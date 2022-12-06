@@ -122,7 +122,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Press [Space Bar] to Start",
-      "font": "",
+      "font": "VCR_OSD_MONO_1.001.ttf",
       "characterSize": 20,
       "color": {
         "b": 255,
@@ -215,6 +215,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "RectangleMovement",
+      "type": "RectangleMovement::RectangleMovement"
+    },
     {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"
