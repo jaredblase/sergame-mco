@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Mechanics",
-  "name": "Mechanics",
+  "mangledName": "EndScene",
+  "name": "EndScene",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.9800000000000004,
+    "zoomFactor": 1,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -27,59 +27,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 608,
+      "height": 609,
       "layer": "",
       "name": "Background",
-      "persistentUuid": "3edd5a11-7ec6-44f0-8177-49a2663140b5",
+      "persistentUuid": "eeadfc30-9db4-4fed-a952-af861953965f",
       "width": 800,
       "x": 0,
-      "y": 0,
+      "y": -1,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Title",
-      "persistentUuid": "f392ffdb-a37c-49d3-8bf8-252e42ef6d6a",
-      "width": 0,
-      "x": 64,
-      "y": 32,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 96.57608795166016,
-      "layer": "",
-      "name": "ArrowKeys",
-      "persistentUuid": "439bcc66-08e0-4b3f-850b-912da9e10407",
-      "width": 128,
-      "x": 127,
-      "y": 159.42391967773438,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 244,
-      "layer": "",
-      "name": "SpaceBar",
-      "persistentUuid": "204a20f7-8133-4e5e-82bf-8ffeebad2176",
-      "width": 244,
-      "x": 469,
-      "y": 102,
-      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -89,27 +44,12 @@
       "customSize": true,
       "height": 32,
       "layer": "",
-      "name": "ArrowsText",
-      "persistentUuid": "8b4dd5be-97dc-4a07-a61b-e08132083d88",
-      "width": 288,
-      "x": 84,
-      "y": 288,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "SpaceText",
-      "persistentUuid": "0741275c-1723-4260-9e4b-8d9990ff9fdc",
-      "width": 0,
-      "x": 451,
-      "y": 288,
-      "zOrder": 6,
+      "name": "Title",
+      "persistentUuid": "4e34dcb3-14b8-434f-8bcd-467d327cc16d",
+      "width": 512,
+      "x": 160,
+      "y": 96,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -119,12 +59,27 @@
       "customSize": false,
       "height": 0,
       "layer": "Proceed",
-      "name": "Continue",
-      "persistentUuid": "fa12c11d-d1f5-463a-aeb1-c4228460a294",
+      "name": "Instruction",
+      "persistentUuid": "db3cc6e2-7b87-4539-b865-ba8f49c1e5ab",
       "width": 0,
-      "x": 224,
-      "y": 528,
-      "zOrder": 7,
+      "x": 160,
+      "y": 448,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Title2",
+      "persistentUuid": "1241755a-11ec-4c87-bddc-6dd0a7bd97e2",
+      "width": 0,
+      "x": 124,
+      "y": 159,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -132,29 +87,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 65.48837280273438,
+      "height": 42,
       "layer": "",
-      "name": "Sign",
-      "persistentUuid": "5c0986c7-fc05-4526-aa04-91bb67c716c4",
-      "width": 64,
-      "x": 352,
-      "y": 352.5116271972656,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 12,
-      "layer": "",
-      "name": "SignText",
-      "persistentUuid": "7b683437-b2d9-4496-af5b-94c54c96b9b2",
-      "width": 405,
-      "x": 175,
-      "y": 435,
-      "zOrder": 9,
+      "name": "Title3",
+      "persistentUuid": "1f7d4997-bb36-4871-85ae-5b76bab416cf",
+      "width": 690,
+      "x": 46,
+      "y": 224,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -169,7 +109,7 @@
       "name": "Background",
       "rightMargin": 0,
       "tags": "",
-      "texture": "NewFile-1-3.png",
+      "texture": "NewFile-1-2.png",
       "tiled": false,
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
@@ -190,102 +130,20 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "GAME MECHANICS",
+      "string": "That ends our story! ",
       "font": "VCR_OSD_MONO_1.001.ttf",
-      "characterSize": 80,
+      "characterSize": 40,
       "color": {
-        "b": 5,
-        "g": 117,
-        "r": 65
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
-    },
-    {
-      "assetStoreId": "",
-      "name": "ArrowKeys",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "197-1976635_pixel-art-maker-arrows-keys-png-clipart.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "name": "SpaceBar",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "55abfeff259a667.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
     },
     {
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "ArrowsText",
+      "name": "Title2",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -293,20 +151,20 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Use the Arrow Keys to Move",
+      "string": "Thank you for playing!",
       "font": "VCR_OSD_MONO_1.001.ttf",
-      "characterSize": 15,
+      "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     },
     {
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "SpaceText",
+      "name": "Title3",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -314,41 +172,20 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Press the Spacebar to Interact",
+      "string": "Now feel free to roam around!",
       "font": "VCR_OSD_MONO_1.001.ttf",
-      "characterSize": 15,
+      "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     },
     {
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "SignText",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Interact with Signs to Enter or Exit Buildings",
-      "font": "VCR_OSD_MONO_1.001.ttf",
-      "characterSize": 15,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Continue",
+      "name": "Instruction",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -358,11 +195,11 @@
       "behaviors": [],
       "string": "Press [Space Bar] to Continue",
       "font": "VCR_OSD_MONO_1.001.ttf",
-      "characterSize": 20,
+      "characterSize": 30,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     }
   ],
@@ -450,7 +287,7 @@
                 "value": "KeyPressed"
               },
               "parameters": [
-                "ArrowKeys",
+                "",
                 "Space"
               ]
             }
@@ -462,7 +299,7 @@
               },
               "parameters": [
                 "",
-                "\"Amphi1\"",
+                "\"Amphi_OW\"",
                 ""
               ]
             }
@@ -489,9 +326,29 @@
             "value": "MettreX"
           },
           "parameters": [
-            "Continue",
+            "Title2",
             "=",
-            "(SceneWindowWidth()/2) - (Continue.Width()/2)"
+            "(SceneWindowWidth()/2) - (Title2.Width()/2)"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreX"
+          },
+          "parameters": [
+            "Title3",
+            "=",
+            "(SceneWindowWidth()/2) - (Title3.Width()/2)"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreX"
+          },
+          "parameters": [
+            "Instruction",
+            "=",
+            "(SceneWindowWidth()/2) - (Instruction.Width()/2)"
           ]
         }
       ]
@@ -499,9 +356,9 @@
   ],
   "layers": [
     {
-      "ambientLightColorB": 0,
-      "ambientLightColorG": 0,
-      "ambientLightColorR": 0,
+      "ambientLightColorB": 6754624,
+      "ambientLightColorG": 150995054,
+      "ambientLightColorR": 1869182049,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "",
@@ -521,9 +378,9 @@
       "effects": []
     },
     {
-      "ambientLightColorB": 8228200,
-      "ambientLightColorG": 6050704,
-      "ambientLightColorR": 10163400,
+      "ambientLightColorB": 11485272,
+      "ambientLightColorG": 6054000,
+      "ambientLightColorR": 21824160,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Proceed",

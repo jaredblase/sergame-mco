@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3250000000000002,
+    "zoomFactor": 0.5650000000000003,
     "windowMask": false
   },
   "objectsGroups": [
@@ -2987,6 +2987,10 @@
     {
       "name": "Platform",
       "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "RectangleMovement",
+      "type": "RectangleMovement::RectangleMovement"
     },
     {
       "name": "SmoothCamera",

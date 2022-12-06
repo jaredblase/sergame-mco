@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4249999999999988,
+    "zoomFactor": 0.6649999999999989,
     "windowMask": false
   },
   "objectsGroups": [
@@ -188,6 +188,11 @@
         {
           "type": "string",
           "value": "(Welcome to the Waldo Perfecto Seminar Room)"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "\"Come and join the seminar now!\""
         }
       ]
     },
@@ -387,7 +392,7 @@
       "name": "LAmb2",
       "persistentUuid": "e59571de-c4e8-46ce-8a59-2bf423965c6a",
       "width": 32,
-      "x": 512,
+      "x": 576,
       "y": 96,
       "zOrder": 26,
       "numberProperties": [],
@@ -417,7 +422,7 @@
       "name": "WaldoDoor",
       "persistentUuid": "0226d117-bf2b-4ff4-8640-49e6181c71a6",
       "width": 105,
-      "x": 183,
+      "x": 114,
       "y": -22,
       "zOrder": 28,
       "numberProperties": [],
@@ -432,7 +437,7 @@
       "name": "ClinicDoor",
       "persistentUuid": "45e3a06f-f554-4362-a059-702b86a9b7b9",
       "width": 105,
-      "x": 320,
+      "x": 277,
       "y": -22,
       "zOrder": 29,
       "numberProperties": [],
@@ -3404,7 +3409,7 @@
             "value": "Wait"
           },
           "parameters": [
-            "5"
+            "3.5"
           ]
         }
       ],
@@ -3419,7 +3424,7 @@
               },
               "parameters": [
                 "",
-                "\"Amphi\"",
+                "\"Amphi2\"",
                 ""
               ]
             }
@@ -6015,7 +6020,6 @@
       "colorG": 2,
       "colorR": 208,
       "creationTime": 0,
-      "folded": true,
       "name": "Clinic Door",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6427,7 +6431,6 @@
       "colorG": 192,
       "colorR": 28,
       "creationTime": 0,
-      "folded": true,
       "name": "WaldoDoor",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6493,7 +6496,7 @@
                   "parameters": [
                     "WaldoDoorCtr",
                     "!=",
-                    "2"
+                    "3"
                   ]
                 }
               ],
@@ -6648,7 +6651,7 @@
                   "parameters": [
                     "WaldoDoorCtr",
                     "<",
-                    "1"
+                    "2"
                   ]
                 }
               ],
@@ -6675,7 +6678,7 @@
                   "parameters": [
                     "WaldoDoorCtr",
                     "=",
-                    "1"
+                    "2"
                   ]
                 }
               ],
@@ -6706,7 +6709,7 @@
                   "parameters": [
                     "WaldoDoorCtr",
                     "=",
-                    "2"
+                    "3"
                   ]
                 }
               ]
@@ -6721,7 +6724,7 @@
                   "parameters": [
                     "WaldoDoorCtr",
                     "=",
-                    "2"
+                    "3"
                   ]
                 }
               ],

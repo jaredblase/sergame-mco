@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5149999999999993,
+    "zoomFactor": 0.7549999999999994,
     "windowMask": false
   },
   "objectsGroups": [
@@ -300,7 +300,7 @@
       "name": "MaleCharacter8",
       "persistentUuid": "d2a846ba-fc2b-43e6-8db1-e906486c3cf3",
       "width": 32,
-      "x": 384,
+      "x": 370,
       "y": 350,
       "zOrder": 34,
       "numberProperties": [],
@@ -315,7 +315,7 @@
       "name": "SouthGateNoTiles",
       "persistentUuid": "4277b171-f5c5-4021-b83c-13dd2bfdfaa5",
       "width": 404,
-      "x": 204,
+      "x": 197,
       "y": -288.26226806640625,
       "zOrder": 31,
       "numberProperties": [],
@@ -345,7 +345,7 @@
       "name": "LAmb2",
       "persistentUuid": "de6d041e-d1bd-425a-a1ff-f342b58af529",
       "width": 32,
-      "x": 416,
+      "x": 402,
       "y": 350,
       "zOrder": 37,
       "numberProperties": [],
@@ -3986,7 +3986,7 @@
               },
               "parameters": [
                 "",
-                "\"GameEnd\"",
+                "\"EndScene\"",
                 ""
               ]
             }
@@ -4196,6 +4196,10 @@
     {
       "name": "Platform",
       "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "RectangleMovement",
+      "type": "RectangleMovement::RectangleMovement"
     },
     {
       "name": "SmoothCamera",

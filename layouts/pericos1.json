@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Pericos",
-  "name": "Pericos",
+  "mangledName": "Pericos1",
+  "name": "Pericos1",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5449999999999999,
+    "zoomFactor": 0.6250000000000001,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1687,19 +1687,19 @@
           "children": [
             {
               "type": "string",
-              "value": "I see that you bought a lot of things!"
+              "value": "Welcome to Pericos!"
             },
             {
               "type": "string",
-              "value": "By the way, some of the organizations of the university have arrived to their booths!"
+              "value": "This area is part of the St. La Salle Hall which is the oldest building in the campus."
             },
             {
               "type": "string",
-              "value": "Go talk to 4 of them to know more about what they have in store."
+              "value": "Did you know that this building survived the WW2? Amazing right?!?!"
             },
             {
               "type": "string",
-              "value": "Return to me once your finish. Enjoy! Animo La Salle!"
+              "value": "Now go order some food from the lady behind the food counter."
             }
           ]
         },
@@ -1709,25 +1709,11 @@
           "children": [
             {
               "type": "string",
-              "value": "Come back to me once your done talking to the four organizations."
+              "value": "Go order some food now so you won't starve!"
             },
             {
               "type": "string",
-              "value": "Enjoy! Animo La Salle!"
-            }
-          ]
-        },
-        {
-          "name": "Dialog3",
-          "type": "array",
-          "children": [
-            {
-              "type": "string",
-              "value": "Congratulations! Here is an award. "
-            },
-            {
-              "type": "string",
-              "value": "You look a bit flushed. Are you okay?"
+              "value": "Enjoy your meal!"
             }
           ]
         }
@@ -2163,6 +2149,41 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Idle Up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Female Character 4_Walking Up_1.png",
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2195,7 +2216,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "You were brought to the University Clinic...",
+      "string": "You got your order and consumed your meal... ",
       "font": "VCR_OSD_MONO_1.001.ttf",
       "characterSize": 50,
       "color": {
@@ -3438,7 +3459,6 @@
       "colorG": 166,
       "colorR": 245,
       "creationTime": 0,
-      "folded": true,
       "name": "LAmb2 Dialog after Task",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4096,44 +4116,6 @@
                   "parameters": [
                     "",
                     "\"Transition\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetSceneVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "IsNextScene",
-                    "True"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Repeat",
-                  "repeatExpression": "5",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PanelSpriteObject::SetOpacity"
-                      },
-                      "parameters": [
-                        "TransitionBG",
-                        "+",
-                        "TimeDelta()+2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TextObject::Opacity"
-                      },
-                      "parameters": [
-                        "TransitionText",
-                        "+",
-                        "TimeDelta()+2"
-                      ]
-                    }
                   ]
                 }
               ]
@@ -5816,8 +5798,7 @@
       "colorG": 19,
       "colorR": 144,
       "creationTime": 0,
-      "folded": true,
-      "name": "NPC8",
+      "name": "Lunch Lady NPC",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -6107,6 +6088,24 @@
                     "NPC8Ctr",
                     "=",
                     "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "IsNextScene",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Transition\""
                   ]
                 }
               ]
@@ -7009,19 +7008,6 @@
       "parameters": []
     },
     {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Change scene to Closing instead of Connon or something",
-      "comment2": ""
-    },
-    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -7034,28 +7020,54 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "5"
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Repeat",
+          "repeatExpression": "5",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteObject::SetOpacity"
+              },
+              "parameters": [
+                "TransitionBG",
+                "+",
+                "TimeDelta()+2"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "TransitionText",
+                "+",
+                "TimeDelta()+2"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
             {
               "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3.5"
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"Connon\"",
+                "\"Pericos2\"",
                 ""
               ]
             }

@@ -5095,6 +5095,24 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Male Character 2_Walking Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Male Character 2_Walking Left_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Female Character 12_Walking Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Female Character 12_Walking Up_1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5161,7 +5179,7 @@
           "CurrentCharacter": ""
         }
       ],
-      "string": "text",
+      "string": "",
       "font": "",
       "characterSize": 20,
       "color": {
@@ -9331,11 +9349,11 @@
           "children": [
             {
               "type": "string",
-              "value": "When I was a student here, we used to have a football field."
+              "value": "I recommend you order the bestseller!!!"
             },
             {
               "type": "string",
-              "value": "Those were the good old days..."
+              "value": "It will surely fill your stomach!"
             }
           ]
         }
@@ -9354,7 +9372,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Female Character 12_Walking Down_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -9706,8 +9730,14 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Female Character 10_Walking Up_1.png",
-                  "points": [],
+                  "image": "assets\\Female Character 12_Walking Up_1.png",
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -9736,7 +9766,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Female Character 12_Walking Left_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -9765,7 +9801,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Female Character 12_Walking Right_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "PointX",
+                      "x": 4.5808000564575195,
+                      "y": -9.263699531555176
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -10297,15 +10339,15 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/connon_ow"
+      "referenceTo": "/layouts/opening"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/connon"
+      "referenceTo": "/layouts/amphi1"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/pericos"
+      "referenceTo": "/layouts/yuch1"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -10313,27 +10355,35 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/yuch"
+      "referenceTo": "/layouts/connon"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/amphi_ow"
+      "referenceTo": "/layouts/amphi2"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/amphi"
+      "referenceTo": "/layouts/pericos1"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/opening"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/beforeopening"
+      "referenceTo": "/layouts/pericos2"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/closing"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/endscene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/connon_ow"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/amphi_ow"
     }
   ],
   "externalEvents": [],
