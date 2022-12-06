@@ -5627,6 +5627,18 @@
             "isStationary",
             "True"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "2-02 Hiwamaki City.mp3",
+            "yes",
+            "5",
+            ""
+          ]
         }
       ]
     },

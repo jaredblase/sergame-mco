@@ -5113,6 +5113,16 @@
         "name": "assets\\Female Character 12_Walking Up_1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "2-02 Hiwamaki City.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "2-02 Hiwamaki City.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -10351,6 +10361,10 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/yuch_ow"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/yuch2"
     },
     {
@@ -10360,6 +10374,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/amphi2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/pericos_ow"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

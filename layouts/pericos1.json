@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.6250000000000001,
+    "zoomFactor": 0.5750000000000001,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1283,15 +1283,15 @@
             {
               "folded": true,
               "type": "string",
-              "value": "The food here in Pericos is to die for."
+              "value": "The LAmbs showed me around the campus."
             },
             {
               "type": "string",
-              "value": "They have chicken, beef, pork and it's all affordable."
+              "value": "Did you know we used to have a football field?"
             },
             {
               "type": "string",
-              "value": "It's a student's wallet's dream!"
+              "value": "I always wanted to play football."
             }
           ]
         }
