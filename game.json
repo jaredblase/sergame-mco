@@ -5123,6 +5123,33 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "LSCS_banner.png (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LSCS_banner.png (1).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "LSCS_banner.png (1)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LSCS_banner.png (1)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "LSCS_banner.png (1)3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LSCS_banner.png (1)3.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -10361,10 +10388,6 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/yuch_ow"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/yuch2"
     },
     {
@@ -10374,10 +10397,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/amphi2"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/pericos_ow"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -10397,11 +10416,19 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/amphi_ow"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/yuch_ow"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/connon_ow"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/amphi_ow"
+      "referenceTo": "/layouts/pericos_ow"
     }
   ],
   "externalEvents": [],

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.6299999999999998,
+    "zoomFactor": 1.3300000000000003,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1410,6 +1410,21 @@
           "value": 0
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "NewSprite10",
+      "persistentUuid": "5dd7d50f-7e36-4398-b900-f92dbb3ed406",
+      "width": 64,
+      "x": 493,
+      "y": 126,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -2283,11 +2298,11 @@
           "children": [
             {
               "type": "string",
-              "value": "Hi! I am the president of the La Salle Dance Company-Street! "
+              "value": "Hi! I am the from the La Salle Dance Company! "
             },
             {
               "type": "string",
-              "value": "There are other 2 divisions namely Folk and Contemporary."
+              "value": "There are 3 divisions total namely Street,  Folk, and Contemporary."
             },
             {
               "type": "string",
@@ -5465,6 +5480,47 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewSprite10",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "LSCS_banner.png (1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
